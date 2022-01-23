@@ -1,0 +1,178 @@
+.wrapper {
+    
+      /* width: 1320px; */
+      width: 1300px;
+      height: 3.1cm;
+      /* background-color: antiquewhite; */
+      background-color: #faf9f5;
+     
+      position: absolute;
+      top: 600px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-column-gap: 25px;
+    grid-template-columns: auto auto auto auto auto ;
+    background-color: none;
+    padding: 21px 34px;
+}
+.grid-1 label {
+  margin-bottom: 5px;
+  font-family: Raleway,sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: .25em;
+  text-transform: uppercase;
+  line-height: 1.6em;
+  color: #000;
+}
+.grid-2 label {
+  margin-bottom: 5px;
+  font-family: Raleway,sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: .25em;
+  text-transform: uppercase;
+  line-height: 1.6em;
+  color: #000;
+}
+.grid-3 label {
+  margin-bottom: 5px;
+  font-family: Raleway,sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: .25em;
+  text-transform: uppercase;
+  line-height: 1.6em;
+  color: #000;
+}
+.grid-4 label {
+  margin-bottom: 5px;
+  font-family: Raleway,sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: .25em;
+  text-transform: uppercase;
+  line-height: 1.6em;
+  color: #000;
+}
+
+  
+  .dropup {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropup-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    bottom: 50px;
+    z-index: 1;
+  }
+  
+  .dropup-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropup-content a:hover {background-color: #ccc}
+  
+  .dropup:hover .dropup-content {
+    display: block;
+  }
+  
+  .dropup:hover .dropbtn {
+    background-color: #2980B9;
+  }
+
+  input[type="date" i]{
+    
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    margin: 0 0 30px;
+    padding: 9.5px 16px;
+    font-family: inherit;
+    font-size: 17px;
+    line-height: 29px;
+    font-weight: inherit;
+    color: #4d4d4d;
+    background-color: transparent;
+    border: 1px solid rgba(0,0,0,.18);
+    border-radius: 0;
+    outline: 0;
+    cursor: pointer;
+    -webkit-appearance: none;
+  }
+  input[type="date" i]:hover {
+    /* background: #e1e1e1; */
+    border: 1px solid black;
+    /* color: #faf9f5; */
+  }
+  #cars{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    margin: 0 0 30px;
+    padding: 9.5px 16px;
+    font-family: inherit;
+    font-size: 17px;
+    line-height: 29px;
+    font-weight: inherit;
+    color: #4d4d4d;
+    background-color: transparent;
+    border: 1px solid rgba(0,0,0,.18);
+    border-radius: 0;
+    outline: 0;
+    cursor: pointer;
+    -webkit-appearance: none;
+  }
+ #cars:hover {
+    /* background: #e1e1e1; */
+    border: 1px solid black;
+    /* color: #faf9f5; */
+  }
+  .grid-5 button{
+    /* position: relative; */
+    /* display: inline-block; */
+    width: 230px;
+    vertical-align: top;
+    /* margin: 0 0 25px; */
+    padding: 9.5px 16px;
+    /* font-family: inherit; */
+    font-size: 17px;
+    line-height: 29px;
+    /* font-weight: inherit; */
+    color: #4d4d4d;
+    background-color: transparent;
+    border: 1px solid rgba(0,0,0,.18);
+    border-radius: 0;
+    outline: 0;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: 29px;
+    font-family: "Josefin Sans",sans-serif;
+    font-size: 17px;
+    line-height: 1.58824em;
+    font-weight: 300;
+    /* left: 50px; */
+  }
+
+.grid-5 button:hover{
+    
+    transition: 1s;
+    box-shadow: inset 400px 0 0 0 #b56953;
+}
+
+.grid-5 button:hover {
+  /* background: #e1e1e1; */
+  /* border: 1px solid black; */
+  color: #faf9f5;
+}

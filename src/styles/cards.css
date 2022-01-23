@@ -1,0 +1,15 @@
+.cards{
+    margin-top:33%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    
+}
+
+.card{
+    transition: transform 0.1s;
+}
+
+.card:hover{
+    transform: scale(1.1); 
+}

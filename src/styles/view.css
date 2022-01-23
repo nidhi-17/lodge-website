@@ -1,0 +1,28 @@
+
+.carousel {
+  width:1250px;
+  height:400px;
+  margin-left: 2px;
+}
+
+.carousel h3{
+  font-size: 50px;
+  padding-bottom: 2%;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
+.carousel button{
+  margin-bottom: 35%;
+  padding: 2%;
+  letter-spacing: 2px;
+  border-color: grey;
+}
+
+.carousel button:hover{
+    cursor: pointer;
+    transition: 1s;
+    box-shadow: inset 400px 0 0 0 #b56953;
+}
+
+

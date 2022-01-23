@@ -1,0 +1,148 @@
+.footer_1{
+    width: 100%;
+    margin-top: 5%;
+}
+
+footer{
+    width: 100%;
+    /* background: #262626; */
+    background: #faf9f5;
+    padding: 50px 100px;
+}
+.newsletter{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    border: 1px solid black;
+    /* border: 1px solid rgba(255,255,255,0.2); */
+}
+.newsletter >div{
+    flex-basis: 38%;
+}
+.ntext{
+    text-align: right;
+}
+.newsletter h2{
+    font-size: 2em;
+    /* font-family: sans-serif; */
+    font-family: Cormorant,serif;
+    color: black;
+    /* color: #fff; */
+}
+.newsletter p{
+    font-size: 20px;
+    margin-top: 10px;
+    background-color: #faf9f5;
+    color: black;
+}
+/* .newsletter label{
+    /* position: relative; */
+.ntext label{
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    grid-gap:1rem;
+}
+.ntext input{
+    width:100%;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+}
+/* .newsletter input{
+    padding: 2px;
+    margin-right: 300px; 
+    width: 70%;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+} */
+.newsletter button{
+    /* position: absolute; */
+    padding: 10px;
+    width: 100%;
+    background: #faf9f5;
+    /* background: #e74c3c; */
+    color: black;
+    /* color: white; */
+    border: none;
+    outline: none;
+    border-radius:0 8px 8px 0;
+    cursor: pointer;
+    font-size: 13px;
+    border: solid 1px black;
+    font-family: Raleway,sans-serif;
+}
+.f-contact{
+    color: black;
+    /* color: white; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #faf9f5;
+    margin-top: 2em;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.f-contact >div{
+    flex-basis: 20%;
+}
+.f-contact p{
+    line-height: 2em;
+    background-color: #faf9f5;
+    font-size: 17px;
+    color: grey;
+    cursor: pointer;
+}
+.f-contact p:hover{
+    color: black;
+    /* color: white; */
+}
+.f-contact i{
+    background: black;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    margin: 20px 5px;
+    border-radius: 50%;
+    transition: 0.4s ease;
+}
+.f-contact i:hover{
+    background: transparent;
+    color: black;
+    border: 1px solid black;
+}
+
+.last{
+    width: 1000px;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    
+}
+
+.bottom{
+    height: 50px;
+    width: 100%;
+    background-color: 	#fff9e5;
+    position: absolute;
+   
+}
+
+.bottom a{
+    left: 540px;
+    position: absolute;
+    margin-top:7px;
+    color: grey;
+    background-color: #faf9f5;
+}
+.bottom i{
+    left: 510px;
+    margin-top:9px;
+    position: absolute;
+    color: grey;
+    size: 100px;
+}

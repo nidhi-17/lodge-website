@@ -1,0 +1,176 @@
+.container{
+    width: 1175px;
+    height: 70px;
+    /* position: absolute; */
+    background-color: white;
+    /* background-color: antiquewhite; */
+    left: 5cm;
+    top: 100px;
+}
+.container1{
+    width: 1250px;
+    height: 180px;
+    /* position: absolute; */
+    background-color: white;
+    /* background-color: antiquewhite; */
+    left: 4cm;
+    top: 300px;
+}
+.container h2 {
+    font-family: Cormorant,serif;
+    color: #000;
+    font-size: 43px; 
+    line-height: 1.069767441860465em;
+    font-weight: 500;
+    margin: 25px 0;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+    left: 385px;
+    /* position: absolute; */
+}
+.container1 h2 {
+    font-family: Cormorant,serif;
+    color: #000;
+    font-size: 43px; 
+    line-height: 1.069767441860465em;
+    font-weight: 500;
+    margin: 25px 0;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+    left: 385px;
+    /* position: absolute; */
+}
+p{
+    font-family: "Josefin Sans",sans-serif;
+    font-size: 17px;
+    line-height: 1.58824em;
+    font-weight: 300;
+    color: #4d4d4d;
+    background-color: #fff;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    max-width: 78%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 21px;
+    vertical-align: baseline;
+}
+.middle{
+    margin-top: 5%;
+    width: 70%;
+    margin-left: 15%;
+}
+.container{
+    text-align: center;
+    margin: auto;
+}
+.container p{
+    margin: 20px 0px;
+    line-height: 2em;
+} 
+.middle {
+    font-family: "Josefin Sans",sans-serif;
+}
+.middle a{
+    width: 750px;
+    height: auto;
+    /* position: absolute; */
+    text-align: center;
+    margin-top: 3400px;
+    left: 450px;
+    font-size: 20px;
+    color: grey;
+}
+.middle e{
+    width: 750px;
+    height: auto;
+    /* position: absolute; */
+    text-align: center;
+    margin-top: 3400px;
+    left: 465px;
+    font-size: 20px;
+    color: grey;
+}
+.middle c{
+    width: 750px;
+    height: auto;
+    /* position: absolute; */
+    text-align: center;
+    margin-top: 350px;
+    left: 455px;
+    font-size: 20px;
+    color: grey;
+}
+.fa-solid fa-router{
+    width: 100px;
+    height: 100px;
+    /* position:absolute ; */
+}
+.container1 button{
+    background-color: white;
+    border: none;
+    padding: 60px;
+    cursor: pointer ;
+    /* width: 50px; */
+}
+.title {
+    /* position: absolute; */
+    top: 150px;
+    left: 60px;
+    width: 100px;
+    height: .6cm;
+    background-color: white;
+    font-size: 20px;
+}
+.title1 {
+    /* position: absolute; */
+    top: 150px;
+    left: 280px;
+    width: 100px;
+    height: .6cm;
+    background-color: white;
+    font-size: 20px;
+}
+.title2 {
+    /* position: absolute; */
+    top: 150px;
+    margin-left: 35px;
+    width: 100px;
+    height: .6cm;
+    background-color: white;
+    font-size: 20px;
+}
+.title3 {
+    /* position: absolute; */
+    top: 150px;
+    padding-left: 20px;
+    width: 100px;
+    height: .6cm;
+    background-color: white;
+    font-size: 20px;
+}
+.title4 {
+    /* position: absolute; */
+    top: 150px;
+    padding-left: 15px;
+    width: 100px;
+    height: .6cm;
+    background-color: white;
+    font-size: 20px;
+}
+.title5 {
+    /* position: absolute; */
+    top: 150px;
+    padding-left: 50px;
+    width: 100px;
+    height: .6cm;
+    background-color: white;
+    font-size: 20px;
+}
+
+.maintitle{
+    display: flex;
+    flex-direction: row;
+        justify-content: space-around;
+        margin-left: 2%;
+}

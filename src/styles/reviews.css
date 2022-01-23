@@ -1,0 +1,12 @@
+.reviews{
+    margin-top: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 5px;
+}
+
+.reviews div img{
+    border-radius: 50%;
+    margin-left: 33%;
+}
