@@ -1,3 +1,6 @@
+*{
+    font-family: "Josefin Sans",sans-serif;
+}
 .footer_1{
     width: 100%;
     margin-top: 5%;
@@ -70,7 +73,7 @@ footer{
     /* color: white; */
     border: none;
     outline: none;
-    border-radius:0 8px 8px 0;
+    /* border-radius:0 8px 8px 0; */
     cursor: pointer;
     font-size: 13px;
     border: solid 1px black;
@@ -88,12 +91,13 @@ footer{
     border-bottom: 1px solid rgba(255,255,255,0.2);
 }
 .f-contact >div{
-    flex-basis: 20%;
+    flex-basis: 22%;
 }
 .f-contact p{
     line-height: 2em;
     background-color: #faf9f5;
     font-size: 17px;
+    margin-left: 5px;
     color: grey;
     cursor: pointer;
 }
@@ -120,7 +124,7 @@ footer{
     width: 1000px;
     height: 1px;
     background-color: black;
-    position: absolute;
+    /* position: absolute; */
     
 }
 
@@ -128,7 +132,7 @@ footer{
     height: 50px;
     width: 100%;
     background-color: 	#fff9e5;
-    position: absolute;
+    /* position: absolute; */
    
 }
 
@@ -145,4 +149,13 @@ footer{
     position: absolute;
     color: grey;
     size: 100px;
+}
+
+.slide:hover{
+    
+    transition: 1.2s;
+    box-shadow: inset 400px 0 0 0 #b56953;
+}
+.slide:hover{
+    color: #faf9f5;
 }

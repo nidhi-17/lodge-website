@@ -43,8 +43,8 @@ const Navbar = () => {
         <div className="dropdown">
         <a href="#">Contact</a>
             <div className="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
+              <a href="#">lodgeabc@gmail.com</a>
+              <a href="#">022-25881056</a>
               <a href="#">Link 3</a>
               <a href="#">Link 4</a>
               <a href="#">Link 5</a>

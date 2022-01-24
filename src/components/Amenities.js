@@ -7,6 +7,10 @@ const Amenities = () => {
             <div className="container">
                 <h2>Malmö's B'n'B Amenities</h2>
             </div>
+            <div className="middle">
+                <a>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</a> <e>incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</e>
+                <c>nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</c>
+            </div>
             <div className="container1">
                 <button ><img src={require('../images/wifi-router.png')} width="80" height='80' /></button>
                 <button ><img src={require('../images/consult.png')} width="80" height='80' /></button>
@@ -23,12 +27,8 @@ const Amenities = () => {
                 <div className="title5">Bath</div>
                 <div className="qodef-grid-inner"></div>
                 </div>
-
             </div>
-            <div className="middle">
-                <a>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</a> <e>incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</e>
-                <c>nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</c>
-            </div>
+            
             
             <div className="effect"></div>
         </div>

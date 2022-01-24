@@ -21,6 +21,7 @@ const App = () => {
         <Form />
       </div>
       <Rooms/> 
+     <br />
       <div>
       <Amenities/>   
       </div>
