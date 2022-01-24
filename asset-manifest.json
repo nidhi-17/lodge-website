@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/lodge-websitw/static/css/main.4101223b.css",
+    "main.js": "/lodge-websitw/static/js/main.7f8a8e0c.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/lodge-websitw/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/lodge-websitw/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/lodge-websitw/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/lodge-websitw/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/lodge-websitw/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/clock.png": "/lodge-websitw/static/media/clock.80c1b1e9c7b453eac99e.png",
+    "static/media/consult.png": "/lodge-websitw/static/media/consult.09684111f08eac23474e.png",
+    "static/media/bathtub.png": "/lodge-websitw/static/media/bathtub.a4b76d6d53830d1837cf.png",
+    "static/media/coffee-cup.png": "/lodge-websitw/static/media/coffee-cup.0f9e8ef71165ad20f15f.png",
+    "static/media/safe-deposit.png": "/lodge-websitw/static/media/safe-deposit.60a752de288b0cf4378d.png",
+    "static/media/wifi-router.png": "/lodge-websitw/static/media/wifi-router.87df033bded0d99e17c4.png",
+    "index.html": "/lodge-websitw/index.html",
+    "main.4101223b.css.map": "/lodge-websitw/static/css/main.4101223b.css.map",
+    "main.7f8a8e0c.js.map": "/lodge-websitw/static/js/main.7f8a8e0c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4101223b.css",
+    "static/js/main.7f8a8e0c.js"
+  ]
+}
