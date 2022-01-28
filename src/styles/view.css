@@ -5,24 +5,46 @@
   margin-left: 2px;
 }
 
-.carousel h3{
-  font-size: 50px;
-  padding-bottom: 2%;
-  font-weight: bold;
-  font-family: 'Roboto';
+.carousel h1{
+  font-size: 90px;
+  font-family: 'Times New Roman';
 }
 
 .carousel button{
-  margin-bottom: 35%;
-  padding: 2%;
-  letter-spacing: 2px;
-  border-color: grey;
+  margin-bottom: 23%;
+  padding: 1% 4% 1% 4%;
+  border:none;
+  color: white;
+  background-color: #b56953;
+  font-size: 15px;
+  word-spacing: 3px;
 }
-
 .carousel button:hover{
     cursor: pointer;
     transition: 1s;
-    box-shadow: inset 400px 0 0 0 #b56953;
+    box-shadow: inset 400px 0 0 0 black;
 }
 
-
+@media only screen and (max-width: 480px){
+  .carousel {
+    width:430px;
+    height:100px;
+    margin:0px 10px 0px 10px;
+  }
+  .carousel h1{
+    font-size: 35px;
+    font-family: 'Times New Roman';
+  }
+  .d-block{
+    height: 400px;
+  }
+  .carousel button{
+    margin-bottom: 10%;
+    padding: 1% 4% 1% 4%;
+    border:none;
+    color: white;
+    background-color: #b56953;
+    font-size: 5px;
+    word-spacing: 1px;
+  }
+} 

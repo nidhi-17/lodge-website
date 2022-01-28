@@ -3,7 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import '../styles/view.css'
 const View = () => {
   return (
-    <Carousel>
+    <Carousel indicators={false}> 
       <Carousel.Item>
         <img
           className="d-block w-100"
@@ -12,8 +12,8 @@ const View = () => {
           height='700px'
         />
         <Carousel.Caption  >
-          <h3 style={{color:"brown"}}>Designed to make your stay magnificient</h3>
-          < button>VIEW MORE</ button>
+          <h1 style={{color:"black"}}>Designed to make your stay magnificient</h1>
+          < button className='viewmore' >VIEW MORE</ button>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -25,7 +25,7 @@ const View = () => {
         />
 
         <Carousel.Caption  >
-          <h3 style={{color:"blue"}}>Beautiful and Cozy Ambiance</h3>
+          <h1 style={{color:"blue"}}>Beautiful and Cozy Ambiance</h1>
           < button>VIEW MORE</ button>
         </Carousel.Caption>
       </Carousel.Item>
@@ -38,7 +38,7 @@ const View = () => {
         />
 
         <Carousel.Caption  >
-          <h3 style={{color:"yellow"}}>Exceptional care taken</h3>
+          <h1 style={{color:"yellow"}}>Exceptional Care and Precautions taken</h1>
           < button>VIEW MORE</ button>
         </Carousel.Caption>
       </Carousel.Item>
