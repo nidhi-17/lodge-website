@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/lodge-websitw/static/css/main.4101223b.css",
-    "main.js": "/lodge-websitw/static/js/main.7f8a8e0c.js",
+    "main.css": "/lodge-websitw/static/css/main.b4f0d921.css",
+    "main.js": "/lodge-websitw/static/js/main.9679c314.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/lodge-websitw/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/lodge-websitw/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/lodge-websitw/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
@@ -14,11 +14,11 @@
     "static/media/safe-deposit.png": "/lodge-websitw/static/media/safe-deposit.60a752de288b0cf4378d.png",
     "static/media/wifi-router.png": "/lodge-websitw/static/media/wifi-router.87df033bded0d99e17c4.png",
     "index.html": "/lodge-websitw/index.html",
-    "main.4101223b.css.map": "/lodge-websitw/static/css/main.4101223b.css.map",
-    "main.7f8a8e0c.js.map": "/lodge-websitw/static/js/main.7f8a8e0c.js.map"
+    "main.b4f0d921.css.map": "/lodge-websitw/static/css/main.b4f0d921.css.map",
+    "main.9679c314.js.map": "/lodge-websitw/static/js/main.9679c314.js.map"
   },
   "entrypoints": [
-    "static/css/main.4101223b.css",
-    "static/js/main.7f8a8e0c.js"
+    "static/css/main.b4f0d921.css",
+    "static/js/main.9679c314.js"
   ]
 }
