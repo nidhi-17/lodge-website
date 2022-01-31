@@ -5,7 +5,9 @@ body{
     scroll-behavior: smooth;
     overflow-x: hidden;
 } 
-
+#hamburger{
+    display: none;
+}
 nav{
     width: 100%;
     height: 110px;
@@ -107,3 +109,59 @@ nav{
   
   /* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
   .dropdown:hover .dropbtn {background-color: rgb(236, 204, 204);}
+
+  @media only screen and (max-width: 480px){
+      nav{
+          display: none;
+      }
+    
+  .topnav {
+    overflow: hidden;
+    /* background-color: #333; */
+    /* background-color: #e74c3c; */
+    position: relative;
+    /* transition: height 4s; */
+    color: black;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  .topnav a {
+    color: black;
+    /* color: white; */
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: rgb(104, 102, 102);
+    display: block;
+    opacity: .8;
+  }
+  
+  
+  .topnav a.icon {
+    background: white;
+    display: block;
+    position: absolute;
+    right: 10px;
+    height: 50px;
+    top: 3px;
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(143, 140, 140);
+    /* color: black; */
+    height: 50px;
+    /* width: 100px; */
+  }
+  
+  .active{
+    font-family: sans-serif;
+    font-size: 34px;
+    position: inherit;
+    /* transition: height 4s; */
+  }
+  .active span{
+    color: #e74c3c;
+  }
+  }

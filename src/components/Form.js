@@ -34,9 +34,9 @@ const Form = () => {
           <span className="select2-selection__arrow" role="presentation"><b role="presentation"></b></span>
           <select name="cars" id="cars">
             <option value="volvo">1 Adults</option>
-            <option value="saab">room2</option>
-            <option value="opel">room3</option>
-            <option value="audi">room4</option>
+            <option value="saab">2 Adults</option>
+            <option value="opel">3 Adults</option>
+            <option value="audi">4 Adults</option>
           </select>
 
 

@@ -13,35 +13,37 @@ const Footer = () => {
                         </div>
                         <div className="ntext" data-aos="fade-up-right" data-aos-offset="200">
                             <label>
-                                <input type="text" name="" placeholder="Enter your email"/>
-                                    <button className="slide">SIGN ME UP</button>
+                                <input type="text" name="" placeholder="Enter your email" />
+                                <button className="slide">SIGN ME UP</button>
                             </label>
                         </div>
                     </div>
                     <div className="f-contact" data-aos="zoom-in-up" data-aos-offset="200">
-                        <div>
+                        <div id='information'>
                             <h2>Information</h2>
                             <p>Lorem Ipsum Dolor Sit Amet, Consturctor elit. Nihil sit dicta.</p>
-                            <a href="https://www.google.co.in/"><i className="fa fa-whatsapp"></i></a>
-                            <a href="https://www.google.co.in/"><i className="fa fa-instagram"></i></a>
-                            <a href="https://www.google.co.in/"><i className="fa fa-telegram"></i></a>
-                            <a href="https://www.google.co.in/"><i className="fa fa-twitter"></i></a>
+                            <div>
+                                <a href="https://www.google.co.in/"><i className="fa fa-whatsapp"></i></a>
+                                <a href="https://www.google.co.in/"><i className="fa fa-instagram"></i></a>
+                                <a href="https://www.google.co.in/"><i className="fa fa-telegram"></i></a>
+                                <a href="https://www.google.co.in/"><i className="fa fa-twitter"></i></a>
+                            </div>
                         </div>
-                        <div>
+                        <div id='links'>
                             <h2>Useful Links</h2>
                             <p>About us</p>
                             <p>Galley</p>
                             <p>Blog posts</p>
                             <p>Pricing plans</p>
                         </div>
-                        <div>
+                        <div id='Details'>
                             <h2>Details</h2>
                             <p>Photographer</p>
                             <p>Galley</p>
                             <p>Blog posts</p>
                             <p>Pricing plans</p>
                         </div>
-                        <div>
+                        <div id="help">
                             <h2>Help & Support</h2>
                             <p>Privacy policy</p>
                             <p>Terms & condition</p>

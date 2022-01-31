@@ -26,25 +26,16 @@
 }
 
 @media only screen and (max-width: 480px){
-  .carousel {
-    width:430px;
-    height:100px;
-    margin:0px 10px 0px 10px;
-  }
-  .carousel h1{
-    font-size: 35px;
-    font-family: 'Times New Roman';
-  }
-  .d-block{
-    height: 400px;
-  }
-  .carousel button{
-    margin-bottom: 10%;
-    padding: 1% 4% 1% 4%;
-    border:none;
-    color: white;
-    background-color: #b56953;
-    font-size: 5px;
-    word-spacing: 1px;
-  }
+.carousel{
+  width:fit-content;
+}
+.carousel h1{
+  font-size: 45px;
+}
+.carousel button{
+  margin-bottom: 25%;
+}
+.d-block{
+  height: 400px;
+}
 } 

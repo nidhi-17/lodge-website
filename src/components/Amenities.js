@@ -19,7 +19,7 @@ const Amenities = () => {
                 <button ><img src={require('../images/coffee-cup.png')} width="80" height='80' /></button>
                 <button ><img src={require('../images/bathtub.png')} width="80" height='80' /></button>
                 <div className='maintitle'>
-                <div className="title">Fast Wifi</div>
+                <div className="title">Wifi</div>
                 <div className="title1">Service</div>
                 <div className="title2">Alarm</div>
                 <div className="title3">Safe</div>
