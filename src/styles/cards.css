@@ -6,7 +6,7 @@
 
 .card{
     display: grid;
-    height: 25rem;
+    height: 30rem;
     min-width: 20rem;
     transition: box-shadow .3s;
 }
@@ -19,9 +19,14 @@
     overflow-x: auto;
     padding-bottom: 1rem;
     padding-right: var(--page-margin);
-  
-  }
-  
+
+
+}
+
+.angle i:hover{
+  cursor: pointer;
+}
+
 .cards-wrapper::-webkit-scrollbar {
     display: none;
   }
@@ -30,6 +35,19 @@
   box-shadow: 0 0 25px rgba(33,33,33,.2); 
 }
 
+
+@media only screen and (max-width: 768px){
+  .cards{
+    margin-top: 8%;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+  }
+  .cards-wrapper{
+    gap: 3rem;
+  }
+
+}
 
 @media only screen and (max-width: 480px){
   .cards{

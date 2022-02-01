@@ -6,7 +6,7 @@
     /* background-color: antiquewhite; */
     
     left: 5cm;
-    top: 100px;
+    margin-top: 150px;
 }
 .container1{
     width: 1250px;
@@ -14,7 +14,7 @@
     /* position: absolute; */
     background-color: white;
     /* background-color: antiquewhite; */
-    left: 4cm;
+    margin-left: 15px;
     top: 300px;
 }
 .container h2 {
@@ -117,7 +117,7 @@ p{
 .title {
     /* position: absolute; */
     top: 150px;
-    left: 60px;
+    margin-left: 10px;
     width: 100px;
     height: .6cm;
     background-color: white;
@@ -174,6 +174,78 @@ p{
     flex-direction: row;
         justify-content: space-around;
         margin-left: 2%;
+}
+@media only screen and (max-width: 768px){    
+    .container{
+        width: 100%;
+        height: 70px;
+        /* position: absolute; */
+        background-color: white;
+        /* background-color: antiquewhite;  */
+        left: 0cm;
+        top: 80px;
+        display: flex;
+    } 
+    .container h2 {
+        font-family: Cormorant,serif;
+        color: #000;
+        font-size: 38px; 
+        word-wrap: break-word;
+        
+        margin-left: 100px;
+        align-items: center;
+    }
+   
+    .middle a{
+        margin-left: 48px;
+        font-size: 15px;
+        margin-top: 30px;
+        width: 350px;
+        display: flex;
+        /* position: absolute; */
+        /* background-color: antiquewhite; */
+    }
+    .middle e{
+        margin-left: 20px;
+        font-size: 15px;
+        width: 300px;
+        margin-top: 20px;
+    }.middle c{
+        margin-left: 5px;
+        font-size: 15px;
+        width: 350px;
+        margin-top: 100px;
+    }
+    .container1{
+        width: 450px;
+        height: 300px;
+        /* margin-bottom: 10%; */
+        padding-left: 10%;
+        /* padding-bottom: 10%; */
+    }
+    .container1 button{
+        padding: 8%;
+    }
+    .container1 button img{
+        width:60px;
+        height: 60px;
+    }
+    .maintitle div{
+        font-size:13px;
+    }
+     .title1{
+         padding-left: 3%;
+         margin-left: 5%;
+     }
+     .title3{
+         margin-left: 2%;
+     }
+     .title4{
+         margin-left: 5%;
+     }
+   .title5{
+margin-right: 10%;
+   }
 }
 
 @media only screen and (max-width: 480px){ 

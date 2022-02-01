@@ -1,13 +1,13 @@
 
 .carousel {
-  width:1250px;
+  width:1262px;
   height:400px;
-  margin-left: 2px;
+  margin-left: 0px;
 }
 
 .carousel h1{
-  font-size: 90px;
-  font-family: 'Times New Roman';
+  font-size: 80px;
+  font-family: "Times New Roman";
 }
 
 .carousel button{
@@ -24,7 +24,20 @@
     transition: 1s;
     box-shadow: inset 400px 0 0 0 black;
 }
-
+@media only screen and (max-width: 768px){
+  .carousel{
+    width:700px;
+  }
+  .carousel h1{
+    font-size: 45px;
+  }
+  /* .carousel button{
+    margin-bottom: 25%;
+  } */
+  .d-block{
+    height: 400px;
+  }
+}
 @media only screen and (max-width: 480px){
 .carousel{
   width:fit-content;

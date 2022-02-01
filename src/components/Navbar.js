@@ -17,7 +17,6 @@ const Navbar = () => {
         <div className="logo">
           <span>l</span>o<span>dg</span>e
         </div>
-        <Button id='hamburger'>menu</Button>
         <div className="menu">
           <div className="dropdown">
             <a href="#">Home</a>
@@ -62,11 +61,6 @@ const Navbar = () => {
               <a href="#">Link 5</a>
             </div>
           </div>
-        </div>
-        <div className="icon">
-          <input type="text" placeholder='Search here' style={{ textAlign: 'center', marginRight: '10px', padding: '5px' }} />
-          <i className="fa fa-search"></i>
-          <a href="#">Login</a>
         </div>
       </nav>
       <div class="topnav">

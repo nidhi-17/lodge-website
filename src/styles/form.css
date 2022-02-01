@@ -7,7 +7,7 @@
       background-color: #faf9f5;
      
       /* position: absolute; */
-      margin-top: 300px;
+      margin-top: 230px;
   }
 
   .grid-container {
@@ -176,7 +176,109 @@
   /* border: 1px solid black; */
   color: #faf9f5;
 }
+@media only screen and (max-width: 768px){ 
+  .wrapper{
+    width: 700px;
+    margin-top: 5%;
+  }
+  input[type="date" i]{
+  
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    /* width: 100%; */
+    vertical-align: top;
+    margin: 0 0 30px;
+    padding: 9.5px 16px;
+    font-family: inherit;
+    font-size: 17px;
+    line-height: 29px;
+    font-weight: inherit;
+    color: #4d4d4d;
+    background-color: transparent;
+    border: 1px solid rgba(0,0,0,.18);
+    border-radius: 0;
+    outline: 0;
+    cursor: pointer;
+    -webkit-appearance: none;
+  }
+  input[type="date" i]:hover {
+    /* background: #e1e1e1; */
+    border: 1px solid black;
+    /* color: #faf9f5; */
+  }
+  #cars{
+    position: relative;
+    width: 100%;
+    vertical-align: top;  
+    margin: 0 0 30px;
+    padding: 9.5px 16px;
+    font-family: inherit;
+    font-size: 17px;
+    line-height: 29px;
+    font-weight: inherit;
+    color: #4d4d4d;
+    background-color: transparent;
+    border: 1px solid rgba(0,0,0,.18);
+    border-radius: 0;
+    outline: 0;
+    cursor: pointer;
+    -webkit-appearance: none;
+  }
+  #cars:hover {
+    /* background: #e1e1e1; */
+    border: 1px solid black;
+    /* color: #faf9f5; */
+  }
+  .grid-5 button {
+    width: 212%;
+  }
+  .logo{
+    /* position: absolute; */
+    top: 13px;
+    font-size: 40px;
+    left: 50px;
+  }
+  .fa fa-bars {
+    /* position: absolute; */
+    width: 35px;
+    height: 20px;
+    background-color: black;
+    margin: 6px 0;
+    right: 34px;
+    
+    padding: 34px 24px; 
+  }
+  .menu{
+    display: none;
+  }
+  .icon{
+    display: none;
+  }
+  .wrapper{
+    background-color: #faf9f5;
+    left: 115px;
+    width: 70%;
+    height: 315px;
+  }
+  .grid-container {
+    display: grid;
+    grid-column-gap: 25px;
+    grid-template-columns: auto auto ;
+    background-color: #faf9f5;
+    padding: 21px 24px;
+    width: 680px;
+  }
 
+  .grid-5 :single-button{
+    width: 500px;
+  }
+  .grid-5 button:hover{
+  
+    transition: 1s;
+    box-shadow: inset 600px 0 0 0 #b56953;
+  }
+}
 @media only screen and (max-width: 480px){ 
   .wrapper{
     margin-left: 10%;

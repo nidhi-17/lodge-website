@@ -4,6 +4,7 @@ import { CardContent } from '@material-ui/core';
 import { CardMedia } from '@material-ui/core';
 import { Typography } from '@material-ui/core';
 import { Button, CardActionArea, CardActions } from '@material-ui/core';
+import 'font-awesome/css/font-awesome.min.css';
 import { data } from '../data';
 import '../styles/cards.css';
 export default function Roomdet() {
@@ -41,6 +42,10 @@ export default function Roomdet() {
             </CardActions>
           </Card>
         ))}
+      </div>
+      <div className='angle' style={{marginLeft:"45%"}} >
+      <i className="fa fa-angle-left fa-4x" aria-hidden="true" style={{marginRight:"15%"}}></i>
+      <i className="fa fa-angle-right fa-4x" aria-hidden="true"></i>
       </div>
     </div>
   );
