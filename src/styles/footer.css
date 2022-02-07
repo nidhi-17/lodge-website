@@ -121,7 +121,7 @@ footer{
 }
 
 .last{
-    width: 1000px;
+    width: 1005px;
     height: 1px;
     background-color: black;
     /* position: absolute; */
@@ -137,16 +137,16 @@ footer{
 }
 
 .bottom a{
-    left: 540px;
-    position: absolute;
+    margin-left: 12px;
+    /* position: absolute; */
     margin-top:7px;
     color: grey;
     background-color: #faf9f5;
 }
 .bottom i{
-    left: 510px;
+    margin-left: 510px;
     margin-top:9px;
-    position: absolute;
+    /* position: absolute; */
     color: grey;
     size: 100px;
 }
@@ -160,55 +160,33 @@ footer{
     color: #faf9f5;
 }
 
-@media only screen and (max-width: 480px){
-    .newsletter{
-        display: flex;
-        flex-direction: column;
+
+@media only screen and (max-width: 320px){    
+    .footer_1{
+        display: none;
     }
-    .newsletter div p{
-        margin-right: 25%;
+    .bottom{
+        height: 50px;
+        width: 300px;
+        background-color: #faf9f5;
+        /* position: absolute; */
+       
     }
-    .ntext label input{
-        padding: 2%;
-        
-    }
-    .ntext label{
-        display: flex;
-        flex-direction: column;
-    }
-    .f-contact div p{
-        font-size: 10px;
-        margin-bottom: 20%;
-    }
-    .f-contact div h2{
-        font-size: 18px;
-    }
-    #information{
-        display: flex;
-        flex-direction: column;
-        margin-top: 10%;
-    }
-    #links{
-        margin-bottom: 15%;
-        padding-left: 5%; 
-    }
-    #Details{
-        margin-bottom: 26%;
-        padding-left: 5%; 
-    }
-    .bottom a{
-        left: 170px;
-        position: absolute;
-        margin-top:7px;
     
+    .bottom a{
+        margin-left: 3%;
+        margin-top:7px;
+        color: grey;
+        background-color: #faf9f5;
     }
     .bottom i{
-        left: 150px;
-        margin-top:9px;
-        position: absolute;
-        size: 100px;
+        margin-top:7px;
+margin-left: 15%;
+        color: grey;
     }
     .last{
         width: 320px;
+        height: 1px;
+        
     }
 }

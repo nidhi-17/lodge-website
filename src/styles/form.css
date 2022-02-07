@@ -1,14 +1,13 @@
 .wrapper {
     
       /* width: 1320px; */
-      width: 1300px;
+      width: 1290px;
       height: 3.1cm;
       /* background-color: antiquewhite; */
-      background-color: #faf9f5;
-      left: 140px;
+      background-color: #faf9f5;;
 
-      position: absolute; 
-      margin-top: 230px;
+      /* position: absolute;  */
+      margin-top: 0px;
   }
 
   .grid-container {
@@ -60,37 +59,7 @@
 }
 
   
-  .dropup {
-    position: relative;
-    display: inline-block;
-  }
   
-  .dropup-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    bottom: 50px;
-    z-index: 1;
-  }
-  
-  .dropup-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropup-content a:hover {background-color: #ccc}
-  
-  .dropup:hover .dropup-content {
-    display: block;
-  }
-  
-  .dropup:hover .dropbtn {
-    background-color: #2980B9;
-  }
-
   input[type="date" i]{
     
     position: relative;
@@ -177,11 +146,9 @@
   /* border: 1px solid black; */
   color: #faf9f5;
 }
-@media only screen and (max-width: 768px){ 
-  .wrapper{
-    width: 700px;
-    margin-top: 5%;
-  }
+
+@media only screen and (max-width: 320px){
+ 
   input[type="date" i]{
   
     position: relative;
@@ -210,6 +177,7 @@
   }
   #cars{
     position: relative;
+    display: inline-block;
     width: 100%;
     vertical-align: top;  
     margin: 0 0 30px;
@@ -231,115 +199,11 @@
     border: 1px solid black;
     /* color: #faf9f5; */
   }
-  .grid-5 button {
-    width: 212%;
-  }
-  .logo{
-    /* position: absolute; */
-    top: 13px;
-    font-size: 40px;
-    left: 50px;
-  }
-  .fa fa-bars {
-    /* position: absolute; */
-    width: 35px;
-    height: 20px;
-    background-color: black;
-    margin: 6px 0;
-    right: 34px;
-    
-    padding: 34px 24px; 
-  }
-  .menu{
-    display: none;
-  }
-  .icon{
-    display: none;
-  }
   .wrapper{
-    background-color: #faf9f5;
-    left: 115px;
-    width: 70%;
-    height: 315px;
-  }
-  .grid-container {
-    display: grid;
-    grid-column-gap: 25px;
-    grid-template-columns: auto auto ;
-    background-color: #faf9f5;
-    padding: 21px 24px;
-    width: 680px;
-  }
-
-  .grid-5 :single-button{
-    width: 500px;
-  }
-  .grid-5 button:hover{
-  
-    transition: 1s;
-    box-shadow: inset 600px 0 0 0 #b56953;
-  }
-}
-@media only screen and (max-width: 480px){ 
-  .wrapper{
-    margin-left: 10%;
     margin-top: 10%;
-  }
-  
-  input[type="date" i]{
-  
-    position: relative;
-    /* display: inline-block; */
-    width: 100%;
-    /* width: 100%; */
-    vertical-align: top;
-    margin: 0 0 35px;
-    padding: 9px 16px;
-    font-family: inherit;
-    font-size: 17px;
-    line-height: 29px;
-    font-weight: inherit;
-    color: #4d4d4d;
-    background-color: transparent;
-    border: 1px solid rgba(0,0,0,.18);
-    border-radius: 0;
-    outline: 0;
-    cursor: pointer;
-    -webkit-appearance: none;
-  }
-  input[type="date" i]:hover {
-    /* background: #e1e1e1; */
-    border: 1px solid black;
-    /* color: #faf9f5; */
-  }
-  #cars{
-    position: relative;
-    /* display: inline-block; */
-    width: 100%;
-    vertical-align: top;  
-    margin: 0 0 30px;
-    padding: 9.5px 16px;
-    font-family: inherit;
-    font-size: 17px;
-    line-height: 29px;
-    font-weight: inherit;
-    color: #4d4d4d;
-    background-color: transparent;
-    border: 1px solid rgba(0,0,0,.18);
-    border-radius: 0;
-    outline: 0;
-    cursor: pointer;
-    -webkit-appearance: none;
-  }
-  #cars:hover {
-    /* background: #e1e1e1; */
-    border: 1px solid black;
-    /* color: #faf9f5; */
-  }
-  .wrapper{
-      height: 605px;
-      left: 30px;
-      width: 84%;
+      height: 600px;
+      left: 0px;
+      width: 100%;
   }
   .grid-container{
     
@@ -347,7 +211,7 @@
     flex-direction: column;
     width: 316px;
     padding: 17px 20px;
-    /* position: absolute; */
+    position: absolute;
   }
   .grid-1{
     font-size: x-large;
@@ -356,6 +220,4 @@
   .grid-5 button{
   width: 277px;
   } 
-
-  
 }

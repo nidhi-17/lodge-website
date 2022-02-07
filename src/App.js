@@ -1,34 +1,26 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import View from './components/View';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Rooms from './components/Rooms';
-import Reviews from './components/Reviews';
-import Footer from './components/Footer';
-import Form from './components/Form';
-import Amenities from './components/Amenities';
-import 'font-awesome/css/font-awesome.min.css';
+import Main from './components/Home/Main';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Navbar from './components/Navigation/Navbar';
+import Footer from './components/Navigation/Footer';
+import About from './components/About/About';
+import Room from './components/Rooms/Room';
+import Contact from './components/Contact/Contact';
 const App = () => {
   return (
     <div>
       <div>
-        <Navbar />
+        <BrowserRouter >
+            <Navbar />
+          <Routes>
+            <Route path='/' element={<Main />} exact />
+            <Route path='/about' element={<About />} exact />
+            <Route path='/rooms' element={<Room/>} exact />
+            <Route path='/contact' element={<Contact />} exact />
+          </Routes>
+        </BrowserRouter>
       </div>
-      <div>
-        <View />
-      </div>
-      <div >
-        <Form />
-      </div>
-      <Rooms/> 
-     <br /> <br />
-      <div>
-      <Amenities/>   
-      </div>
-      <div>
-        <Reviews/>
-      </div>
-      <div>
+      \<div>
         <Footer/>
       </div>
     </div>

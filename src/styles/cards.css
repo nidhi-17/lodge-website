@@ -1,5 +1,6 @@
 .cards{
-    margin-top:5%;
+    margin-top:8%;
+    margin-left: 2%;
     display: grid;
     grid-template-columns: var(--page-margin) [center-start] 1fr [center-end] var(--page-margin);
 }
@@ -35,29 +36,23 @@
   box-shadow: 0 0 25px rgba(33,33,33,.2); 
 }
 
-
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 320px){
   .cards{
-    margin-top: 8%;
-    margin-left: 2%;
+    margin-left: 4%;
     display: flex;
+    margin-top: 5%;
     flex-direction: column;
   }
   .cards-wrapper{
-    gap: 3rem;
+    gap: 4rem;
   }
 
-}
-
-@media only screen and (max-width: 480px){
-  .cards{
-    margin-top: 20%;
-    margin-left: 2%;
-    display: flex;
-    flex-direction: column;
+  .card{
+    min-width: 18rem;
   }
-  .cards-wrapper{
-    gap: 3rem;
+
+  .fa-angle-right{
+   padding-right: 20%;
   }
 
 }
