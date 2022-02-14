@@ -6,22 +6,25 @@ import Footer from './components/Navigation/Footer';
 import About from './components/About/About';
 import Room from './components/Rooms/Room';
 import Contact from './components/Contact/Contact';
+import ScrollToTop from './ScrollTop';
 const App = () => {
   return (
     <div>
       <div>
         <BrowserRouter >
-            <Navbar />
-          <Routes>
-            <Route path='/' element={<Main />} exact />
-            <Route path='/about' element={<About />} exact />
-            <Route path='/rooms' element={<Room/>} exact />
-            <Route path='/contact' element={<Contact />} exact />
-          </Routes>
+          <Navbar />
+          <ScrollToTop>
+            <Routes>
+              <Route path='/' element={<Main />} exact />
+              <Route path='/about' element={<About />} exact />
+              <Route path='/rooms' element={<Room />} exact />
+              <Route path='/contact' element={<Contact />} exact />
+            </Routes>
+          </ScrollToTop>
         </BrowserRouter>
       </div>
       \<div>
-        <Footer/>
+        <Footer />
       </div>
     </div>
   );

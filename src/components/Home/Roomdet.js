@@ -5,9 +5,14 @@ import { CardMedia } from '@material-ui/core';
 import { Typography } from '@material-ui/core';
 import { Button, CardActionArea, CardActions } from '@material-ui/core';
 import 'font-awesome/css/font-awesome.min.css';
+import {useRef} from 'react';
 import { data } from '../../data';
 import '../../styles/cards.css';
 export default function Roomdet() {
+  const ref=useRef(null);
+  const scroll = (scrollOffset) => {
+    ref.current.scrollLeft += scrollOffset;
+  };
   return (
     <div className='cards' >
       <div className='cards-wrapper'>
@@ -16,7 +21,7 @@ export default function Roomdet() {
             <CardActionArea>
               <CardMedia
                 component="img"
-                height="210"
+                height="220"
                 width="200"
                 image={room.image}
                 alt="Romm Photo"
@@ -27,25 +32,25 @@ export default function Roomdet() {
                   <Typography gutterBottom variant="body" component="div" style={{ float: 'right', color: 'brown', fontFamily: "Helvetica" }}>${room.price}</Typography>
                 </Typography>
 
-                <Typography gutterBottom variant="body" component="div" style={{ color: 'brown', fontFamily: "Helvetica" }}>
+                <Typography gutterBottom variant="body2" component="div" style={{ color: 'brown', fontFamily: "Helvetica"}}>
                   {room.dimensions} msqs. / {room.no_of_people} people
                 </Typography>
-                <Typography variant="body2" style={{ backgroundColor: 'floralwhite', fontFamily: "Veranda", padding: "1px" }}>
+                <Typography variant="body3" style={{ backgroundColor: 'floralwhite', fontFamily: "Veranda", padding: "1px" }}>
                   {room.description}
                 </Typography>
               </CardContent>
             </CardActionArea>
             <CardActions>
-              <Button size="small" color="brown">
+              <Button size="small" color="primary">
                 Book Now +
               </Button>
             </CardActions>
           </Card>
         ))}
       </div>
-      <div className='angle' style={{marginLeft:"45%"}} >
-      <i className="fa fa-angle-left fa-3x" aria-hidden="true" style={{marginRight:"15%"}}></i>
-      <i className="fa fa-angle-right fa-3x" aria-hidden="true"></i>
+      <div className='angle' style={{marginLeft:"40%"}} >
+      <button onClick={() => scroll(-20)}><i className="fa fa-angle-left fa-2x" aria-hidden="true"></i></button>
+      <button onClick={() => scroll(20)}><i className="fa fa-angle-right fa-2x" aria-hidden="true"></i></button>
       </div>
     </div>
   );

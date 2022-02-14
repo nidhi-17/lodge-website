@@ -160,6 +160,10 @@ footer{
     color: #faf9f5;
 }
 
+.new{
+    display: none;
+}
+
 
 @media only screen and (max-width: 320px){    
     .footer_1{
@@ -172,7 +176,99 @@ footer{
         /* position: absolute; */
        
     }
+    .new{
+        display: block;
+    }
     
+  .new-newsletter{
+    background-color:#faf9f5;
+    height: 250px;
+  }
+
+
+  .new-newsletter div i{
+    margin-left:130px;
+    margin-top: 5%;
+  }
+  .new-newsletter div h2{
+    margin-left:80px;
+   
+    font-family: 'Times New Roman';
+  }
+  input[type="email"]::placeholder { 
+    text-align: center;
+}
+  .new-newsletter div input{
+    background-color:#faf9f5;
+    border: 1px solid gray;
+    margin-left:50px;
+    padding: 2%;
+  }
+  
+  .new-newsletter button{
+    width: 210px;
+    margin-top: 2%;
+    margin-left: 50px;
+
+      padding: 2% 4% 2% 4%;
+      border:none;
+      color: white;
+      background-color: #b56953;
+      font-size: 15px;
+      word-spacing: 3px;
+  }
+  .new-newsletter button:hover{
+    cursor: pointer;
+    transition: 1s;
+    box-shadow: inset 400px 0 0 0 black;
+}
+  .new-social i{
+    background: black;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    margin: 20px 5px;
+    border-radius: 50%;
+    transition: 0.4s ease;
+  }
+  .new-social i:hover{
+    background: transparent;
+    color: black;
+    border: 1px solid black;
+  }
+  .new-social h2{
+    font-family: "Times New Roman";
+    margin-left: 35%;
+    margin-top: 5%;
+  }
+  .socialText{
+    font-family: 'sans-serif';
+    margin-left: 10%;
+    font-size: 15px;
+  }
+  .socialLinks{
+    margin-left: 25%;
+  }
+  .new-bottom{
+    height: 50px;
+    width: 100%;
+    background-color: 	#fff9e5;
+    /* position: absolute; */
+   
+  }
+  
+  .new-bottom a{
+    margin-left: 10px;
+    margin-top:5%;
+    color: grey;
+    background-color: #faf9f5;
+  }
+  .new-bottom i{
+    margin-left: 120px;
+    margin-top:5%;
+    color: grey;
+    size: 100px;
+  }
     .bottom a{
         margin-left: 3%;
         margin-top:7px;
@@ -181,12 +277,18 @@ footer{
     }
     .bottom i{
         margin-top:7px;
-margin-left: 15%;
+        margin-left: 15%;
         color: grey;
     }
     .last{
         width: 320px;
         height: 1px;
         
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .footer_1{
+        width: 1235px;
     }
 }

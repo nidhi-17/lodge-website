@@ -1,23 +1,5 @@
-.container{
-    width: 1175px;
-    height: 70px;
-     /* position: absolute;  */
-    background-color: white;
-   
-    
-    left: 5cm;
-    margin-top: 150px;
-}
-.container1{
-    width: 1250px;
-    height: 180px;
-    /* position: absolute; */
-    background-color: white;
-    /* background-color: antiquewhite; */
-    margin-left: 15px;
-    top: 300px;
-}
-.container h2 {
+
+.containerAmenities  {
     font-family: Cormorant,serif;
     color: #000;
     font-size: 43px; 
@@ -26,20 +8,8 @@
     margin: 25px 0;
     -ms-word-wrap: break-word;
     word-wrap: break-word;
-    left: 385px;
-    /* position: absolute; */
-}
-.container1 h2 {
-    font-family: Cormorant,serif;
-    color: #000;
-    font-size: 43px; 
-    line-height: 1.069767441860465em;
-    font-weight: 500;
-    margin: 25px 0;
-    -ms-word-wrap: break-word;
-    word-wrap: break-word;
-    left: 385px;
-    /* position: absolute; */
+    margin-left: 350px;
+    display: flex;
 }
 p{
     font-family: "Josefin Sans",sans-serif;
@@ -61,11 +31,8 @@ p{
     width: 70%;
     margin-left: 15%;
 }
-.container{
-    text-align: center;
-    margin: auto;
-}
-.container p{
+
+.containerAmenities p{
     margin: 20px 0px;
     line-height: 2em;
 } 
@@ -107,98 +74,55 @@ p{
     height: 100px;
     /* position:absolute ; */
 }
-.container1 button{
+.container2 button{
     background-color: white;
     border: none;
-    padding: 60px;
+    padding: 3%;
     cursor: pointer ;
     /* width: 50px; */
 }
-.title {
-    /* position: absolute; */
-    top: 150px;
-    margin-left: 10px;
-    width: 100px;
-    height: .6cm;
-    background-color: white;
-    font-size: 20px;
-}
-.title1 {
-    /* position: absolute; */
-    top: 150px;
-    left: 280px;
-    width: 100px;
-    height: .6cm;
-    background-color: white;
-    font-size: 20px;
-}
-.title2 {
-    /* position: absolute; */
-    top: 150px;
-    margin-left: 35px;
-    width: 100px;
-    height: .6cm;
-    background-color: white;
-    font-size: 20px;
-}
-.title3 {
-    /* position: absolute; */
-    top: 150px;
-    padding-left: 20px;
-    width: 100px;
-    height: .6cm;
-    background-color: white;
-    font-size: 20px;
-}
-.title4 {
-    /* position: absolute; */
-    top: 150px;
-    padding-left: 20px;
-    width: 100px;
-    height: .6cm;
-    background-color: white;
-    font-size: 20px;
-}
-.title5 {
-    /* position: absolute; */
-    top: 150px;
-    padding-left: 54px;
-    width: 100px;
-    height: .6cm;
-    background-color: white;
-    font-size: 20px;
-}
-
-.maintitle{
+.container1 {
+    margin-top: 4%;
     display: flex;
     flex-direction: row;
-        justify-content: space-around;
-        margin-left: 2%;
+    justify-content: space-around;
 }
 
-    
-    
-@media only screen and (max-width: 320px){
-    .container{
-        width: 100%;
-   
-        background-color: white;
-        /* background-color: antiquewhite;  */
-        left: 0cm;
-       
-    } 
-    .container h2 {
-        font-family: Cormorant,serif;
-        color: #000;
-        font-size: 38px; 
-        word-wrap: break-word;
-        left: 20px;
-        align-items: center;
-    }
+.title1{
+    padding-left: 35%;
+    padding-top:5%;
+}
 
-   
+ .title4 ,.title6{
+    padding-left: 34%;
+    padding-top:5%;
+}
+
+.title3 {
+    padding-left: 30%; 
+    padding-top:5%;
+}
+
+.title5{
+    padding-left: 20%;
+    padding-top:5%;
+}
+
+@media only screen and (max-width: 320px){
+    .containerAmenities{
+        margin-left: 2%;
+        font-size: 35px; 
+        text-align: center;
+    } 
+
+   .middle{
+       margin-top: 0%;
+       margin-bottom: 5%;
+       padding: 5%;
+   }
+
     .middle a{
-        margin-top: 2%;
+        margin-top: 5%;
         font-size: 15px;
         /* background-color: antiquewhite; */
     }
@@ -210,18 +134,38 @@ p{
         font-size: 15px;
     }
 
-    .container1 button{
-        display: none
+    .container1{
+        padding-left: 15%;
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
     }
-    .maintitle{
-        display: none;
+    .title1{
+        padding: 0% 0% 0% 21%;  
     }
-    
+    .title2{
+        padding: 0% 0% 0% 15%;  
+    }
+    .title3{
+        padding: 0% 0% 0% 21%;  
+    }
+    .title4{
+        padding: 0% 0% 0% 21%;  
+    }
+    .title5{
+        padding: 0% 0% 0% 15%;  
+    }
+    .title6{
+        padding: 0% 0% 0% 21%;  
+    }
     .t{
         display: flex;
     }
     
 }
+
+
 
 
 

@@ -1,13 +1,25 @@
 
 .carousel{
   height: 550px;
+  background: -moz-linear-gradient(top, rgba(63, 59, 59, 0) 0%, rgba(0,0,0,0.65) 100%); /* FF3.6+ */
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Chrome10+,Safari5.1+ *//* W3C */
 }
 
+
+.carousel img{
+  /* position:relative; */
+  z-index:-1;
+  /* display: block; */
+}
+.carousel-inner{
+  height: 550px;
+}
 .carousel h1{
   font-size: 80px;
   margin-bottom: 3%;
   font-family: "Times New Roman";
 }
+
 
 .carousel button{
   margin-bottom: 13%;
@@ -25,13 +37,12 @@
 }
 
 
+
 @media only screen and (max-width: 320px){
   .carousel{
-    display: block;
     height: 250px;
   }
   .carousel-caption h1{
-    display: block;
     font-size: 25px;
   }
   .carousel-inner{
@@ -43,13 +54,11 @@
   }
 
   .carousel img{
-    display: block;
     height: 250px;
   }
  
 
 }
-
 
 
 
