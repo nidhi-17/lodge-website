@@ -1,12 +1,23 @@
 {
   "files": {
-    "main.css": "/lodge-websitw/static/css/main.a175a9f7.css",
-    "main.js": "/lodge-websitw/static/js/main.4ba78060.js",
+    "main.css": "/lodge-websitw/static/css/main.00370c09.css",
+    "main.js": "/lodge-websitw/static/js/main.a19f5c85.js",
+    "static/media/tour.mp4": "/lodge-websitw/static/media/tour.dcfdc2004f1d037d6608.mp4",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/lodge-websitw/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/lodge-websitw/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/lodge-websitw/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/room-featured-img-3.jpg": "/lodge-websitw/static/media/room-featured-img-3.a1fbe083df00912fda75.jpg",
+    "static/media/room-featured-img-5.jpg": "/lodge-websitw/static/media/room-featured-img-5.3541baff97b8f2f813fd.jpg",
+    "static/media/room-featured-img-6.jpg": "/lodge-websitw/static/media/room-featured-img-6.f491e6890613d49bd1bb.jpg",
+    "static/media/room-featured-img-1.jpg": "/lodge-websitw/static/media/room-featured-img-1.2b0c1cb1b7f3fb70507a.jpg",
+    "static/media/room-featured-img-8.jpg": "/lodge-websitw/static/media/room-featured-img-8.5621a1fcfb689c168289.jpg",
+    "static/media/room-featured-img-4.jpg": "/lodge-websitw/static/media/room-featured-img-4.ec3af9b71f74ee1b6b63.jpg",
+    "static/media/room-featured-img-2.jpg": "/lodge-websitw/static/media/room-featured-img-2.f9f85b324f50a37fe3e8.jpg",
+    "static/media/room-featured-img-7.jpg": "/lodge-websitw/static/media/room-featured-img-7.a6f93e4a4f79aa918131.jpg",
+    "static/media/room-featured-img-9.jpg": "/lodge-websitw/static/media/room-featured-img-9.f5cbdb2b85fd019be019.jpg",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/lodge-websitw/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/lodge-websitw/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/room-featured-img-10.jpg": "/lodge-websitw/static/media/room-featured-img-10.b6ba7f1752c53f1422e7.jpg",
     "static/media/clock.png": "/lodge-websitw/static/media/clock.80c1b1e9c7b453eac99e.png",
     "static/media/consult.png": "/lodge-websitw/static/media/consult.09684111f08eac23474e.png",
     "static/media/bathtub.png": "/lodge-websitw/static/media/bathtub.a4b76d6d53830d1837cf.png",
@@ -14,11 +25,11 @@
     "static/media/safe-deposit.png": "/lodge-websitw/static/media/safe-deposit.60a752de288b0cf4378d.png",
     "static/media/wifi-router.png": "/lodge-websitw/static/media/wifi-router.87df033bded0d99e17c4.png",
     "index.html": "/lodge-websitw/index.html",
-    "main.a175a9f7.css.map": "/lodge-websitw/static/css/main.a175a9f7.css.map",
-    "main.4ba78060.js.map": "/lodge-websitw/static/js/main.4ba78060.js.map"
+    "main.00370c09.css.map": "/lodge-websitw/static/css/main.00370c09.css.map",
+    "main.a19f5c85.js.map": "/lodge-websitw/static/js/main.a19f5c85.js.map"
   },
   "entrypoints": [
-    "static/css/main.a175a9f7.css",
-    "static/js/main.4ba78060.js"
+    "static/css/main.00370c09.css",
+    "static/js/main.a19f5c85.js"
   ]
 }
