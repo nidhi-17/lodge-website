@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/lodge-websitw/static/css/main.00370c09.css",
-    "main.js": "/lodge-websitw/static/js/main.a19f5c85.js",
+    "main.css": "/lodge-websitw/static/css/main.21605045.css",
+    "main.js": "/lodge-websitw/static/js/main.366f15e9.js",
     "static/media/tour.mp4": "/lodge-websitw/static/media/tour.dcfdc2004f1d037d6608.mp4",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/lodge-websitw/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/lodge-websitw/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -16,6 +16,7 @@
     "static/media/room-featured-img-7.jpg": "/lodge-websitw/static/media/room-featured-img-7.a6f93e4a4f79aa918131.jpg",
     "static/media/room-featured-img-9.jpg": "/lodge-websitw/static/media/room-featured-img-9.f5cbdb2b85fd019be019.jpg",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/lodge-websitw/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/Contact-us.jpg": "/lodge-websitw/static/media/Contact-us.6fd45a5668f662c44dfd.jpg",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/lodge-websitw/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/room-featured-img-10.jpg": "/lodge-websitw/static/media/room-featured-img-10.b6ba7f1752c53f1422e7.jpg",
     "static/media/clock.png": "/lodge-websitw/static/media/clock.80c1b1e9c7b453eac99e.png",
@@ -25,11 +26,11 @@
     "static/media/safe-deposit.png": "/lodge-websitw/static/media/safe-deposit.60a752de288b0cf4378d.png",
     "static/media/wifi-router.png": "/lodge-websitw/static/media/wifi-router.87df033bded0d99e17c4.png",
     "index.html": "/lodge-websitw/index.html",
-    "main.00370c09.css.map": "/lodge-websitw/static/css/main.00370c09.css.map",
-    "main.a19f5c85.js.map": "/lodge-websitw/static/js/main.a19f5c85.js.map"
+    "main.21605045.css.map": "/lodge-websitw/static/css/main.21605045.css.map",
+    "main.366f15e9.js.map": "/lodge-websitw/static/js/main.366f15e9.js.map"
   },
   "entrypoints": [
-    "static/css/main.00370c09.css",
-    "static/js/main.a19f5c85.js"
+    "static/css/main.21605045.css",
+    "static/js/main.366f15e9.js"
   ]
 }
