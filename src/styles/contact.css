@@ -1,0 +1,68 @@
+.left-contact {
+    margin-top: 10%;
+    padding: 4%;
+}
+
+.right-contact {
+    margin-top: 10%;
+    background-color: beige;
+    padding: 3%;
+}
+
+.write{
+    color: #000;
+    font-size: 25px;
+    line-height: 1.2em;
+    font-weight: 500;
+    word-wrap: break-word;
+    font-family: 'Times New Roman';
+}
+
+.read{
+    font-family: 'sans-serif';
+    font-size: 20px;
+    color: grey;
+    line-height: 1.2em;
+    font-weight: 500;
+}
+.right-contact label{
+    font-family: "Times New Roman";
+    color: black;
+    font-weight: 200;
+}
+.right-contact input[type=text], input[type=url], textarea {
+    width: 100%;
+    vertical-align: top;
+    padding: 5px 16px;
+    font-family: inherit;
+    font-size: 20px;
+    line-height: 29px;
+    font-weight: inherit;
+    color: #4d4d4d;
+    background-color: transparent;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+
+
+.right-contact button {
+    background-color: transparent;
+    width: 122.41px;
+    height: 40px;
+    font-family: 'sans-serif';
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: .25em;
+    text-transform: uppercase;
+    border: 1px solid gray;
+    color: #000;
+    cursor: pointer;
+}
+
+.right-contact button:hover {
+    color: #fff;
+    transition: .8s;
+    box-shadow: inset 200px 0 #b56953;
+    border: transparent;
+}

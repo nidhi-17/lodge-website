@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div>
       <div className='img-gradient'>
-        <img src='https://cdn.pixabay.com/photo/2015/12/04/14/49/hand-1076597__340.jpg' alt="About" height={600} width={1263} />
+        <img src='https://cdn.pixabay.com/photo/2017/08/07/07/06/lobby-2600880__340.jpg' alt="About" height={600} width={1263} />
       </div>
       <div className="centered">About us</div>
       <div className='below'>Ut condimentum magna ut augue elementum ornare. Fusce posuere massa vitae maximus posuere. Mauris sagittis consectetur vulputate. Curabitur commodo est quis eleifend. Sed efficitur sem mi, et feugiat.</div>

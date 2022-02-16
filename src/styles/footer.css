@@ -28,13 +28,13 @@ footer{
     text-align: right;
 }
 .newsletter h2{
-    font-size: 2em;
+    font-size: 1.5em;
     /* font-family: sans-serif; */
     font-family: Cormorant,serif;
     color: black;
     /* color: #fff; */
 }
-.newsletter p{
+.newsletter div{
     font-size: 20px;
     margin-top: 10px;
     background-color: #faf9f5;
@@ -50,6 +50,7 @@ footer{
 .ntext input{
     width:100%;
     border-radius: 8px;
+    padding: 3%;
     border: none;
     outline: none;
     font-family: sans-serif;

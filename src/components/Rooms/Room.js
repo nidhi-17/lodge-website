@@ -13,7 +13,7 @@ const Room = () => {
         <h2>Rooms</h2>
       </div>
       <Container >
-        <Row style={{ height: "600px"}}>
+        <Row style={{ height: "600px",overflowX:"hidden",overflowY:"hidden"}}>
           <Col xs={4}>
 
             <div className="room-wrapper">
@@ -61,8 +61,10 @@ const Room = () => {
               </div>
             </div>
           </Col>
-          <Col style={{height:"600px",overflowY:"auto"}} >
+          <Col  >
+          <div  className='Lodge-rooms'>
            <Lodge/>
+           </div>
           </Col>
         </Row>
       </Container>

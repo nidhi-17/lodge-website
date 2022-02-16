@@ -9,10 +9,10 @@ const Footer = () => {
                     <div className="newsletter">
                         <div data-aos="fade-up" data-aos-offset="200">
                             <h2>Join our weekly Newsletter</h2>
-                            <p>We're a team of non-cynics who truly care for our work.</p>
+                         <div>We're a team of non-cynics who truly care for our work.</div>
                         </div>
                         <div className="ntext" data-aos="fade-up-right" data-aos-offset="200">
-                            <label>
+                           <label>
                                 <input type="text" name="" placeholder="Enter your email" />
                                 <button className="slide">SIGN ME UP</button>
                             </label>
