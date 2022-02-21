@@ -108,7 +108,7 @@ p{
     padding-top:5%;
 }
 
-@media only screen and (max-width: 320px){
+@media only screen and (min-width: 320px) and (max-width: 426px){
     .containerAmenities{
         margin-left: 2%;
         font-size: 35px; 
@@ -164,6 +164,17 @@ p{
     }
     
 }
+
+@media only screen and (min-width: 375px) and (max-width: 426px){
+   .containerAmenities{
+       margin-left: 13px;
+   }
+  }
+  @media only screen and (min-width: 425px) and (max-width: 426px){
+    .containerAmenities{
+        margin-left: 30px;
+    }
+   }
 
 
 

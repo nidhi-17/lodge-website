@@ -55,19 +55,19 @@ const Footer = () => {
                     </div>
                 </footer>
             </div>
-            <div class="new">
-                <div class="new-newsletter">
+            <div className="new">
+                <div className="new-newsletter">
                     <div>
-                        <i class="fa fa-envelope fa-2x"></i>
+                        <i className="fa fa-envelope fa-2x"></i>
                         <h2>Join our weekly Newsletter</h2>
                         <input type="email" name="email" id="eamail" placeholder="Enter your Email" /> <br />
                         <button>Sign up</button>
                     </div>
                 </div>
-                <div class="new-social">
+                <div className="new-social">
                     <h2> Get Social</h2>
-                    <div class="socialText">Follow us on social media and keep in touch with Alloggio.</div>
-                    <div class="socialLinks">
+                    <div className="socialText">Follow us on social media and keep in touch with Alloggio.</div>
+                    <div className="socialLinks">
                         <a href="https://www.google.co.in/"><i class="fa fa-whatsapp"></i></a>
                         <a href="https://www.google.co.in/"><i class="fa fa-instagram"></i></a>
                         <a href="https://www.google.co.in/"><i class="fa fa-telegram"></i></a>

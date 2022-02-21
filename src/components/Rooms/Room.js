@@ -5,16 +5,15 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Lodge from './Lodge';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 const Room = () => {
   return (
-    <>
+    <div>
       <div className='heading-rooms'>
         <h2>Rooms</h2>
       </div>
-      <Container >
-        <Row style={{ height: "600px",overflowX:"hidden",overflowY:"hidden"}}>
-          <Col xs={4}>
+      <Container fluid="xs">
+        <Row style={{ height: "600px", overflowX: "hidden", overflowY: "hidden" }}>
+          <Col xs={4} >
 
             <div className="room-wrapper">
 
@@ -58,17 +57,20 @@ const Room = () => {
                     </select>
                   </form>
                 </div>
+                <div className="room-grid-5">
+                  <button>Check Availability</button>
+                </div>
               </div>
             </div>
           </Col>
           <Col  >
-          <div  className='Lodge-rooms'>
-           <Lodge/>
-           </div>
+            <div className='Lodge-rooms'>
+              <Lodge />
+            </div>
           </Col>
         </Row>
       </Container>
-    </>
+    </div>
   );
 }
 

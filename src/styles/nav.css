@@ -57,48 +57,67 @@ nav{
 }
 
 
-@media only screen and (max-width: 320px){
+
+
+@media only screen and  (min-width: 320px) and (max-width:426px){
   nav{
     display: none;
   }
   .topnav {
     overflow: hidden;
-   
+    z-index: 99999;
     position: relative;
     color: black;
   }
-  
-  .topnav #myLinks {
-    display: none;
-  }
-  
   .topnav a {
     color: black;
     /* color: white; */
     padding: 14px 16px;
-    text-decoration: none;
     font-size: 15px;
-    background-color: rgb(104, 102, 102);
     display: block;
+    border: none;
     opacity: .8;
   }
   
   
   .topnav a.icon {
-    background: white;
     /* display: block; */
     position: absolute;
     right: 10px;
-    height: 50px;
-    top: 5px;
+    height: 40px;
+    top: 3px;
   }
   
-  .topnav a:hover {
-    background-color: rgb(143, 140, 140);
-    /* color: black; */
-    /* height: 50px; */
-    /* width: 100px; */
+  #my-links {
+    visibility: hidden;
+    overflow: hidden;
+    font-family: sans-serif;
+    position: absolute;
+    display: block;
+      width:200px;
+      height:30%;
+      right: 15px;
+      background-color:beige;
+      transition:all 300ms linear;
+      border: '1px solid grey';
+      z-index: 999999;
+    }
+    #my-links a{
+     
+      text-decoration: none;
+      
+      color: black;
+      display: flex;
+      flex-direction: column;
+      padding: 5%;
+    }
+    #my-links a:hover{
+      color: #e74c3c;
+    }
+  #my-links.active {
+    left:-200px;
   }
+    
   
   .newnav{
     font-family: sans-serif;
@@ -112,17 +131,14 @@ nav{
   }
 }
 
-@media only screen and (min-width:320px) {
+@media only screen and (min-width:320px) and (max-width:426px) {
 .menu_icon{
   display: none;
 }
 }
 
-@media only screen and (max-width:768px){
-  nav{
-    width: 1300px;
-  }
-}
+
+
 
 
 

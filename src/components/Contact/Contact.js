@@ -12,7 +12,7 @@ const Contact = () => {
       <div className='centered'>Contact</div>
       <Container >
         <Row>
-          <Col xs={6}>
+          <Col md={6}>
             <div className="left-contact">
               <div className='write'>Feel free to write on info@ourlodge.com</div><br />
               <div className='read'>Morbi viverra viverra tincidunt. Nam condimentum nulla et tortor ultrices tempor. Duisanisi mattis, vehicula augue id, aliquet risus.</div><br /><br /><br />
@@ -25,7 +25,7 @@ const Contact = () => {
                </div>
             </div>
           </Col>
-          <Col>
+          <Col md={6}>
             <div className="right-contact">
               <div className='write'>How can we help?</div><br />
               <div className='read'>Maecenas consectetur, diam nec posuere aliquam, libero sapien aliquet lacus, tempus cursus odio dolor ac magna. Nam condimentum nulla et tortor ultrices tempor. Duis ac nisi mattis, vehicula augue id aliquet.</div><br />

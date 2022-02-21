@@ -13,7 +13,7 @@
     border-radius: 50%;
     margin-left: 33%;
 }
-@media only screen and (max-width: 320px){
+@media only screen and (min-width: 320px) and (max-width: 426px){
     .reviews{
     margin-top: 25%;
     display: flex;
@@ -21,6 +21,12 @@
     }
 }
 
+
+@media only screen and (min-width: 375px) and (max-width: 426px){
+    .reviews{
+        padding: 2%;
+    }
+   }
 
 
 

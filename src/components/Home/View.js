@@ -5,7 +5,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const View = () => {
   return (
     <div className='container-fluid p-0' >
-      <div className="row">
         <div className="col-12">
           <Carousel indicators={false}>
             <Carousel.Item>
@@ -25,15 +24,14 @@ const View = () => {
             <Carousel.Item>
               <img
                 className="d-block w-100 "
-                src="https://cdn.pixabay.com/photo/2013/07/25/01/31/forest-166733__480.jpg"
+                src="https://cdn.pixabay.com/photo/2022/01/13/07/05/house-6934535__480.jpg"
                 alt="Second slide"
                 height='550px'
                 width="100%"
-                
               />
 
               <Carousel.Caption  >
-                <h1 style={{ color: "blue" }}>Beautiful and Cozy Ambiance</h1>
+                <h1 style={{ color: "white" }}>Beautiful and Cozy Ambiance</h1>
                 < button>VIEW MORE</ button>
               </Carousel.Caption>
             </Carousel.Item>
@@ -54,7 +52,6 @@ const View = () => {
             </Carousel.Item>
           </Carousel>
         </div>
-      </div>
     </div>
   );
 };

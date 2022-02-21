@@ -34,6 +34,9 @@ footer{
     color: black;
     /* color: #fff; */
 }
+.f-contact h2{
+  font-size: 1.5em;
+}
 .newsletter div{
     font-size: 20px;
     margin-top: 10px;
@@ -50,20 +53,12 @@ footer{
 .ntext input{
     width:100%;
     border-radius: 8px;
-    padding: 3%;
+    padding: 5%;
     border: none;
     outline: none;
     font-family: sans-serif;
 }
-/* .newsletter input{
-    padding: 2px;
-    margin-right: 300px; 
-    width: 70%;
-    border-radius: 8px;
-    border: none;
-    outline: none;
-    font-family: sans-serif;
-} */
+
 .newsletter button{
     /* position: absolute; */
     padding: 10px;
@@ -166,7 +161,7 @@ footer{
 }
 
 
-@media only screen and (max-width: 320px){    
+@media only screen and (min-width: 320px) and (max-width: 426px){    
     .footer_1{
         display: none;
     }
@@ -258,18 +253,6 @@ footer{
    
   }
   
-  .new-bottom a{
-    margin-left: 10px;
-    margin-top:5%;
-    color: grey;
-    background-color: #faf9f5;
-  }
-  .new-bottom i{
-    margin-left: 120px;
-    margin-top:5%;
-    color: grey;
-    size: 100px;
-  }
     .bottom a{
         margin-left: 3%;
         margin-top:7px;
@@ -288,8 +271,55 @@ footer{
     }
 }
 
-@media only screen and (max-width: 768px){
-    .footer_1{
-        width: 1235px;
+@media only screen and (min-width: 375px) and (max-width: 426px){
+    .new-newsletter div h2{
+        margin-left:60px;
+      }
+    .new-newsletter div i{
+        margin-left:170px;
+      }
+    .new-newsletter div input{
+        margin-left:80px;
+      }
+      
+      .new-newsletter button{
+        margin-left: 80px;
+      }
+      .bottom a{
+        margin-left: 10px;
+        margin-top:10px;
     }
-}
+    .bottom i{
+        margin-top:10px;
+        margin-left: 80px;
+    }
+    .socialText{
+        margin-left: 12%;   
+    }
+   }
+   @media only screen and (min-width: 425px) and (max-width: 426px){
+    .new-newsletter div h2{
+        margin-left:80px;
+      }
+    .new-newsletter div i{
+        margin-left:190px;
+      }
+    .new-newsletter div input{
+        margin-left:100px;
+      }
+      
+      .new-newsletter button{
+        margin-left: 100px;
+      }
+      .bottom a{
+        margin-left: 10px;
+        margin-top:10px;
+    }
+    .bottom i{
+        margin-top:10px;
+        margin-left: 85px;
+    }
+    .socialText{
+        margin-left: 10%;   
+    }
+   }
