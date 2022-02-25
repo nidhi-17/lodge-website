@@ -1,6 +1,4 @@
-*{
-    font-family: "Josefin Sans",sans-serif;
-}
+
 .footer_1{
     width: 100%;
     margin-top: 5%;
@@ -9,8 +7,8 @@
 footer{
     width: 100%;
     /* background: #262626; */
-    background: #faf9f5;
-    padding: 50px 100px;
+    background: #213058;
+    padding: 20px 100px;
 }
 .newsletter{
     width: 100%;
@@ -18,7 +16,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     padding: 30px;
-    border: 1px solid black;
+    border: 1px solid gray;
     /* border: 1px solid rgba(255,255,255,0.2); */
 }
 .newsletter >div{
@@ -28,20 +26,21 @@ footer{
     text-align: right;
 }
 .newsletter h2{
-    font-size: 1.5em;
+    font-size: 1.2em;
     /* font-family: sans-serif; */
-    font-family: Cormorant,serif;
-    color: black;
+    font-family:  "Open Sans",sans-serif;
+    color: white;
     /* color: #fff; */
 }
 .f-contact h2{
-  font-size: 1.5em;
+  font-size: 1.2em;
+  color: white;
 }
 .newsletter div{
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 10px;
-    background-color: #faf9f5;
-    color: black;
+    background-color: #213058;
+    color: white;
 }
 /* .newsletter label{
     /* position: relative; */
@@ -63,26 +62,26 @@ footer{
     /* position: absolute; */
     padding: 10px;
     width: 100%;
-    background: #faf9f5;
+    background: #213058;
     /* background: #e74c3c; */
-    color: black;
+    color: white;
     /* color: white; */
     border: none;
     outline: none;
     /* border-radius:0 8px 8px 0; */
     cursor: pointer;
     font-size: 13px;
-    border: solid 1px black;
+    border: solid 1px gray;
     font-family: Raleway,sans-serif;
 }
 .f-contact{
-    color: black;
+    color: white;
     /* color: white; */
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #faf9f5;
+    background-color: #213058;
     margin-top: 2em;
     border-bottom: 1px solid rgba(255,255,255,0.2);
 }
@@ -91,14 +90,14 @@ footer{
 }
 .f-contact p{
     line-height: 2em;
-    background-color: #faf9f5;
-    font-size: 17px;
+    background-color: #213058;
+    font-size: 15px;
     margin-left: 5px;
-    color: grey;
+    color: gray;
     cursor: pointer;
 }
 .f-contact p:hover{
-    color: black;
+    color: white;
     /* color: white; */
 }
 .f-contact i{
@@ -112,14 +111,14 @@ footer{
 }
 .f-contact i:hover{
     background: transparent;
-    color: black;
+    color: white;
     border: 1px solid black;
 }
 
 .last{
     width: 1005px;
     height: 1px;
-    background-color: black;
+    background-color: white;
     /* position: absolute; */
     
 }
@@ -127,7 +126,7 @@ footer{
 .bottom{
     height: 50px;
     width: 100%;
-    background-color: 	#fff9e5;
+    background-color: 	#213058;
     /* position: absolute; */
    
 }
@@ -136,14 +135,14 @@ footer{
     margin-left: 12px;
     /* position: absolute; */
     margin-top:7px;
-    color: grey;
-    background-color: #faf9f5;
+    color: white;
+    background-color: #213058;
 }
 .bottom i{
     margin-left: 510px;
     margin-top:9px;
     /* position: absolute; */
-    color: grey;
+    color: white;
     size: 100px;
 }
 
@@ -153,7 +152,7 @@ footer{
     box-shadow: inset 400px 0 0 0 #b56953;
 }
 .slide:hover{
-    color: #faf9f5;
+    color: #213058;
 }
 
 .new{
@@ -168,7 +167,7 @@ footer{
     .bottom{
         height: 50px;
         width: 300px;
-        background-color: #faf9f5;
+        background-color: #213058;
         /* position: absolute; */
        
     }
@@ -177,7 +176,7 @@ footer{
     }
     
   .new-newsletter{
-    background-color:#faf9f5;
+    background-color:#fff9e5;
     height: 250px;
   }
 
@@ -195,7 +194,7 @@ footer{
     text-align: center;
 }
   .new-newsletter div input{
-    background-color:#faf9f5;
+    background-color:#213058;
     border: 1px solid gray;
     margin-left:50px;
     padding: 2%;
@@ -219,8 +218,8 @@ footer{
     box-shadow: inset 400px 0 0 0 black;
 }
   .new-social i{
-    background: black;
-    color: white;
+    background: white;
+    color: black;
     padding: 10px;
     font-size: 15px;
     margin: 20px 5px;
@@ -256,13 +255,13 @@ footer{
     .bottom a{
         margin-left: 3%;
         margin-top:7px;
-        color: grey;
-        background-color: #faf9f5;
+        color: white;
+        background-color: #213058;
     }
     .bottom i{
         margin-top:7px;
         margin-left: 15%;
-        color: grey;
+        color: white;
     }
     .last{
         width: 320px;

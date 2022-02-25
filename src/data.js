@@ -2,7 +2,7 @@ export const data = [
     {
         id: 1,
         name: "Cozy Place",
-        price: 15,
+        price: 1500,
         dimensions: 43,
         no_of_people:'2-6',
         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, beatae. Nemo, odio similique. Officia ab voluptas voluptatem, necessitatibus tempore eum!",
@@ -11,7 +11,7 @@ export const data = [
     {
         id: 2,
         name: "Bright Suite",
-        price: 50,
+        price: 5000,
         dimensions: 100,
         no_of_people:'4-8',
         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, beatae. Nemo, odio similique. Officia ab voluptas voluptatem, necessitatibus tempore eum!",
@@ -20,7 +20,7 @@ export const data = [
     {
         id: 3,
         name: "James Abode",
-        price: 105,
+        price: 1005,
         dimensions: 43,
         no_of_people:'2-4',
         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, beatae. Nemo, odio similique. Officia ab voluptas voluptatem, necessitatibus tempore eum!",
@@ -29,7 +29,7 @@ export const data = [
     {
         id: 4,
         name: "Hyatt",
-        price: 95,
+        price: 9050,
         dimensions: 50,
         no_of_people:'1-4',
         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, beatae. Nemo, odio similique. Officia ab voluptas voluptatem, necessitatibus tempore eum!",
@@ -38,7 +38,7 @@ export const data = [
     {
         id: 5,
         name: "Holiday Inn",
-        price: 103,
+        price: 1030,
         dimensions: 60,
         no_of_people:'4-6',
         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, beatae. Nemo, odio similique. Officia ab voluptas voluptatem, necessitatibus tempore eum!",
@@ -47,7 +47,7 @@ export const data = [
     {
         id: 6,
         name: "Maria's Home",
-        price: 62,
+        price: 6022,
         dimensions: 70,
         no_of_people:'3-7',
         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, beatae. Nemo, odio similique. Officia ab voluptas voluptatem, necessitatibus tempore eum!",

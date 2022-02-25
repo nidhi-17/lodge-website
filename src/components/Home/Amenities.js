@@ -1,6 +1,5 @@
 import React from 'react';
 import '../../styles/amenities.css'
-
 const Amenities = () => {
     return (
         <div>
@@ -13,27 +12,27 @@ const Amenities = () => {
             </div>
             <div className="container1">
                 <div className='container2'>
-                    <button ><img src={require('../../images/wifi-router.png')} width="80" height='80' /></button>
+                    <button ><img src={require('../../images/wifi-router.png')} width="60" height='60' /></button>
                     <div className="title1">Wifi</div>
                 </div>
                 <div className='container2'>
-                    <button ><img src={require('../../images/consult.png')} width="80" height='80' /></button>
+                    <button ><img src={require('../../images/consult.png')} width="60" height='60' /></button>
                     <div  className="title2">Service</div>
                 </div>
                 <div className='container2'>
-                    <button ><img src={require('../../images/clock.png')} width="80" height='80' /></button>
+                    <button ><img src={require('../../images/clock.png')} width="60" height='60' /></button>
                     <div  className="title3">Clock</div>
                 </div>
                 <div className='container2'>
-                    <button ><img src={require('../../images/safe-deposit.png')} width="80" height='80' /></button>
+                    <button ><img src={require('../../images/safe-deposit.png')} width="60" height='60' /></button>
                     <div className='title4'>Safe</div>
                 </div>
                 <div className='container2'>
-                    <button ><img src={require('../../images/coffee-cup.png')} width="80" height='80' /></button>
+                    <button ><img src={require('../../images/coffee-cup.png')} width="60" height='60' /></button>
                     <div className="title5" >Coffee</div>
                 </div>
                 <div className='container2'>
-                    <button ><img src={require('../../images/bathtub.png')} width="80" height='80' /></button>
+                    <button ><img src={require('../../images/bathtub.png')} width="60" height='60' /></button>
                     <div  className="title6">Bath</div>
                 </div>
             </div>

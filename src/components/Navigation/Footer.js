@@ -77,7 +77,7 @@ const Footer = () => {
             </div>
             <div className="bottom">
                 <i className="fa fa-copyright" aria-hidden="true"></i>
-                <a>Copyright Qode Interactive</a>
+                <a style={{color:"white"}}>Copyright Qode Interactive</a>
             </div>
         </div>
     )

@@ -7,7 +7,7 @@ const Lodge = () => {
         <div>
             {lodgedata.map((data) => (
                 <div className="data-room" key={data.id}>
-                    <div><img src={data.image} height={400} width={700} /></div>
+                    <div><img src={data.image} height={300} width={500} /></div>
                     <div className='room-price'>${data.price}</div>
                     <div className='room-details'>
                         <h3 className='room-name'>{data.name}</h3>

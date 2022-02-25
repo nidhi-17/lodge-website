@@ -5,18 +5,18 @@
   margin-top: 3%;
 }
 .heading-rooms h2{
-    padding:5% 0% 5% 5%;
-    font-family: "Times New Roman";
+    padding:10% 0% 5% 5%;
+    font-family: "Roboto";
 }
 .availability{
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 100;
-    font-family: "Times New Roman";
+    font-family: "Open Sans",sans-serif;
 }
 .room-grid-container label {
     margin-bottom: 5px;
     font-family: Raleway,sans-serif;
-    font-size: 13px;
+    font-size: 11px;
     font-weight: 500;
     letter-spacing: .25em;
     text-transform: uppercase;
@@ -34,7 +34,7 @@
     padding: 9.5px 16px;
     font-family: inherit;
     font-size: 17px;
-    line-height: 29px;
+    line-height: 15px;
     font-weight: inherit;
     color: #4d4d4d;
     background-color: transparent;
@@ -54,10 +54,10 @@
     display: inline-block;
     width: 100%;
     vertical-align: top;  
-    margin: 0 0 30px;
+    margin: 0 0 20px;
     padding: 9.5px 16px;
     font-family: inherit;
-    font-size: 17px;
+    font-size: 16px;
     line-height: 29px;
     font-weight: inherit;
     color: #4d4d4d;
@@ -76,31 +76,30 @@
   .room-wrapper{
     margin-top: 5%;
     margin-left: 10%;
-      height: 580px;
+      height: 520px;
       width: 350px;
-      background-color: #faf9f5;
+      background-color: #f7f4eb;
   }
   .room-grid-container{
     
     display: flex;
     flex-direction: column;
     width: 316px;
-    padding: 17px 20px;
+    padding: 9px 20px;
   }
   .room-grid-1{
     margin-top: 3%;
-    font-size: x-large;
   }
 
 .room-price {
   position: relative;
   color:#b56953;
-  background-color:whitesmoke;
+  background-color:wheat;
   width: 20%;
-  height: 50px;
-  font-family: 'Times New Roman';
+  height: 30px;
+  font-family: 'Roboto';
   left: 10%;
-  font-size: 24px;
+  font-size: 16px;
   font-weight:bold;
   transform: translate(-50%, -140%);
   transition: width 1s;
@@ -111,34 +110,34 @@
 }
 .room-dim{
   color: #b56953;
-  font-size: 20px;
+  font-size: 16px;
   font-family: "sans-serif";
 }
 
 .room-desc{
   color: grey;
   font-family: "sans-serif";
-  font-size: 21px;
-  padding: 0% 0% 0% 0%;
+  font-size: 16px;
+  padding-right: 18%;
 }
 
 .room-name{
-  font-family: "Times New Roman";
+  font-family: "Open Sans",sans-serif;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .data-room img{
   transition: width 1s;
 }
 .data-room img:hover{
-width: 710px;
+width: 520px;
 }
 .data-room:hover{
   cursor: pointer;
 }
 
-.room-price:hover{
-  width: 22%;
-}
+
 .Lodge-rooms{
   display: flex;
   flex-direction: column;
@@ -156,7 +155,7 @@ overflow-y:scroll;
   /* margin: 0 0 25px; */
   padding: 9.5px 16px;
   /* font-family: inherit; */
-  font-size: 17px;
+  font-size: 16px;
   line-height: 29px;
   /* font-weight: inherit; */
   color: #000;
@@ -167,7 +166,6 @@ overflow-y:scroll;
   cursor: pointer;
   -webkit-appearance: none;
   font-family: "Josefin Sans",sans-serif;
-  font-size: 17px;
   line-height: 1.58824em;
   font-weight: 300;
   /* left: 50px; */

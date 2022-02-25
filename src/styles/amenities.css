@@ -1,19 +1,18 @@
 
 .containerAmenities  {
-    font-family: Cormorant,serif;
+    font-family:  "Open Sans",sans-serif;
     color: #000;
-    font-size: 43px; 
+    font-size: 30px; 
     line-height: 1.069767441860465em;
     font-weight: 500;
     margin: 25px 0;
     -ms-word-wrap: break-word;
     word-wrap: break-word;
-    margin-left: 350px;
-    display: flex;
+    text-align: center;
 }
 p{
     font-family: "Josefin Sans",sans-serif;
-    font-size: 17px;
+    font-size: 12px;
     line-height: 1.58824em;
     font-weight: 300;
     color: #4d4d4d;
@@ -26,47 +25,38 @@ p{
     font-size: 21px;
     vertical-align: baseline;
 }
-.middle{
-    margin-top: 0%;
-    width: 70%;
-    margin-left: 15%;
-}
+
 
 .containerAmenities p{
     margin: 20px 0px;
     line-height: 2em;
 } 
 .middle {
-    font-family: "Josefin Sans",sans-serif;
+    margin-top: 2%;
+    width: 70%;
+    margin-left: 15%;
+    font-family: "Roboto";
 }
 .middle a{
-    width: 750px;
     height: auto;
     /* position: absolute; */
     text-align: center;
-    margin-top: 3400px;
-    left: 450px;
-    font-size: 20px;
+    font-size: 16px;
     color: grey;
 }
 .middle e{
-    width: 750px;
     height: auto;
     /* position: absolute; */
     text-align: center;
-    margin-top: 3400px;
-    left: 465px;
-    font-size: 20px;
+    font-size: 16px;
     color: grey;
 }
 .middle c{
-    width: 750px;
     height: auto;
     /* position: absolute; */
     text-align: center;
     margin-top: 350px;
-    left: 455px;
-    font-size: 20px;
+    font-size: 16px;
     color: grey;
 }
 .fa-solid fa-router{
@@ -94,17 +84,17 @@ p{
 }
 
  .title4 ,.title6{
-    padding-left: 34%;
+    padding-left: 30%;
     padding-top:5%;
 }
 
 .title3 {
-    padding-left: 30%; 
+    padding-left: 20%; 
     padding-top:5%;
 }
 
 .title5{
-    padding-left: 20%;
+    padding-left: 15%;
     padding-top:5%;
 }
 
@@ -133,7 +123,6 @@ p{
     }.middle c{
         font-size: 15px;
     }
-
     .container1{
         padding-left: 15%;
         display: grid;

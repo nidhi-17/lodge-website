@@ -2,6 +2,7 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import '../../styles/view.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 const View = () => {
   return (
     <div className='container-fluid p-0' >
@@ -10,15 +11,17 @@ const View = () => {
             <Carousel.Item>
               <img
                 className="d-block w-100 "
-                src="https://cdn.pixabay.com/photo/2016/12/11/18/10/apartment-1899964__480.jpg"
+                src="https://images.pexels.com/photos/1838554/pexels-photo-1838554.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
                 alt="First slide"
-                height='550px'
+                height='630px'
                 width="100%"
               
               />
               <Carousel.Caption  >
-                <h1 style={{ color: "black" }}>Designed to make your stay magnificient</h1>
+                <div className='welcome'>WELCOME TO LODGE</div>
+                <h1>Designed to make your stay magnificient</h1>
                 < button className='viewmore' >VIEW MORE</ button>
+                
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -26,27 +29,29 @@ const View = () => {
                 className="d-block w-100 "
                 src="https://cdn.pixabay.com/photo/2022/01/13/07/05/house-6934535__480.jpg"
                 alt="Second slide"
-                height='550px'
+                height='630px'
                 width="100%"
               />
 
               <Carousel.Caption  >
-                <h1 style={{ color: "white" }}>Beautiful and Cozy Ambiance</h1>
+              <div className='welcome'>WELCOME TO LODGE</div>
+                <h1 >Enjoy the Beautiful and Cozy Ambiance</h1>
                 < button>VIEW MORE</ button>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100 "
-                src="https://cdn.pixabay.com/photo/2019/08/19/13/58/bed-4416515__340.jpg"
+                src="https://cdn.pixabay.com/photo/2016/11/14/02/28/apartment-1822409__480.jpg"
                 alt="Third slide"
-                height='550px'
+                height='630px'
                 width="100%"
              
               />
 
               <Carousel.Caption  >
-                <h1 style={{ color: "yellow" }}>Exceptional Care and Precautions taken</h1>
+              <div className='welcome'>WELCOME TO LODGE</div>
+                <h1 >Exceptional Care and Precautions taken</h1>
                 < button>VIEW MORE</ button>
               </Carousel.Caption>
             </Carousel.Item>

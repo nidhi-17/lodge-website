@@ -13,7 +13,7 @@ const Room = () => {
       </div>
       <Container fluid="xs">
         <Row style={{ height: "600px", overflowX: "hidden", overflowY: "hidden" }}>
-          <Col xs={4} >
+          <Col xs={6} style={{backgroundColor:"green"}}>
 
             <div className="room-wrapper">
 
@@ -63,7 +63,7 @@ const Room = () => {
               </div>
             </div>
           </Col>
-          <Col  >
+          <Col style={{backgroundColor:"yellow"}} >
             <div className='Lodge-rooms'>
               <Lodge />
             </div>

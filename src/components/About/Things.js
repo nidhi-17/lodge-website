@@ -6,8 +6,8 @@ const Things = () => {
   <div  className='Things'>
 {things.map((thing) => (
     <div key={thing.id}>
-        <div><img src={thing.icon} height={50} width={50}/></div>
-        <div style={{fontFamily:"Times New Roman",fontWeight:'bold',fontSize:20}}>{thing.name}</div>
+        <div><img src={thing.icon} height={40} width={40}/></div>
+        <div style={{fontFamily:"Roboto",fontWeight:'bold',fontSize:16}}>{thing.name}</div>
         <div style={{fontFamily:'Cormorant,serif',fontWeight:'light',color:"gray"}}>{thing.description}</div>
     </div>
 ))}

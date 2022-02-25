@@ -1,25 +1,24 @@
 
 .carousel{
-  height: 550px;
-  background: -moz-linear-gradient(top, rgba(63, 59, 59, 0) 0%, rgba(0,0,0,0.65) 100%); /* FF3.6+ */
-  background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Chrome10+,Safari5.1+ *//* W3C */
+  height: 630px;
 }
 
-
+.welcome{
+  color: white;
+  font-size: 20px ;
+  text-transform: capitalize;
+  font-family: 'Arial';
+}
 .carousel-inner{
-  height: 550px;
+  height: 630px;
 }
-.carousel h1{
-  font-size: 70px;
-  margin-bottom: 3%;
-  font-family: "Times New Roman";
-}
+
 
  /* .carousel-item img {  
   filter: brightness(85%);
 } */
 
-.carousel-item{
+.carousel-item {
   transform: scaleX(1);
 }
 
@@ -30,17 +29,28 @@
   left: 0;
   top: 0;
   width: 100%;
-  height: 550px;
+  height: 630px;
   display: inline-block;
-  background: rgb(186, 192, 97);
-  background: linear-gradient(0deg,rgba(235, 122, 216, 0)51%,rgba(190, 122, 32, 0.8)100%);
+  background: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)); 
 }
- 
+.carousel h1{
+  font-size: 58px;
+  margin: 1% 0% 3% 0%;
+  font-weight: 800 !important;
+   font-family: "Roboto" ;
+   color: white;
+}
+ .carousel-caption {
+   z-index: 100 !important;
+   
+ }
 .carousel button{
-  margin-bottom: 13%;
+  font-family: "Arial";
+  margin-bottom: 10%;
   padding: 1% 4% 1% 4%;
   border:none;
   color: white;
+  font-weight: 300;
   background-color: #b56953;
   font-size: 15px;
   word-spacing: 3px;
@@ -50,7 +60,11 @@
     transition: 1s;
     box-shadow: inset 400px 0 0 0 black;
 }
-
+.carousel-control-next,
+.carousel-control-prev  {
+  z-index: 100 !important;
+    color: white;
+}
 
 
 @media only screen and (min-width: 320px) and (max-width: 426px){
