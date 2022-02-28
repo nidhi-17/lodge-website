@@ -190,7 +190,7 @@ footer{
   }
   .new-newsletter div h2{
     font-size: 16px;
-    margin-left:60px;
+    margin-left:58px;
    font-weight: 600;
     font-family: 'Open Sans',sans-serif;
   }
@@ -254,7 +254,7 @@ footer{
   .socialLinks{
     margin-left: 25%;
   }
-  .new-bottom{
+  .bottom{
     height: 50px;
     width: 100%;
     background-color: 	#fff9e5;
@@ -282,7 +282,7 @@ footer{
 
 @media only screen and (min-width: 375px) and (max-width: 426px){
     .new-newsletter div h2{
-        margin-left:60px;
+        margin-left:80px;
       }
     .new-newsletter div i{
         margin-left:170px;
@@ -302,16 +302,16 @@ footer{
         margin-top:10px;
         margin-left: 80px;
     }
-    .socialText{
-        margin-left: 12%;   
-    }
+   .socialLinks{
+     margin-left: 120px;
+   }
    }
    @media only screen and (min-width: 425px) and (max-width: 426px){
     .new-newsletter div h2{
-        margin-left:80px;
+        margin-left:100px;
       }
     .new-newsletter div i{
-        margin-left:190px;
+        margin-left:180px;
       }
     .new-newsletter div input{
         margin-left:100px;
@@ -321,14 +321,12 @@ footer{
         margin-left: 100px;
       }
       .bottom a{
-        margin-left: 10px;
+        font-size: 14px;
+        margin-left: 12px;
         margin-top:10px;
     }
     .bottom i{
         margin-top:10px;
-        margin-left: 85px;
-    }
-    .socialText{
-        margin-left: 10%;   
+        margin-left: 110px;
     }
    }

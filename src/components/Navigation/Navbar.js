@@ -32,7 +32,7 @@ const Navbar = () => {
       <div className="topnav">
         <div className="newnav"><span>l</span>o<span>dg</span>e</div>
         <a href="javascript:void(0);" className="icon" onClick={() => myFunction()}>
-          <img src={require('../../images/menu-1.png')} width="20px" alt="" />
+          <img src={require('../../images/menu-1.png')} width="20px" height="20px" alt="menu" />
         </a>
         <div id="my-links">
           <a href='#'><Link to='/'>Home</Link></a>

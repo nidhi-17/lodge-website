@@ -169,10 +169,24 @@
  .card{
    width: 20rem;
  }
+ #left-slide{
+  margin-left: 7.5rem;
+}
+
+.rooms-redirect{
+  margin:10px 0px 0px 110px;
+}
 }
 
 @media only screen and (min-width: 425px) and (max-width: 426px){
   .cards{
-    margin-left: 10%;
+    margin-left: 2%;
+  }
+  #left-slide{
+    margin-left: 10rem;
+  }
+  
+  .rooms-redirect{
+    margin:10px 0px 0px 150px;
   }
 }

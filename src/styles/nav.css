@@ -90,17 +90,18 @@ nav{
     position: absolute;
     display: block;
       width:200px;
-      height:30%;
-      right: 15px;
-      background-color:beige;
+      height:100vh;
+      right: 0px;
+      background-color:#fff9e5;
       transition:all 300ms linear;
       border: '1px solid grey';
-      z-index: 999999;
+      z-index: 1000 !important;
+ 
     }
     #my-links a{
      
       text-decoration: none;
-      
+     
       color: black;
       display: flex;
       flex-direction: column;
