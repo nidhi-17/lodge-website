@@ -12,10 +12,7 @@ const Navbar = () => {
     else {
       x.style.visibility = "hidden";
     }
-
   }
-
-
   return (
     <div>
       <nav>

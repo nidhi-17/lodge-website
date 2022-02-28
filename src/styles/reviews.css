@@ -11,13 +11,18 @@
 
 .reviews div img{
     border-radius: 50%;
-    margin-left: 35%;
+    margin-left: 37%;
 }
 @media only screen and (min-width: 320px) and (max-width: 426px){
     .reviews{
     margin-top: 25%;
     display: flex;
+    font-size: 14px;
     flex-direction: column;
+    }
+    .reviews div.img{
+        height: 60px;
+        width: 60px;
     }
 }
 

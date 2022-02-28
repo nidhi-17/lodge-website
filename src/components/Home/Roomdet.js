@@ -2,9 +2,9 @@ import * as React from 'react';
 import Card from 'react-bootstrap/Card';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
-
 import '../../styles/cards.css';
-const Roomdet = ({data}) => {
+import {Link} from 'react-router-dom';
+const Roomdet = ({RoomDetails}) => {
    function rightScroll() {
       var container = document.getElementById('card-slide');
       sideScroll(container,'right',25,100,20);
@@ -32,7 +32,7 @@ const Roomdet = ({data}) => {
   return (
     <div className='cards' >
       <div className='cards-wrapper' id="card-slide">
-        {data.map((room) => (
+        {RoomDetails.map((room) => (
           <Card style={{ width: '18rem' }} key={room.id}>
             <Card.Img variant="top" src={room.image} />
             <Card.Body>
@@ -50,6 +50,9 @@ const Roomdet = ({data}) => {
       <div className='angle'  >
         <button type="button" id="left-slide" onClick={()=>leftScroll()}><i className="fa fa-angle-left fa-2x" aria-hidden="true"></i></button>
         <button type="button" onClick={()=>rightScroll()}><i className="fa fa-angle-right fa-2x" aria-hidden="true"></i></button>
+      </div>
+      <div className="rooms-redirect">
+      <a href='#'><Link to='/rooms'>View more</Link></a>
       </div>
     </div>
   );

@@ -12,9 +12,6 @@ const Main = () => {
       <div>
         <View />
       </div>
-      <div >
-        <Form />
-      </div>
       <Rooms/> 
      <br /> <br />
       <div>

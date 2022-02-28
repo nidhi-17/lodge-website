@@ -8,18 +8,16 @@ body{
 
 nav{
   width: 100%;
-  height: 75px;
-  /* height: 80px; */
-  color: white;
+  height: 70px;
+  color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color:#213058;
+  background-color:#fff;
   padding: 0px 60px;
   position: fixed;
   top: 0;
   z-index: 200 !important;
-  /* border-bottom: 1px solid rgba(0,0,0,0.8); */
 }
 .logo{
   font-family: Verdana, sans-serif;
@@ -31,7 +29,7 @@ nav{
 }
 .dropdown a{
   text-decoration: none;
-  color: white;
+  color: black;
   padding: 10px 20px;
   font-size: 17px;
   font-family: Verdana, sans-serif;
@@ -63,7 +61,7 @@ nav{
   .topnav {
     overflow: hidden;
     z-index: 99999;
-    position: relative;
+    display:block;
     color: black;
   }
   .topnav a {
@@ -81,8 +79,8 @@ nav{
     /* display: block; */
     position: absolute;
     right: 10px;
-    height: 40px;
-    top: 3px;
+    height: 20px;
+    top:1px;
   }
   
   #my-links {
@@ -118,8 +116,9 @@ nav{
   
   .newnav{
     font-family: sans-serif;
-    height: 60px;
-    font-size: 34px;
+    margin-top: 2px;
+    height: 40px;
+    font-size: 20px;
     position: inherit;
     /* transition: height 4s; */
   }

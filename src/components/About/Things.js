@@ -7,8 +7,8 @@ const Things = () => {
 {things.map((thing) => (
     <div key={thing.id}>
         <div><img src={thing.icon} height={40} width={40}/></div>
-        <div style={{fontFamily:"Roboto",fontWeight:'bold',fontSize:16}}>{thing.name}</div>
-        <div style={{fontFamily:'Cormorant,serif',fontWeight:'light',color:"gray"}}>{thing.description}</div>
+        <div style={{fontFamily:"Roboto",fontWeight:'bold',fontSize:'16px'}}>{thing.name}</div>
+        <div style={{fontFamily:'Open Sans,sans-serif',fontWeight:'light',color:"gray",fontSize:'14px'}}>{thing.description}</div>
     </div>
 ))}
   </div>

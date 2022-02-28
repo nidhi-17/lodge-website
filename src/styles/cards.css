@@ -1,6 +1,6 @@
 .cards{
-    margin-top:8%;
-    margin-left: 2%;
+    margin-top:5%;
+    padding: 2%;
     display: grid;
     grid-template-columns: var(--page-margin) [center-start] 1fr [center-end] var(--page-margin);
 }
@@ -28,9 +28,9 @@
   color: gray;
 }
 .card-text{
- 
+  font-family: "Open Sans",sans-serif;
   margin-top: 25px;
-  font-size: 16px;
+  font-size: 15px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
@@ -67,24 +67,18 @@
     padding-right: var(--page-margin);
 }
 
-
-#left-slide{
-  margin-left: 48%;
-}
-
-
 .angle button{
-  height: 40px;
-  width: 40px;
+  height: 35px;
+  width: 35px;
   margin-left: 2%;
-  background-color: #F0E6D7;
+  background-color: #fff9e5;
   border: none;
   border-radius: 50%;
   color: black;
 }
 
 #left-slide{
-  margin-left: 45%;
+  margin-left: 34rem;
 }
 .angle i:hover{
   cursor: pointer;
@@ -98,21 +92,72 @@
   cursor: pointer;
   box-shadow: 0 0 25px rgba(33,33,33,.2); 
 }
-
+.rooms-redirect{
+  width: 100px;
+  margin:10px 0px 0px 550px;
+}
+.rooms-redirect a{
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 700 !important;
+  font-family: "Open Sans",sans-serif;
+}
+.rooms-redirect a:hover{
+  color: #b56953;
+}
+.room-det{
+ background-color: #fffdd0;
+}
 @media only screen and  (min-width: 320px) and (max-width: 426px){
   .cards{
-    margin-left: 4%;
     display: flex;
     margin-top: 5%;
+    margin-left: 3%;
     flex-direction: column;
   }
   .cards-wrapper{
-    gap: 4rem;
+    gap: 2rem;
+  }
+  .card img{
+    height: 191px;
+    width: 283px;
+  }
+  .card-text{
+    font-size: 12px;
+    display: grid;
+    gap: 1rem;
+  }
+  .card-subtitle{
+    font-size: 10px;
+  }
+  .card-title{
+    font-size: 12px;
+  }
+  .card-text div h5{
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .angle button{
+    height: 20px;
+    width: 20px;
+    margin-left: 3%;
+  }
+  .angle button i{
+    height: 10px;
+    width: 10px;
+  }
+  
+  #left-slide{
+    margin-left: 7rem;
   }
 
-  .card{
-    min-width: 18rem;
-    height: 30rem;
+  .rooms-redirect{
+    width: 100px;
+    margin:10px 0px 0px 100px;
+  }
+  .rooms-redirect a{
+    font-size: 14px;
   }
 
 }

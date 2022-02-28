@@ -14,7 +14,7 @@
     position: absolute;
     color:white;
     top: 65%;
-    left: 50%;
+    left: 52%;
     font-size: 20px;
     width: 52%;
     transform: translate(-50%, -50%);
@@ -28,19 +28,19 @@
   }
 
   .about h4{
-    font-family: 'Open Sans',sans-serif;
+    font-family: "Roboto";
     font-weight: 600 !important;
     font-size: 25px;
   }
 
   .about div{
     width: 52%;
-    margin-left: 50px;
+    margin-left: 55px;
     padding: 1%;
-    font-size: 16px;
-    font-family:'Cormorant,serif';
+    font-size: 15px;
+    font-family:'Open Sans',sans-serif;
     font-weight:'light';
-    color:"grey";
+    color:grey;
   }
   
   .Things{
@@ -80,8 +80,8 @@
     transition: width 1s;
   }
   .Explore-info h5{
-    font-family: 'Open Sans',sans-serif;
-    font-size: 30px;
+    font-family: 'Roboto';
+    font-size: 25px;
   }
   .Explore-info:hover{
   cursor: pointer;

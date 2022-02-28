@@ -1,31 +1,36 @@
 import React from 'react';
-import {useState} from 'react';
 import '../../styles/form.css';
-const Form = ({filterroom,filterguest}) => {
-//   const [guests,setguests] = useState(0);
-//   const [rooms,setrooms] = useState(0);
-  const selectroom = () =>{
-      var strUser = document.getElementById("cars").selectedOptions[0].value;
-      filterroom(strUser);
+const Form = ({ filterguest, filterroom }) => {
+
+  const selectroom = () => {
+    var strUser = document.getElementById("cars").selectedOptions[0].value;
+    return strUser;
   }
-  const selectguest = () =>{
+  const selectguest = () => {
     var struser = document.getElementById("guests").selectedOptions[0].value;
-    filterguest(struser);
-}
-  
+    return struser;
+  }
+
+  const booknow = () => {
+    var x = selectroom();
+    var y = selectguest();
+    filterroom(x);
+    filterguest(y);
+  }
+
   return (
     <div className="wrapper">
       <div className="grid-container">
         <div className="grid-1">
-          <label>CHECK-IN</label>
           <form amethod="post">
-            <input type="date" name="" value="" />
+            <label for="start-date">CHECK-IN</label> <br />
+            <input type="date" id="start-date" name="trip-start" />
           </form>
         </div>
         <div className="grid-2">
-          <label>CHECK-OUT</label>
           <form method="post">
-            <input type="date" name="" value="" />
+          <label for="end-date">CHECK-OUT</label> <br />
+            <input type="date" id="end-date" name="trip-end"  />
           </form>
         </div>
         <div className="grid-3">
@@ -33,7 +38,7 @@ const Form = ({filterroom,filterguest}) => {
             <label for="cars">ROOMS</label>
             <span className="select2-selection__arrow" role="presentation"><b role="presentation"></b></span>
 
-            <select name="cars" id="cars" onChange={()=>selectroom()}>
+            <select name="cars" id="cars" onChange={() => selectroom()}>
               <option value="1">1 Room</option>
               <option value="2">2 Rooms</option>
               <option value="3">3 Rooms</option>
@@ -44,7 +49,7 @@ const Form = ({filterroom,filterguest}) => {
           <form action="/action_page.php">
             <label for="cars">GUESTS:</label>
             <span className="select2-selection__arrow" role="presentation"><b role="presentation"></b></span>
-            <select name="cars" id="guests" onChange={()=>selectguest()}>
+            <select name="cars" id="guests" onChange={() => selectguest()}>
               <option value="1">1 Guest</option>
               <option value="2">2 Guests</option>
               <option value="3">3 Guests</option>
@@ -56,7 +61,7 @@ const Form = ({filterroom,filterguest}) => {
 
           </form></div>
         <div className="grid-5">
-          <button>Book Now</button>
+          <button onClick={() => booknow()}>Book Now</button>
         </div>
       </div>
     </div>

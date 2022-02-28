@@ -1,20 +1,42 @@
 import React from 'react';
 import 'font-awesome/css/font-awesome.min.css';
 import '../../styles/footer.css';
+import 'bootstrap/dist/css/bootstrap.css';
+import { useState } from 'react';
+import Modal from 'react-bootstrap/Modal';
+import Button from 'react-bootstrap/Button';
 const Footer = () => {
+    const [show, setShow] = useState(false);
+    const [val,seteval]=useState('');
+    const handleClose = () => setShow(false);
+    const handleShow = () =>{
+        seteval('');
+        setShow(true);
+    }
     return (
         <div>
             <div className="footer_1">
                 <footer>
+                    <Modal show={show} onHide={()=>handleClose()}>
+                        <Modal.Header closeButton>
+                            <Modal.Title>Woohoo!!</Modal.Title>
+                        </Modal.Header>
+                        <Modal.Body>You have signed up succesfully</Modal.Body>
+                        <Modal.Footer>
+                            <Button variant="secondary" onClick={handleClose}>
+                                Close
+                            </Button>
+                        </Modal.Footer>
+                    </Modal>
                     <div className="newsletter">
                         <div data-aos="fade-up" data-aos-offset="200">
                             <h2>Join our weekly Newsletter</h2>
-                         <div>We're a team of non-cynics who truly care for our work.</div>
+                            <div>We're a team of non-cynics who truly care for our work.</div>
                         </div>
                         <div className="ntext" data-aos="fade-up-right" data-aos-offset="200">
-                           <label>
-                                <input type="text" name="" placeholder="Enter your email" />
-                                <button className="slide">SIGN ME UP</button>
+                            <label>
+                                <input type="text" value={val} id="eamail" onChange={(e)=>seteval(e.target.value)} placeholder="Enter your email" />
+                                <button className="slide" onClick={() => handleShow()}>SIGN ME UP</button>
                             </label>
                         </div>
                     </div>
@@ -61,7 +83,7 @@ const Footer = () => {
                         <i className="fa fa-envelope fa-2x"></i>
                         <h2>Join our weekly Newsletter</h2>
                         <input type="email" name="email" id="eamail" placeholder="Enter your Email" /> <br />
-                        <button>Sign up</button>
+                        <button >Sign up</button>
                     </div>
                 </div>
                 <div className="new-social">
@@ -77,7 +99,7 @@ const Footer = () => {
             </div>
             <div className="bottom">
                 <i className="fa fa-copyright" aria-hidden="true"></i>
-                <a style={{color:"white"}}>Copyright Qode Interactive</a>
+                <a style={{ color: "black" }}>Copyright Qode Interactive</a>
             </div>
         </div>
     )
