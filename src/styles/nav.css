@@ -65,6 +65,7 @@ nav{
     color: black;
   }
   .topnav a {
+   font-family:  Verdana, sans-serif;
     color: black;
     /* color: white; */
     padding: 14px 16px;
@@ -101,7 +102,7 @@ nav{
     #my-links a{
      
       text-decoration: none;
-     
+      font-family:  Verdana, sans-serif;
       color: black;
       display: flex;
       flex-direction: column;
@@ -116,7 +117,7 @@ nav{
     
   
   .newnav{
-    font-family: sans-serif;
+    font-family:  Verdana, sans-serif;
     margin-top: 2px;
     height: 40px;
     font-size: 20px;
@@ -124,6 +125,7 @@ nav{
     /* transition: height 4s; */
   }
   .newnav span{
+    font-family:  Verdana, sans-serif;
     color: #e74c3c;
   }
 }

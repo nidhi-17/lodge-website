@@ -10,11 +10,12 @@ import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 const Contact = () => {
   const [show, setShow] = useState(false);
-
   const handleClose = () => setShow(false);
+  const [username,setName]=useState('');
+  const [useremail,setEmail]=useState('');
   const handleShowMod = () => {
-    document.getElementsByName('your-name').val=' ';
-    document.getElementById('your-email').val=' ';
+   setName('');
+   setEmail('');
     document.getElementById('your-message').val=' ';
     setShow(true);
   }
@@ -53,9 +54,9 @@ const Contact = () => {
               <div className='write'>How can we help?</div><br />
               <div className='read'>Maecenas consectetur, diam nec posuere aliquam, libero sapien aliquet lacus, tempus cursus odio dolor ac magna. Nam condimentum nulla et tortor ultrices tempor. Duis ac nisi mattis, vehicula augue id aliquet.</div><br />
               <label for="Name">NAME</label >
-              <input type="text" name="your-name" size="40" id="Name" className="name" aria-required="true" aria-invalid="true" /><br /><br />
+              <input type="text" name="your-name" size="40" id="Name" className="name" aria-required="true" aria-invalid="true" value={username} onChange={(e)=>setName(e.target.value)}/><br /><br />
               <label for="Email">EMAIL ADDRESS</label >
-              <input type="text" name="your-email" size="40" id="Email" className="name" aria-required="true" aria-invalid="true" /><br /><br />
+              <input type="text" name="your-email" size="40" id="Email" className="name" aria-required="true" aria-invalid="true" value={useremail} onChange={(e)=>setEmail(e.target.value)}/><br /><br />
               <label for="Message">WRITE YOUR MESSAGE</label >
               <textarea name="your-message" cols="40" rows="6" id="Message" className="textarea" aria-invalid="false"></textarea> <br /> <br />
               <button onClick={() => handleShowMod()}>SEND</button>

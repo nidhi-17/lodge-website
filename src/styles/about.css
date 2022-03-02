@@ -82,6 +82,7 @@
   .Explore-info h5{
     font-family: 'Roboto';
     font-size: 25px;
+    font-weight: 600;
   }
   .Explore-info:hover{
   cursor: pointer;
@@ -133,4 +134,134 @@
   position:relative;
   z-index:-1;
   display:block;
+}
+
+@media only screen and  (min-width: 320px) and (max-width: 426px){
+.img-gradient img{
+  height: 300px;
+}
+.centered {
+  top: 30%;
+  left: 50%;
+  font-size: 30px;
+  font-weight: 100;
+  transform: translate(-50%, -50%);
+}
+
+.below {
+  top: 40%;
+  font-size: 12px;
+  width: 80%;
+  height: 50px;
+  transform: translate(-50%, -50%);
+}
+
+.about{
+  margin-top: 15%;
+}
+.about h4{
+  font-size: 20px;
+}
+
+.about div{
+  width: 80%;
+  font-size: 12px;
+  margin-right: 48px;
+}
+.video{
+  margin-left: 5%;
+  margin-top: 0%;
+}
+  .video video{
+    width: 300px;
+    height: 200px;
+  }
+  .partners{
+    margin-top: 15%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    grid-template-rows: auto;
+  }
+  .partners img{
+    height: 80px;
+    width: 150px;
+  }
+  .end{
+    margin-left: 50%;
+  }
+  
+  .Things{
+    margin-top: 15%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap:1rem;
+  }
+  .explore{
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+  }
+  .explore img{
+    width: 290px;
+  }
+.explore img:hover{
+  width: 300;
+}
+  .Explore-info{
+    width: 10rem;
+    padding: 5%;
+  }
+  .Explore-info h5{
+    font-size: 22px;
+  }
+  .Explore-info button{
+    font-size: 12px;
+  }
+
+
+}
+
+@media only screen and  (min-width: 375px) and (max-width: 426px){
+  .video{
+    margin-left: 6%;
+  }
+  .video video{
+    width: 340px;
+    height: 300px;
+  }
+  .explore{
+    margin-left: 8%;
+  }
+  .explore img{
+    width: 320px;
+  }
+.explore img:hover{
+  width: 330;
+}
+.partners{
+  margin-left: 5%;
+}
+}
+
+@media only screen and  (min-width: 425px) and (max-width: 426px){
+  .video{
+    margin-left: 8%;
+  }
+  .video video{
+    width: 370px;
+  }
+  .explore{
+    margin-left: 7%;
+  }
+  .explore img{
+    width: 370px;
+  }
+.explore img:hover{
+  width: 375px;
+}
+.partners{
+  margin-left: 5%;
+}
 }

@@ -99,7 +99,7 @@ footer{
     cursor: pointer;
 }
 .f-contact p:hover{
-    color: white;
+    color: black;
     /* color: white; */
 }
 .f-contact i{
@@ -153,9 +153,7 @@ footer{
     transition: 1.2s;
     box-shadow: inset 400px 0 0 0 #b56953;
 }
-.slide:hover{
-    color: #fff9e5;
-}
+
 
 .new{
     display: none;

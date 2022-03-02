@@ -29,7 +29,7 @@ const About = () => {
         <h4>Things to do nearby</h4>
         <div> Ut condimentum magna ut augue elementum ornare. Fusce posuere massa vitae maximus posuere. Mauris sagittis consectetur vulputate. Curabitur commodo est quis felis porttitor eleifend. Sed efficitur sem mi, et feugiat lorem scelerisque.</div>
       </div>
-      <div>
+      <div >
         <Explore />
       </div>
       <div className='partners'>
@@ -37,7 +37,7 @@ const About = () => {
         <div><img src="https://alloggio.qodeinteractive.com/wp-content/uploads/2020/03/p1-client-hover-img-02.png" alt="logo" width="200" height='100' /></div>
         <div><img src="https://alloggio.qodeinteractive.com/wp-content/uploads/2020/03/p1-client-hover-img-03.png" alt="logo" width="200" height='100' /></div>
         <div><img src="https://alloggio.qodeinteractive.com/wp-content/uploads/2020/03/p1-client-hover-img-04.png" alt="logo" width="200" height='100' /></div>
-        <div><img src="https://alloggio.qodeinteractive.com/wp-content/uploads/2020/03/p1-client-hover-img-06.png" alt="logo" width="200" height='100' /></div>
+        <div className='end'><img src="https://alloggio.qodeinteractive.com/wp-content/uploads/2020/03/p1-client-hover-img-06.png" alt="logo" width="200" height='100' /></div>
       </div>
     </div>
   );

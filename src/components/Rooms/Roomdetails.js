@@ -4,7 +4,9 @@ import Row from 'react-bootstrap/Row';
 import Confirm from './Confirm';
 import Col from 'react-bootstrap/Col';
 import '../../styles/rooms.css';
+//import { lodgedata } from './lodgeData';
 const Roomdetails = () => {
+    //const filteredData = lodgedata.filter(item => item.id === roomid)
     return (
         <div>
             <img src={require("./images/rooms.jpg")} width="1600px" />

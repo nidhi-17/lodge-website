@@ -9,14 +9,18 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState } from 'react';
 import { lodgedata } from './lodgeData';
 const Room = () => {
-  const [Roomdetails, setRoomdetails] = useState(lodgedata);
+  console.log(lodgedata)
+  const [lodgeRoomdata, setlodgeRoomdata] = useState(lodgedata);
+  console.log(lodgeRoomdata)
   const filterGuest = (button) => {
-    const filtered = lodgedata.filter(item => item.guests === button);
-    setRoomdetails(filtered);
+    const filteredGuest = lodgedata.filter(room => Number(room.guests) <= Number(button));
+    setlodgeRoomdata(filteredGuest);
+    console.log(lodgeRoomdata);
   }
   const filterRoom = (button) => {
-    const filtered = lodgedata.filter(item => item.rooms === button)
-    setRoomdetails(filtered);
+    const filteredRoom = lodgedata.filter(room => room.rooms === button)
+    setlodgeRoomdata(filteredRoom);
+    console.log(lodgeRoomdata);
   }
  
   return (
@@ -31,7 +35,7 @@ const Room = () => {
           </Col>
           <Col  >
             <div className='Lodge-rooms'>
-              <Lodge Roomdetails={Roomdetails}/>
+              <Lodge lodgeRoomdata={lodgeRoomdata}/>
             </div>
           </Col>
         </Row>

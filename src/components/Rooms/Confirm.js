@@ -25,7 +25,7 @@ const Confirm = () => {
             </Modal>
             <div className="filter-wrapper">
                 <div className="filter-grid-container">
-                <div className='res'><c>Your Reservation</c></div><br />
+                <div className='res'>Your Reservation</div><br />
                     <div className="filter-grid-1"> 
                         <form action="post">
                         <label>CHECK-IN</label> <br />
@@ -56,7 +56,7 @@ const Confirm = () => {
                     </div>
 
                     <div className="extra">
-                        <a>Extra Services</a><br /> <br />
+                        <div>Extra Services</div><br />
                         <form action="/action_page.php">
                             <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
                             <label for="vehicle1">Cleaning Fee..........................................    $11</label><br />

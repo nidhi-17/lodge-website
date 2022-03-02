@@ -66,3 +66,48 @@
     box-shadow: inset 200px 0 #b56953;
     border: transparent;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 426px){
+.contact img{
+    height: 250px;
+}
+iframe{
+    width: 270px;
+    height: 300px;
+}
+.write{
+    font-size: 15px;
+}
+.read{
+    font-size: 12px;
+}
+.right-contact label{
+    font-size: 12px;
+}
+.right-contact button {
+    font-size: 12px;
+}
+}
+
+@media only screen and (min-width: 375px) and (max-width: 426px){
+    .contact img{
+        height: 250px;
+    }
+    iframe{
+        width: 320px;
+    }
+    .write{
+        font-size: 14px;
+    }
+    .right-contact label{
+        font-size: 11px;
+    }
+    .right-contact button {
+        font-size: 11px;
+    }
+    }
+@media only screen and (min-width:425px) and (max-width:426px){
+    iframe{
+        width: 370px;
+    }
+}

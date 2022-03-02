@@ -2,16 +2,18 @@ import React from 'react'
 import '../../styles/rooms.css';
 const Filter = ({filterGuest,filterRoom}) => {
     const selectRoom = ()=>{
-        var strUser = document.getElementById("cars").selectedOptions[0].value;
+        var strUser = document.getElementById("Cars").selectedOptions[0].value;
         return strUser;
       }
       const selectGuest = ()=>{
-        var struser = document.getElementById("guests").selectedOptions[0].value;
+        var struser = document.getElementById("Guests").selectedOptions[0].value;
         return struser;
       }
       const bookNow = ()=>{
         var z=selectRoom();
         var w=selectGuest();
+        console.log(z);
+        console.log(w);
         filterRoom(z);
         filterGuest(w);
       }
@@ -35,9 +37,9 @@ const Filter = ({filterGuest,filterRoom}) => {
                 </div>
                 <div className="room-grid-3">
                     <form action="/action_page.php">
-                        <label for="cars">ROOMS</label>
+                        <label for="Cars">ROOMS</label>
                         <span className="select2-selection__arrow" role="presentation"><b role="presentation"></b></span>
-                        <select name="cars" id="cars" onChange={() => selectRoom()}>
+                        <select name="cars" id="Cars" onChange={() => selectRoom()}>
                             <option value="1">1 Room</option>
                             <option value="2">2 Rooms</option>
                             <option value="3">3 Rooms</option>
@@ -46,9 +48,9 @@ const Filter = ({filterGuest,filterRoom}) => {
                     </form></div>
                 <div className="room-grid-4">
                     <form action="/action_page.php">
-                        <label for="cars">GUESTS:</label>
+                        <label for="Guest">GUESTS:</label>
                         <span className="select2-selection__arrow" role="presentation"><b role="presentation"></b></span>
-                        <select name="cars" id="guests" onChange={() => selectGuest()}>
+                        <select name="cars" id="Guests" onChange={() => selectGuest()}>
                             <option value="1">1 Guest</option>
                             <option value="2">2 Guests</option>
                             <option value="3">3 Guests</option>

@@ -8,7 +8,7 @@ import '../../styles/cards.css';
 export default function Rooms() {
     const [RoomDetails, setroomDetails] = useState(data);
     const filterguest = (button) => {
-        const filtered = data.filter(item => item.guests === button);
+        const filtered = data.filter(item => Number(item.guests) <= Number(button));
         setroomDetails(filtered);
     }
     const filterroom = (button) => {
