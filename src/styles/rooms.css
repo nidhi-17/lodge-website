@@ -2,7 +2,10 @@
     background-color: #F0E6D7;
 }
 .data-room{
+  background-color:white !important;
+  border: 1px solid gainsboro;
   margin-top: 3%;
+  width: 500px;
 }
 .heading-rooms h2{
     padding:10% 0% 5% 5%;
@@ -185,6 +188,7 @@
 
 .room-details{
   margin-bottom: 5%;
+  padding: 5px 5px 5px 10px;
 }
 .room-dim{
   color: #b56953;
@@ -196,7 +200,7 @@
   color: grey;
   font-family: "Open Sans",sans-serif;
   font-size: 14px;
-  width: 500px;
+  width: 480px;
 }
 
 .room-name{
