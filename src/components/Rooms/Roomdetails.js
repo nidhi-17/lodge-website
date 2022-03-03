@@ -4,17 +4,20 @@ import Row from 'react-bootstrap/Row';
 import Confirm from './Confirm';
 import Col from 'react-bootstrap/Col';
 import '../../styles/rooms.css';
-//import { lodgedata } from './lodgeData';
+import {useParams} from 'react-router-dom';
+import {lodgedata} from './lodgeData'
 const Roomdetails = () => {
-    //const filteredData = lodgedata.filter(item => item.id === roomid)
+    var roomid=useParams();
+    const filteredRoomsdata = lodgedata.filter(rooms=> rooms.id === Number(roomid.roomid));
+    console.log(filteredRoomsdata[0].name);
     return (
         <div>
-            <img src={require("./images/rooms.jpg")} width="1600px" />
+            <img src={filteredRoomsdata[0].image} width="100%" />
             <Container>
             <Row>
             <Col >
             <div className="first">
-                <div className='room-name-single'>Artistic Loft</div>
+                <div className='room-name-single'>{filteredRoomsdata[0].name}</div> 
                 <a>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam odio lorem, iaculis non felis vel, faucibus efficitur dui. Aliquam erat volutpat. Quisque hendrerit massa nec lobortis mollis. Nunc eu eros efficitur, convallis enim ac, ultricies nisi. Lorem ipsum dolor sit amet, consectetur adipiscing.</a><br /><br />
                 <a>Donec sollicitudin nulla risus, eget luctus ipsum facilisis dictum. Integer ultricies sapien libero, sed congue ligula hendrerit quis. Vivamus dolor mauris, mollis nec accumsan sed, pulvinar id nisl. Aliquam vulputate ante purus, quis sollicitudin augue euismod sit amet. Aliquam vehicula mi sit amet suscipit tincidunt. Quisque sed lobortis metus, vitae efficitur felis.</a><br /><br />
                 <div className="line"></div><br />
@@ -44,7 +47,9 @@ const Roomdetails = () => {
                 <div>- Cancel up to 14 days to get a full refund.</div>
                 </div>
             </div>
+           
             </Col>
+           
             <Col>
                 <Confirm/>
             </Col>

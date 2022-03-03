@@ -1,11 +1,9 @@
 import React from 'react'
-//import { Link } from "react-router-dom";
 import '../../styles/rooms.css';
 import {useNavigate} from 'react-router-dom';
 
 const Lodge = ({lodgeRoomdata}) => {
     let navigate = useNavigate();
-    //let {roomid}=useParams();
     return (
         <div style={{marginLeft:'150px'}}>
             {lodgeRoomdata.map((data) => (
@@ -16,8 +14,10 @@ const Lodge = ({lodgeRoomdata}) => {
                         <h3 className='room-name'>{data.name}</h3>
                         <div className='room-dim'>{data.dimensions} msqs / {data.no_of_people} person</div>
                         <div className='room-desc'>{data.description}</div>
-                        <button className='link-room' onClick={()=> navigate("/room-details")}>             
-                                <a href='#'>Book Now</a>
+                        <button className='link-room' onClick={()=>navigate(`/room-details/${data.id}`)} >             
+                                <a href='#'>
+                                    Book Now
+                                </a>
                       </button>
                     </div>
 

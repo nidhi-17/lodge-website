@@ -8,7 +8,10 @@ import Room from './components/Rooms/Room';
 import Contact from './components/Contact/Contact';
 import ScrollToTop from './ScrollTop';
 import Roomdetails from './components/Rooms/Roomdetails';
+
+
 const App = () => {
+  
   return (
     <div>
       <div>
@@ -20,7 +23,7 @@ const App = () => {
               <Route path='/about' element={<About />} exact />
               <Route path='/rooms' element={<Room />} exact />
               <Route path='/contact' element={<Contact />} exact />
-              <Route path='/room-details' element={<Roomdetails />} exact />
+              <Route path='/room-details/:roomid' element={<Roomdetails />} exact />
             </Routes>
           </ScrollToTop>
         </BrowserRouter>
