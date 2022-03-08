@@ -8,7 +8,7 @@ const Explore = () => {
                 width="350"/>
                 <div className="Explore-info">
                     <h5>Gathering</h5>
-                    <button>VIEW MORE</button>
+                    <div>Vestibulum a blandit ex, in tempor dolor</div> 
                 </div>
             </div>
             <div>
@@ -16,7 +16,7 @@ const Explore = () => {
                 width="350"/>
                 <div className="Explore-info">
                     <h5>Nice Food</h5>
-                    <button>VIEW MORE</button>
+                    <div>Vestibulum a blandit ex, in tempor dolor</div> 
                 </div>
             </div>
             <div>
@@ -24,7 +24,7 @@ const Explore = () => {
                 width="350"/>
                 <div className="Explore-info">
                     <h5>Explore</h5>
-                    <button>VIEW MORE</button>
+                    <div>Vestibulum a blandit ex, in tempor dolor</div> 
                 </div>
             </div>
         </div>

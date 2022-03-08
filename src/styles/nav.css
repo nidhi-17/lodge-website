@@ -106,7 +106,7 @@ nav{
       color: black;
       display: flex;
       flex-direction: column;
-      padding: 5%;
+      padding: 3%;
     }
     #my-links a:hover{
       color: #e74c3c;
@@ -120,9 +120,14 @@ nav{
     font-family:  Verdana, sans-serif;
     margin-top: 2px;
     height: 40px;
+    background-color: white;
     font-size: 20px;
     position: inherit;
     /* transition: height 4s; */
+  }
+  .newnav img{
+    background-color: white;
+    margin-bottom: 15px;
   }
   .newnav span{
     font-family:  Verdana, sans-serif;

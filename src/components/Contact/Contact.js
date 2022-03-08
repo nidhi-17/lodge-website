@@ -13,9 +13,11 @@ const Contact = () => {
   const handleClose = () => setShow(false);
   const [username,setName]=useState('');
   const [useremail,setEmail]=useState('');
+  const [usernum,setNum]=useState('');
   const handleShowMod = () => {
    setName('');
    setEmail('');
+   setNum('');
     document.getElementById('your-message').val=' ';
     setShow(true);
   }
@@ -56,6 +58,8 @@ const Contact = () => {
               <label for="Name">NAME</label >
               <input type="text" name="your-name" size="40" id="Name" className="name" aria-required="true" aria-invalid="true" value={username} onChange={(e)=>setName(e.target.value)}/><br /><br />
               <label for="Email">EMAIL ADDRESS</label >
+              <input type="text" name="your-number" size="40" id="Mobile" className="name" aria-required="true" aria-invalid="true" value={usernum} onChange={(e)=>setNum(e.target.value)}/><br /><br />
+              <label for="Mobile">CONTACT NO</label >
               <input type="text" name="your-email" size="40" id="Email" className="name" aria-required="true" aria-invalid="true" value={useremail} onChange={(e)=>setEmail(e.target.value)}/><br /><br />
               <label for="Message">WRITE YOUR MESSAGE</label >
               <textarea name="your-message" cols="40" rows="6" id="Message" className="textarea" aria-invalid="false"></textarea> <br /> <br />

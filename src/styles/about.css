@@ -34,8 +34,8 @@
   }
 
   .about div{
-    width: 52%;
-    margin-left: 55px;
+    width: 50%;
+    margin-left: 40px;
     padding: 1%;
     font-size: 15px;
     font-family:'Open Sans',sans-serif;
@@ -88,19 +88,11 @@
   cursor: pointer;
     width: 15rem;
   }
-  .Explore-info button{
-    padding: 2% 11% 2% 11%;
-    border:none;
-    color: white;
-    background-color: #b56953;
-    font-size: 15px;
-    word-spacing: 3px;
+  .Explore-info div{
+    font-family: sans-serif;
+    color: gray;
+    font-size: 13px;
   }
-  .Explore-info button:hover{
-    cursor: pointer;
-    transition: 1s;
-    box-shadow: inset 400px 0 0 0 black;
-}
 
 .partners{
   display: flex;

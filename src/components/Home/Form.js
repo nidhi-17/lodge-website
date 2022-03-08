@@ -44,7 +44,8 @@ const Form = ({ filterguest, filterroom }) => {
               <option value="3">3 Rooms</option>
               <option value="4">4 Rooms</option>
             </select>
-          </form></div>
+          </form>
+        </div>
         <div className="grid-4">
           <form action="/action_page.php">
             <label for="cars">GUESTS:</label>

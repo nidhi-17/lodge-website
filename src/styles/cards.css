@@ -7,7 +7,6 @@
 
 .card{
     display: grid;
-    
     transition: box-shadow .3s;
 }
 
@@ -78,7 +77,7 @@
 }
 
 #left-slide{
-  margin-left: 34rem;
+  margin-left: 37rem;
 }
 .angle i:hover{
   cursor: pointer;
@@ -94,7 +93,7 @@
 }
 .rooms-redirect{
   width: 100px;
-  margin:10px 0px 0px 550px;
+  margin:10px 0px 0px 600px;
 }
 .rooms-redirect a{
   text-decoration: none;

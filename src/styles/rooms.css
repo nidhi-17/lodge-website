@@ -1,5 +1,6 @@
 .heading-rooms{
     background-color: #F0E6D7;
+    width: 100%;
 }
 .data-room{
   background-color:white !important;
@@ -7,6 +8,7 @@
   margin-top: 3%;
   width: 500px;
 }
+
 .heading-rooms h2{
     padding:10% 0% 5% 5%;
     font-family: "Roboto";
@@ -160,7 +162,7 @@
   .room-wrapper{
     margin-top: 5%;
     margin-left: 25%;
-      height: 600px;
+      height: 560px;
       width: 350px;
       background-color: #fdf5ea;
   }
@@ -218,49 +220,26 @@ width: 520px;
   cursor: pointer;
 }
 
-
-.Lodge-rooms{
-  display: flex;
-  flex-direction: column;
-height:600px;
-overflow-y:scroll;
+.confirmation{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
 }
-
-.Lodge-rooms::-webkit-scrollbar {
-  display: none;
-}
-
-
 
 .first {
-  width: 624px;
-  height: 1200px;
-  margin-left: 20px;
+  margin-left: 120px;
   margin-top: 30px;
-  /* background-color: #e2d9d7; */
 }
 .room-name-single {
-  font-size: 20px;
+  font-size: 23px;
   text-align: left;
   font-weight: bold;
 }
-.first c{
-  font-size: 20px;
-  text-align: left;
-  font-weight: bold;
+.confirm-book{
+  margin-left: 50px;
 }
-.first a {
-  font-size: 15px;
-  color: #4d4d4d;
-  line-height: 1.58824em;
-  font-weight: 300;
-}
-.first {
-  color: #000;
-  font-size: 25px;
-  
-  line-height: 1.2em;
-  font-weight: 500;
+
+.room-txt{
+  margin-top: 10px;
 }
 .line {
   width: 620px;
@@ -274,18 +253,7 @@ width: 620px;
 height: 1px;
 background-color: rgb(173, 173, 173);
 }
-.first d {
-position: inherit;
-top: 855px;
-}
-.first e {
- 
-top: -175px;
-font-size: 17px;
-line-height: 1.58824em;
-font-weight: 300;
-color: #4d4d4d;
-}
+
 .left{
   width: 500px;
   display: grid;
@@ -297,9 +265,7 @@ color: #4d4d4d;
   font-weight: 100 !important;
 }
 
-.first f {
-top: -130px;
-}
+
 .line-3 {
 width: 620px;
 height: 1px;
@@ -397,7 +363,7 @@ input[type="checkbox" i]{
 .filter-grid-5 button{
   width: 280px;
   vertical-align: top;
-  /* margin: 0 0 25px; */
+  margin-top: 20px;
   padding: 9.5px 16px;
   /* font-family: inherit; */
   font-size: 16px;
@@ -420,21 +386,184 @@ input[type="checkbox" i]{
   transition: 1s;
   box-shadow: inset 400px 0 0 0 #b56953;
 }
-
-
-@media only screen and (min-width: 320px) and (max-width: 426px){
-.room-wrapper{
-  width: 300px;
-  margin-top: 5%;
-  margin-left: 10%;
-}
-.room-grid-container{
-  width: 305px;
-  padding: 17px 20px;
-}
-.room-grid-1{
-  margin-top: 3%;
-  font-size: large;
+.room-container{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
 
-}
+.room-container-filter{
+  margin-left: 80px;
+  }
+  .room-container-rooms{
+    height: 580px;
+    margin-left: 180px;
+    overflow-y: scroll;
+  }
+  .room-container-rooms::-webkit-scrollbar{
+    display: none;
+  }
+  .scroll-rooms{
+    display: none;
+  }
+
+  @media only screen and (min-width: 320px) and (max-width: 426px){
+    
+    .room-container{
+      display: flex;
+      flex-direction: column;
+    }
+    .room-container-filter{
+      margin-left: 2px;
+    }
+    .lodge-data-room{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     overflow-x: scroll;
+     overflow-y: hidden;
+    }
+    .room-container-rooms{
+      margin-left: 0%;
+      width: auto;
+    }
+    .room-wrapper{
+      margin-top: 5%;
+      margin-left: 0%;
+        height: 520px;
+        width: 320px;
+    }
+    .room-grid-container{
+      padding: 2px 25px;
+    }
+    .availability{
+      font-size: 15px;
+      padding: 10px 10px 10px 10px;
+    }
+    .room-grid-container label{
+      font-size: 10px;
+    }
+    .filter-grid-container label{
+      font-size: 12px;
+    }
+    .room-wrapper input[type="date" i]{
+        padding: 6.5px 17px;
+        font-size: 12px;
+      }
+      .room-grid-5 button{
+        width: 280px;
+        padding: 8.5px 16px;
+        font-size: 12px;
+      }
+  
+    #Guests{
+      padding: 6.5px 16px;
+      font-size: 12px;
+    }
+      .room-wrapper #Cars{ 
+        margin: 0 0 10px;
+        padding: 5.5px 16px;
+        font-family: inherit;
+        font-size: 12px;
+      }
+      .data-room{
+        width: 100%;
+        margin-right: 10%;
+        margin-left: 4%;
+      }
+      .room-price{
+        width: 22%;
+        height: 30px;
+        transform: translate(-45%, -140%);
+      }
+      
+      .room-desc{
+        font-size: 12px;
+        width: 280px;
+      }
+      .room-name{
+        font-size: 19px;
+      }
+      .link-room  {
+        width: 120px;
+        height: 25px;
+        font-size: 12px;
+      }
+
+      .con-img{
+        height: 250px;
+      }
+      .data-room img{
+        width: 100%;
+      transition: none !important;
+    }
+      .confirmation{
+        display: flex;
+        flex-direction: column;
+      }
+      .first {
+        margin-left: 20px;
+      }
+      .confirm-book{
+        margin-left: 1px;
+      }
+      .offer{
+        margin-left: 3%;
+      }
+
+      .offer img{
+        width: 300px;
+        height: 250px;
+      }
+      .line {
+        width: 280px;
+      }
+      .line-3 {
+        width: 280px;
+        }
+      
+      .line-2 {
+      width: 280px;
+      }
+      .filter-wrapper {
+        padding-left: 2%;
+        width: 300px;
+        margin-top: 5%;
+        margin-left: 3%;
+        height: 650px;
+      }
+      .left{
+        width: 290px;
+      }
+      .room-name-single {
+        font-size: 19px;
+      }
+      .room-txt,.house-rules div,.cancel div{
+        font-size: 13px;
+      }
+      .first h4{
+        font-size: 17px;
+      }
+      .left h6{
+        font-size: 13px;
+      }
+      .scroll-rooms{
+        display: block;
+      }
+      #r-left-slide{
+        margin-left: 110px;
+      }
+      .scroll-rooms button{
+        height: 35px;
+        width: 35px;
+        margin-left: 2%;
+        margin-top: 15px;
+        background-color: #fff9e5;
+        border: none;
+        border-radius: 50%;
+        color: black;
+      }
+      .room-container-rooms{
+        overflow-y: hidden ;
+      }
+  }
+

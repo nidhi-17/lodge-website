@@ -1,43 +1,70 @@
 import React from 'react'
 import '../../styles/rooms.css';
 import { useState } from 'react';
-import Modal from 'react-bootstrap/Modal';
-import Button from 'react-bootstrap/Button';
+import { Box, FormControl } from '@material-ui/core';
+import { Typography } from '@material-ui/core';
+import { Modal } from '@material-ui/core';
+import { FormGroup } from '@material-ui/core';
+import { FormControlLabel } from '@material-ui/core';
+import { Checkbox } from '@material-ui/core';
 const Confirm = () => {
-    const [show, setShow] = useState(false);
+    const [clean, setClean] = useState(false);
+    const [bike, setBike] = useState(false);
+    const [parking, setParking] = useState(false);
 
-    const handleClose = () => setShow(false);
+    const [checkin, setcheckin] = useState('');
+    const [checkout, setcheckout] = useState('');
+    const style = {
+        position: 'absolute',
+        top: '50%',
+        left: '50%',
+        transform: 'translate(-50%, -50%)',
+        width: 400,
+        bgcolor: 'background.paper',
+        border: '2px solid #000',
+        boxShadow: 24,
+        p: 4,
+    };
+
+    const [open, setOpen] = useState(false);
     const handleBooking = () => {
-      setShow(true);
+    setOpen(true);
+    setBike(false);
+    setClean(false);
+    setParking(false);
+    }
+    const handleClose = () => setOpen(false);
+    const numgusets = () => {
+        var stuser = document.getElementById("Guests").selectedOptions[0].value;
+        return stuser;
     }
     return (
         <div>
-            <Modal show={show} onHide={() => handleClose()}>
-                <Modal.Header closeButton>
-                    <Modal.Title>Success</Modal.Title>
-                </Modal.Header>
-                <Modal.Body>Your Booking is confirmed !!</Modal.Body>
-                <Modal.Footer>
-                    <Button variant="secondary" onClick={handleClose}>
-                        Close
-                    </Button>
-                </Modal.Footer>
+            <Modal open={open} onClose={handleClose} aria-labelledby="modal-modal-title" aria-describedby="modal-modal-description">
+                <Box sx={style}>
+                    <Typography id="modal-modal-title" variant="h6" component="h2">
+                        Your Booking is confirmed!!
+                    </Typography>
+                    <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+                        Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+                    </Typography>
+                </Box>
             </Modal>
             <div className="filter-wrapper">
                 <div className="filter-grid-container">
-                <div className='res'>Your Reservation</div><br />
-                    <div className="filter-grid-1"> 
+                    <div className='res'>Your Reservation</div><br />
+                    <div className="filter-grid-1">
                         <form action="post">
-                        <label>CHECK-IN</label> <br />
-                            <input type="date" name="" value="" />
+                            <label for="sdate">CHECK-IN</label> <br />
+                            <input type="date" id="sdate" name="s-date" value={checkin} onChange={(e) => setcheckin(e.target.value)} />
                         </form>
                     </div>
                     <br />
                     <div className="filter-grid-2">
-                        
+
                         <form action="post">
-                        <label>CHECK-OUT</label> <br />
-                            <input type="date" name="" value="" />
+                            <label for="edate">CHECK-OUT</label> <br />
+                            <input type="date" id="edate" name="e-date" value={checkout} onChange={(e) => setcheckout(e.target.value)} />
                         </form>
                     </div>
                     <br />
@@ -46,27 +73,48 @@ const Confirm = () => {
                             <label for="cars">GUESTS:</label><br />
                             <span className="select2-selection__arrow" role="presentation"><b role="presentation"></b></span>
 
-                            <select name="cars" id="cars">
-                                <option value="volvo">1 Adult</option>
-                                <option value="saab">2 Adults</option>
-                                <option value="opel">3 Adults</option>
-                                <option value="audi">4 Adults</option>
+                            <select name="cars" id="Guests" onChange={() => numgusets()}>
+                                <option value={1}>1 Adult</option>
+                                <option value={2}>2 Adults</option>
+                                <option value={3}>3 Adults</option>
+                                <option value={4}>4 Adults</option>
                             </select>
                         </form>
                     </div>
 
                     <div className="extra">
                         <div>Extra Services</div><br />
-                        <form action="/action_page.php">
-                            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
-                            <label for="vehicle1">Cleaning Fee..........................................    $11</label><br />
-                            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
-                            <label for="vehicle1">Turin Trip...........................  $17 / per person</label><br />
-                            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
-                            <label for="vehicle2">Parking..................................................  free</label><br />
-                            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
-                            <label for="vehicle3">Bike Rental........................  $20 / per person</label><br /><br />
-                        </form>
+                        <FormControl>
+                        <FormGroup>
+                        <FormControlLabel 
+                        control={
+                        <Checkbox checked={clean}  
+                        onChange={(e)=> setClean(e.target.checked)}  
+                        inputProps={{ 'aria-label': 'controlled' }}
+                        classes={{root: 'custom-checkbox-root'}}
+                        />
+                        }
+                        label="Cleaning Fee ........... Rs. 110" 
+                        />  
+                        <FormControlLabel 
+                        control={
+                        <Checkbox checked={bike}  
+                        onChange={(e)=> setBike(e.target.checked)}  
+                        inputProps={{ 'aria-label': 'controlled' }}/>
+                        }
+                        label="Bike Rental.............. Rs. 200
+                        " 
+                        />  
+                        <FormControlLabel 
+                        control={
+                        <Checkbox checked={parking}  
+                        onChange={(e)=> setParking(e.target.checked)}  
+                        inputProps={{ 'aria-label': 'controlled' }}/>
+                        }
+                        label="Parking.................... free" 
+                        />   
+                        </FormGroup>
+                        </FormControl>
                     </div>
 
                     <div className="filter-grid-5">

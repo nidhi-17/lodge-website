@@ -38,7 +38,7 @@ const Filter = ({filterGuest,filterRoom}) => {
                 <div className="room-grid-3">
                     <form action="/action_page.php">
                         <label for="Cars">ROOMS</label>
-                        <span className="select2-selection__arrow" role="presentation"><b role="presentation"></b></span>
+                        <span className="select2-selection__arrow" role="presentation"><b role="presentation"></b></span> <br/>
                         <select name="cars" id="Cars" onChange={() => selectRoom()}>
                             <option value="1">1 Room</option>
                             <option value="2">2 Rooms</option>
@@ -49,7 +49,7 @@ const Filter = ({filterGuest,filterRoom}) => {
                 <div className="room-grid-4">
                     <form action="/action_page.php">
                         <label for="Guest">GUESTS:</label>
-                        <span className="select2-selection__arrow" role="presentation"><b role="presentation"></b></span>
+                        <span className="select2-selection__arrow" role="presentation"><b role="presentation"></b></span> <br/>
                         <select name="cars" id="Guests" onChange={() => selectGuest()}>
                             <option value="1">1 Guest</option>
                             <option value="2">2 Guests</option>
