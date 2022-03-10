@@ -43,7 +43,7 @@ const Footer = () => {
                     <div className="f-contact" data-aos="zoom-in-up" data-aos-offset="200">
                         <div id='information'>
                             <h2>Information</h2>
-                            <p>Lorem Ipsum Dolor Sit Amet, Consturctor elit. Nihil sit dicta.</p>
+                            <p>Lorem Ipsum Dolor Sit Amet, Consturctor elit. Nihil sit dicta sjas edu.</p>
                             <div>
                                 <a href="https://www.google.co.in/"><i className="fa fa-whatsapp"></i></a>
                                 <a href="https://www.google.co.in/"><i className="fa fa-instagram"></i></a>

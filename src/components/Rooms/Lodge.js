@@ -44,7 +44,6 @@ const Lodge = ({ lodgeRoomdata }) => {
                                 </a>
                             </button>
                         </div>
-
                         <br />
                     </div>
                 ))}

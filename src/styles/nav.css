@@ -67,21 +67,20 @@ nav{
   .topnav a {
    font-family:  Verdana, sans-serif;
     color: black;
-    /* color: white; */
     padding: 14px 16px;
     font-size: 15px;
     display: block;
     border: none;
-    opacity: .8;
+    opacity: .9;
   }
   
   
   .topnav a.icon {
-    /* display: block; */
     position: absolute;
-    right: 10px;
+    right:2px;
+    color: black;
     height: 20px;
-    top:1px;
+    top:-3px;
   }
   
   #my-links {
@@ -123,7 +122,6 @@ nav{
     background-color: white;
     font-size: 20px;
     position: inherit;
-    /* transition: height 4s; */
   }
   .newnav img{
     background-color: white;

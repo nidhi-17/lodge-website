@@ -15,11 +15,11 @@ const Contact = () => {
   const [useremail,setEmail]=useState('');
   const [usernum,setNum]=useState('');
   const handleShowMod = () => {
+    setShow(true);
    setName('');
    setEmail('');
    setNum('');
-    document.getElementById('your-message').val=' ';
-    setShow(true);
+    document.getElementById('Message').value='';
   }
   return (
     <div className='contact'>
@@ -64,12 +64,10 @@ const Contact = () => {
               <label for="Message">WRITE YOUR MESSAGE</label >
               <textarea name="your-message" cols="40" rows="6" id="Message" className="textarea" aria-invalid="false"></textarea> <br /> <br />
               <button onClick={() => handleShowMod()}>SEND</button>
-
             </div>
           </Col>
         </Row>
       </Container>
-
     </div>
   );
 };

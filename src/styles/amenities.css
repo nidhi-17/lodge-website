@@ -25,8 +25,6 @@ p{
     font-size: 21px;
     vertical-align: baseline;
 }
-
-
 .containerAmenities p{
     margin: 20px 0px;
     line-height: 2em;
@@ -39,21 +37,18 @@ p{
 }
 .middle a{
     height: auto;
-    /* position: absolute; */
     text-align: center;
     font-size: 16px;
     color: grey;
 }
 .middle e{
     height: auto;
-    /* position: absolute; */
     text-align: center;
     font-size: 16px;
     color: grey;
 }
 .middle c{
     height: auto;
-    /* position: absolute; */
     text-align: center;
     margin-top: 350px;
     font-size: 16px;
@@ -62,14 +57,12 @@ p{
 .fa-solid fa-router{
     width: 100px;
     height: 100px;
-    /* position:absolute ; */
 }
 .container2 button{
     border: none;
     padding: 3%;
     background-color: #f2f2f2;
     cursor: pointer ;
-    /* width: 50px; */
 }
 .container1 {
     margin-top: 4%;
@@ -123,12 +116,9 @@ grid-template-rows: auto;
     .middle a{
         margin-top: 5%;
         font-size: 12px;
-        /* background-color: antiquewhite; */
     }
     .middle e{
-        
-        font-size: 12px;
-        
+        font-size: 12px;  
     }.middle c{
         font-size: 12px;
     }

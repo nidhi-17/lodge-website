@@ -74,7 +74,7 @@ export const data = [
         rooms:"2",
         no_of_people:'2-6',
         description: "Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
-        image: require('./components/Rooms/room-featured-img-1.jpg')
+        image: require('./components/Rooms/Roomimages/room-featured-img-1.jpg')
     },
     {
         id: 8,
@@ -85,7 +85,7 @@ export const data = [
         dimensions: 100,
         no_of_people:'4-8',
         description: "Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
-        image: require('./components/Rooms/room-featured-img-2.jpg')
+        image: require('./components/Rooms/Roomimages/room-featured-img-2.jpg')
     },
     {
         id: 9,
@@ -96,7 +96,7 @@ export const data = [
         dimensions: 43,
         no_of_people:'2-4',
         description: "Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
-        image: require('./components/Rooms/room-featured-img-3.jpg')
+        image: require('./components/Rooms/Roomimages/room-featured-img-3.jpg')
     },
     {
         id: 10,
@@ -107,7 +107,7 @@ export const data = [
         dimensions: 50,
         no_of_people:'1-4',
         description: "Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
-        image: require('./components/Rooms/room-featured-img-4.jpg')
+        image: require('./components/Rooms/Roomimages/room-featured-img-4.jpg')
     },
     {
         id: 11,
@@ -118,7 +118,7 @@ export const data = [
         dimensions: 60,
         no_of_people:'4-6',
         description: "Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
-        image: require('./components/Rooms/room-featured-img-5.jpg')
+        image: require('./components/Rooms/Roomimages/room-featured-img-5.jpg')
     },
     {
         id: 12,
@@ -129,7 +129,7 @@ export const data = [
         dimensions: 70,
         no_of_people:'3-7',
         description: "Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
-        image: require('./components/Rooms/room-featured-img-6.jpg')
+        image: require('./components/Rooms/Roomimages/room-featured-img-6.jpg')
     },
     {
         id: 13,
@@ -140,7 +140,7 @@ export const data = [
         dimensions: 60,
         no_of_people:'4-6',
         description: "Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
-        image: require('./components/Rooms/room-featured-img-7.jpg')
+        image: require('./components/Rooms/Roomimages/room-featured-img-7.jpg')
     },
     {
         id: 14,
@@ -151,7 +151,7 @@ export const data = [
         dimensions: 60,
         no_of_people:'4-6',
         description: "Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
-        image: require('./components/Rooms/room-featured-img-8.jpg')
+        image: require('./components/Rooms/Roomimages/room-featured-img-8.jpg')
     },
     {
         id: 15,
@@ -162,7 +162,7 @@ export const data = [
         dimensions: 60,
         no_of_people:'4-6',
         description: "Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
-        image: require('./components/Rooms/room-featured-img-9.jpg'),
+        image: require('./components/Rooms/Roomimages/room-featured-img-9.jpg'),
     },
     {
         id: 16,
@@ -173,6 +173,6 @@ export const data = [
         dimensions: 60,
         no_of_people:'4-6',
         description: "Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
-        image: require('./components/Rooms/room-featured-img-10.jpg')
+        image: require('./components/Rooms/Roomimages/room-featured-img-10.jpg')
     }
 ]

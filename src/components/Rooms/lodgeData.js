@@ -8,7 +8,7 @@ export const lodgedata = [
         rooms:"2",
         no_of_people:'2-6',
         description: "Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
-        image: require('./room-featured-img-1.jpg')
+        image: require('./Roomimages/room-featured-img-1.jpg')
     },
     {
         id: 8,
@@ -19,7 +19,7 @@ export const lodgedata = [
         dimensions: 100,
         no_of_people:'4-8',
         description: "Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
-        image: require('./room-featured-img-2.jpg')
+        image: require('./Roomimages/room-featured-img-2.jpg')
     },
     {
         id: 9,
@@ -30,7 +30,7 @@ export const lodgedata = [
         dimensions: 43,
         no_of_people:'2-4',
         description: "Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
-        image: require('./room-featured-img-3.jpg')
+        image: require('./Roomimages/room-featured-img-3.jpg')
     },
     {
         id: 10,
@@ -41,7 +41,7 @@ export const lodgedata = [
         dimensions: 50,
         no_of_people:'1-4',
         description: "Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
-        image: require('./room-featured-img-4.jpg')
+        image: require('./Roomimages/room-featured-img-4.jpg')
     },
     {
         id: 11,
@@ -52,7 +52,7 @@ export const lodgedata = [
         dimensions: 60,
         no_of_people:'4-6',
         description: "Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
-        image: require('./room-featured-img-5.jpg')
+        image: require('./Roomimages/room-featured-img-5.jpg')
     },
     {
         id: 12,
@@ -63,7 +63,7 @@ export const lodgedata = [
         dimensions: 70,
         no_of_people:'3-7',
         description: "Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
-        image: require('./room-featured-img-6.jpg')
+        image: require('./Roomimages/room-featured-img-6.jpg')
     },
     {
         id: 13,
@@ -74,7 +74,7 @@ export const lodgedata = [
         dimensions: 60,
         no_of_people:'4-6',
         description: "Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
-        image: require('./room-featured-img-7.jpg')
+        image: require('./Roomimages/room-featured-img-7.jpg')
     },
     {
         id: 14,
@@ -85,7 +85,7 @@ export const lodgedata = [
         dimensions: 60,
         no_of_people:'4-6',
         description: "Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
-        image: require('./room-featured-img-8.jpg')
+        image: require('./Roomimages/room-featured-img-8.jpg')
     },
     {
         id: 15,
@@ -96,7 +96,7 @@ export const lodgedata = [
         dimensions: 60,
         no_of_people:'4-6',
         description: "Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
-        image: require('./room-featured-img-9.jpg')
+        image: require('./Roomimages/room-featured-img-9.jpg')
     },
     {
         id: 16,
@@ -107,7 +107,7 @@ export const lodgedata = [
         dimensions: 60,
         no_of_people:'4-6',
         description: "Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
-        image: require('./room-featured-img-10.jpg')
+        image: require('./Roomimages/room-featured-img-10.jpg')
     },
     
     {
@@ -119,7 +119,7 @@ export const lodgedata = [
         guests:'6',
         rooms:"2",
         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, beatae. Nemo, odio similique. Officia ab voluptas voluptatem, necessitatibus tempore eum!",
-        image: require('./room-single-img-05.jpg')
+        image: require('./Roomimages/room-single-img-05.jpg')
     },
     {
         id: 18,
@@ -130,7 +130,7 @@ export const lodgedata = [
         guests:'7',
         rooms:"2",
         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, beatae. Nemo, odio similique. Officia ab voluptas voluptatem, necessitatibus tempore eum!",
-        image: require('./room-single-img-01.jpg')
+        image: require('./Roomimages/room-single-img-01.jpg')
     },
     {
         id: 19,
@@ -141,7 +141,7 @@ export const lodgedata = [
         guests:'8',
         rooms:"2",
         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, beatae. Nemo, odio similique. Officia ab voluptas voluptatem, necessitatibus tempore eum!",
-        image: require('./room-single-img-09.jpg')
+        image: require('./Roomimages/room-single-img-09.jpg')
     },
     {
         id: 20,
@@ -152,7 +152,7 @@ export const lodgedata = [
         guests:'9',
         rooms:"2",
         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, beatae. Nemo, odio similique. Officia ab voluptas voluptatem, necessitatibus tempore eum!",
-        image: require('./room-single-img-12.jpg')
+        image: require('./Roomimages/room-single-img-12.jpg')
     },
     {
         id: 21,
@@ -163,7 +163,7 @@ export const lodgedata = [
         guests:'10',
         rooms:"2",
         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, beatae. Nemo, odio similique. Officia ab voluptas voluptatem, necessitatibus tempore eum!",
-        image: require('./room-single-img-03.jpg')
+        image: require('./Roomimages/room-single-img-03.jpg')
     },
     {
         id: 22,
@@ -174,7 +174,7 @@ export const lodgedata = [
         guests:'11',
         rooms:"2",
         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, beatae. Nemo, odio similique. Officia ab voluptas voluptatem, necessitatibus tempore eum!",
-        image: require('./room-single-img-04.jpg')
+        image: require('./Roomimages/room-single-img-04.jpg')
     },
     {
         id: 23,
@@ -185,7 +185,7 @@ export const lodgedata = [
         guests:'12',
         rooms:"2",
         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, beatae. Nemo, odio similique. Officia ab voluptas voluptatem, necessitatibus tempore eum!",
-        image: require('./room-single-img-05.jpg')
+        image: require('./Roomimages/room-single-img-05.jpg')
     },
 
     {

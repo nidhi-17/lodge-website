@@ -37,7 +37,6 @@ const Form = ({ filterguest, filterroom }) => {
           <form action="/action_page.php">
             <label for="cars">ROOMS</label>
             <span className="select2-selection__arrow" role="presentation"><b role="presentation"></b></span>
-
             <select name="cars" id="cars" onChange={() => selectroom()}>
               <option value="1">1 Room</option>
               <option value="2">2 Rooms</option>
@@ -48,7 +47,7 @@ const Form = ({ filterguest, filterroom }) => {
         </div>
         <div className="grid-4">
           <form action="/action_page.php">
-            <label for="cars">GUESTS:</label>
+            <label for="guests">GUESTS:</label>
             <span className="select2-selection__arrow" role="presentation"><b role="presentation"></b></span>
             <select name="cars" id="guests" onChange={() => selectguest()}>
               <option value="1">1 Guest</option>
@@ -58,9 +57,8 @@ const Form = ({ filterguest, filterroom }) => {
               <option value="5">5 Guests</option>
               <option value="6">6 Guests</option>
             </select>
-
-
-          </form></div>
+          </form>
+          </div>
         <div className="grid-5">
           <button onClick={() => booknow()}>Book Now</button>
         </div>

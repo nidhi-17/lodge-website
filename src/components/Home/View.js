@@ -13,7 +13,7 @@ const View = () => {
                 className="d-block w-100 "
                 src="https://images.pexels.com/photos/1838554/pexels-photo-1838554.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
                 alt="First slide"
-                height='630px'
+                height='650px'
                 width="100%"
               
               />
@@ -29,7 +29,7 @@ const View = () => {
                 className="d-block w-100 "
                 src="https://cdn.pixabay.com/photo/2022/01/13/07/05/house-6934535__480.jpg"
                 alt="Second slide"
-                height='630px'
+                height='650px'
                 width="100%"
               />
 
@@ -44,7 +44,7 @@ const View = () => {
                 className="d-block w-100 "
                 src="https://cdn.pixabay.com/photo/2016/11/14/02/28/apartment-1822409__480.jpg"
                 alt="Third slide"
-                height='630px'
+                height='650px'
                 width="100%"
              
               />

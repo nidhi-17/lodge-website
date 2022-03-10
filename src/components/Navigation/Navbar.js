@@ -2,7 +2,6 @@ import React from 'react';
 import '../../styles/nav.css';
 import { Link } from "react-router-dom";
 
-
 const Navbar = () => {
   const myFunction = () => {
     var x = document.getElementById("my-links");
@@ -12,6 +11,10 @@ const Navbar = () => {
     else {
       x.style.visibility = "hidden";
     }
+  }
+  const hideSidebar=()=>{
+    var x = document.getElementById("my-links");
+    x.style.visibility = "hidden";
   }
   return (
     <div>
@@ -25,7 +28,6 @@ const Navbar = () => {
             <a href='#'><Link to='/about'>About us</Link></a>
             <a href='#'><Link to='/rooms'>Rooms</Link></a>
             <a href='#'><Link to='/contact'>Contact</Link></a>
-
           </div>
         </div>
       </nav>
@@ -35,10 +37,10 @@ const Navbar = () => {
           <img src={require('../../images/menu-1.png')} width="20px" height="20px" alt="menu" />
         </a>
         <div id="my-links">
-          <a href='#'><Link to='/'>Home</Link></a>
-          <a href='#'><Link to='/about'>About us</Link></a>
-          <a href='#'><Link to='/rooms'>Rooms</Link></a>
-          <a href='#'><Link to='/contact'>Contact</Link></a>
+          <a href='#'><Link to='/' onClick={()=>hideSidebar()}>Home</Link></a>
+          <a href='#'><Link to='/about' onClick={()=>hideSidebar()}>About us</Link></a>
+          <a href='#'><Link to='/rooms' onClick={()=>hideSidebar()}>Rooms</Link></a>
+          <a href='#'><Link to='/contact' onClick={()=>hideSidebar()}>Contact</Link></a>
         </div>
       </div>
     </div>

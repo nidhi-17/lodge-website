@@ -67,5 +67,4 @@ const Filter = ({filterGuest,filterRoom}) => {
         </div>
     )
 }
-
 export default Filter;

@@ -25,7 +25,6 @@ const Room = () => {
         <div className='room-container-filter'>
           <Filter filterGuest={filterGuest} filterRoom={filterRoom} />
         </div>
-
         <div className='room-container-rooms'>
           <Lodge lodgeRoomdata={lodgeRoomdata} />
         </div>
@@ -33,6 +32,4 @@ const Room = () => {
     </div>
   );
 }
-
-
 export default Room;

@@ -29,9 +29,12 @@ const Confirm = () => {
     const [open, setOpen] = useState(false);
     const handleBooking = () => {
     setOpen(true);
+    setcheckin('');
+    setcheckout('');
     setBike(false);
     setClean(false);
     setParking(false);
+    document.getElementById("Guests").selectedIndex = 0;
     }
     const handleClose = () => setOpen(false);
     const numgusets = () => {
@@ -78,6 +81,8 @@ const Confirm = () => {
                                 <option value={2}>2 Adults</option>
                                 <option value={3}>3 Adults</option>
                                 <option value={4}>4 Adults</option>
+                                <option value={5}>5 Adults</option>
+                                <option value={6}>6 Adults</option>
                             </select>
                         </form>
                     </div>
