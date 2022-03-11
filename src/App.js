@@ -19,6 +19,7 @@ const App = () => {
           <Navbar />
           <ScrollToTop>
             <Routes>
+              <Route path='/lodge-websitw' element={<Main />} exact />
               <Route path='/' element={<Main />} exact />
               <Route path='/about' element={<About />} exact />
               <Route path='/rooms' element={<Room />} exact />

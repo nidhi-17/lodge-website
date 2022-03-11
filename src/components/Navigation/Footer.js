@@ -90,16 +90,16 @@ const Footer = () => {
                     <h2> Get Social</h2>
                     <div className="socialText">Follow us on social media and keep in touch with Alloggio.</div>
                     <div className="socialLinks">
-                        <a href="https://www.google.co.in/"><i class="fa fa-whatsapp"></i></a>
-                        <a href="https://www.google.co.in/"><i class="fa fa-instagram"></i></a>
-                        <a href="https://www.google.co.in/"><i class="fa fa-telegram"></i></a>
-                        <a href="https://www.google.co.in/"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.google.co.in/"><i className="fa fa-whatsapp"></i></a>
+                        <a href="https://www.google.co.in/"><i className="fa fa-instagram"></i></a>
+                        <a href="https://www.google.co.in/"><i className="fa fa-telegram"></i></a>
+                        <a href="https://www.google.co.in/"><i className="fa fa-twitter"></i></a>
                     </div>
                 </div>
             </div>
             <div className="bottom">
                 <i className="fa fa-copyright" aria-hidden="true"></i>
-                <a style={{ color: "black" }}>Copyright Qode Interactive</a>
+                <a  style={{ color: "black" }}>Copyright Qode Interactive</a>
             </div>
         </div>
     )

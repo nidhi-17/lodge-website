@@ -423,7 +423,7 @@ background-color: #F0E6D7;
       font-size: 10px;
     }
     .filter-grid-container label{
-      font-size: 12px;
+      font-size: 14px;
     }
     .room-wrapper input[type="date" i]{
         padding: 6.5px 17px;
@@ -438,6 +438,9 @@ background-color: #F0E6D7;
     #Guests{
       padding: 6.5px 16px;
       font-size: 12px;
+    }
+    .extra div{
+      font-size: 15px;
     }
       .room-wrapper #Cars{ 
         margin: 0 0 10px;
@@ -469,7 +472,8 @@ background-color: #F0E6D7;
         font-size: 12px;
       }
       .filter-grid-5 button{
-        margin-top: 0px;
+        margin-top: 15px;
+        font-size: 14px;
       }
       .con-img{
         height: 250px;
@@ -508,11 +512,11 @@ background-color: #F0E6D7;
       width: 280px;
       }
       .filter-wrapper {
-        padding-left: 2%;
+        padding-left: 3%;
         width: 300px;
         margin-top: 5%;
         margin-left: 3%;
-        height: 650px;
+        height: 600px;
       }
       .left{
         width: 290px;
@@ -549,5 +553,72 @@ background-color: #F0E6D7;
         margin-top: 25px;
         overflow-y: hidden ;
       }
+  }
+
+  @media only screen and (min-width: 375px) and (max-width: 426px){
+    .room-wrapper{
+      margin-left: 3%;
+      width: 350px;
+    }
+    .room-grid-5 button{
+      width: 320px;
+    }
+    .data-room{
+      margin-left: 6%;
+      margin-right: 6%;
+    }
+    .scroll-rooms button{
+      margin-left: 8%;
+    }
+    .line {
+      width: 350px;
+    }
+    .line-3 {
+      width: 350px;
+      }
+      .filter-wrapper{
+        width: 350px;
+        padding-left: 10%;
+      }
+    .line-2 {
+    width: 350px;
+    }
+.offer img{
+  width: 350px;
+}
+.left{
+  width: 320px;
+}
+  }
+
+  @media only screen and (min-width: 425px) and (max-width: 426px){
+    .room-wrapper{
+      width: 400px;
+    }
+    .room-grid-5 button{
+      width: 369px;
+    }
+    .line {
+      width: 400px;
+    }
+    .line-3 {
+      width: 400px;
+      }
+      #r-left-slide{
+        margin-left: 40%;
+      }
+      .filter-wrapper{
+        width: 400px;
+        padding-left: 10%;
+      }
+    .line-2 {
+    width: 400px;
+    }
+  .offer img{
+    width: 400px;
+  }
+  .left{
+    width: 400px;
+  }
   }
 
