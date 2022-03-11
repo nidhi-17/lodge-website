@@ -41,11 +41,11 @@ const Contact = () => {
           <Col md={6}>
             <div className="left-contact">
               <div className='write'>Feel free to write on info@ourlodge.com</div><br />
-              <div className='read'>Morbi viverra viverra tincidunt. Nam condimentum nulla et tortor ultrices tempor. Duisanisi mattis, vehicula augue id, aliquet risus.</div><br /><br /><br />
+              <div className='read'>Morbi viverra viverra tincidunt. Nam condimentum nulla et tortor ultrices tempor. Duisanisi mattis, vehicula augue id, aliquet risus.</div><br /><br />
               <div className='write'>Call us +77 777 777 77</div><br />
-              <div className='read'>Morbi viverra viverra tincidunt. Nam condimentum nulla et tortor ultrices tempor. Duisanisi mattis, vehicula augue id, aliquet risus.</div><br /><br /><br />
+              <div className='read'>Morbi viverra viverra tincidunt. Nam condimentum nulla et tortor ultrices tempor. Duisanisi mattis, vehicula augue id, aliquet risus.</div><br /><br />
               <div className='write'>Visit us on Via Venti Settembre, Roma</div><br />
-              <div className='read'>Morbi viverra viverra tincidunt. Nam condimentum nulla et tortor ultrices tempor. Duisanisi mattis, vehicula augue id, aliquet risus.</div><br /><br /><br />
+              <div className='read'>Morbi viverra viverra tincidunt. Nam condimentum nulla et tortor ultrices tempor. Duisanisi mattis, vehicula augue id, aliquet risus.</div><br /><br /><br/>
               <div><Iframe url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14765.792426255794!2d73.19786016977538!3d22.298886500000012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc58ad99184b5%3A0x695bc1127d2286b!2sRoyal%20Lodge!5e0!3m2!1sen!2sin!4v1643791694145!5m2!1sen!2sin"
                 width="500" height="300" />
               </div>
