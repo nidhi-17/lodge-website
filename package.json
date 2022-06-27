@@ -1,7 +1,7 @@
 {
   "name": "lodge",
   "version": "0.1.0",
-  "homepage": "https://nidhi-17.github.io/lodge-websitw",
+  "homepage": "https://nidhi-17.github.io/lodge-website/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.8",
