@@ -1,33 +1,28 @@
-.heading-rooms{
-    background-color: #F0E6D7;
-    width: 100%;
-}
-.data-room{
-  background-color:white !important;
+
+.data-room {
+  background-color: white !important;
   border: 1px solid gainsboro;
-  margin-top: 3%;
-  width: 500px;
+  margin: 3% 0% 1% 3%;
+  display: grid;
+  width: 95%;
+  grid-template-columns: auto auto;
 }
 
-.heading-rooms h2{
-    padding:10% 0% 5% 5%;
-    font-family: "Roboto";
-    font-size: 30px;
-  font-weight: 600 !important;
-}
-.availability{
+
+.availability {
   text-align: center;
   font-size: 20px;
   padding: 10px 10px 0px 10px;
   font-weight: 600 !important;
-  font-family:  Verdana, sans-serif;
+  font-family: Verdana, sans-serif;
 }
-.link-room  {
+
+.link-room {
   background-color: #b56953;
   width: 150px;
   height: 28px;
   margin-top: 10px;
-  font-family: 'Josefin',sans-serif;
+  font-family: 'Josefin', sans-serif;
   font-size: 14px;
   font-weight: 500 !important;
   text-transform: uppercase;
@@ -41,167 +36,64 @@
   box-shadow: inset 200px 0 #000;
   border: transparent;
 }
-.link-room a{
+
+.link-room a {
   font-size: 13px;
-  text-decoration:none;
+  text-decoration: none;
   color: white;
 }
-.room-grid-container label {
-    font-family: Raleway,sans-serif;
-    font-size: 12px;
-    font-weight: 500;
-    letter-spacing: .25em;
-    text-transform: uppercase;
-    line-height: 1.6em;
-    color: #000;
-  }
-.room-wrapper input[type="date" i]{
-  position: relative;
-    display: inline-block;
-    width: 100%;
-    vertical-align: top;
-    padding: 9.5px 17px;
-    font-family: inherit;
-    font-size: 17px;
-    line-height: 29px;
-    font-weight: inherit;
-    color: #4d4d4d;
-    background-color: transparent;
-    border: 1px solid rgba(0,0,0,.18);
-    border-radius: 0;
-    outline: 0;
-    cursor: pointer;
-    -webkit-appearance: none;
-  }
-  .room-wrapper input[type="date" i]:hover {
-    border: 1px solid black;
-  }
-  .room-grid-5 button{
-    width: 280px;
-    vertical-align: top;
-    padding: 9.5px 16px;
-    font-size: 17px;
-    line-height: 29px;
-    color: #4d4d4d;
-    background-color:transparent; 
-    border: 1px solid rgba(0,0,0,.18);
-    border-radius: 0;
-    outline: 0;
-    cursor: pointer;
-    -webkit-appearance: none;
-    font-family: "Josefin Sans",sans-serif;
-    font-size: 17px;
-    margin-top: 15px;
-    line-height: 1.58824em;
-    font-weight: 300;
-    /* left: 50px; */
-  }
 
-.room-grid-5 button:hover{
-  cursor: pointer;
-  transition: 1s;
-  box-shadow: inset 400px 0 0 0 #b56953;
-}
-#Guests{
-  position: relative;
-  display: inline-block;
-  width: 100%;
-  vertical-align: top;
-  margin: 0 0 30px;
-  padding: 9.5px 16px;
-  font-family: inherit;
-  font-size: 17px;
-  line-height: 29px;
-  font-weight: inherit;
-  color: #4d4d4d;
-  background-color: transparent;
-  border: 1px solid rgba(0,0,0,.18);
-  border-radius: 0;
-  outline: 0;
-  cursor: pointer;
-  -webkit-appearance: none;
-}
-#Guests:hover {
-  border: 1px solid black;
-}
-  .room-wrapper #Cars{
-    position: relative;
-    display: inline-block;
-    width: 100%;
-    vertical-align: top;  
-    margin: 0 0 20px;
-    padding: 9.5px 16px;
-    font-family: inherit;
-    font-size: 15px;
-    line-height: 29px;
-    font-weight: inherit;
-    color: #4d4d4d;
-    background-color: transparent;
-    border: 1px solid rgba(0,0,0,.18);
-    border-radius: 0;
-    outline: 0;
-    cursor: pointer;
-    -webkit-appearance: none;
-  }
-  .room-wrapper #Cars:hover {
-    border: 1px solid black;
-  }
-
-  .room-grid-container{
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
-    background-color: none;
-    padding: 16px 34px;
-  }
- 
 
 .room-price {
   position: relative;
-  color:#b56953;
-  background-color:wheat;
+  color: #b56953;
+  background-color: wheat;
   width: 20%;
   height: 30px;
   font-family: 'Roboto';
   left: 10%;
   font-size: 16px;
-  font-weight:bold;
+  font-weight: bold;
   transform: translate(-50%, -140%);
   transition: width 1s;
 }
 
-.room-details{
-  margin-bottom: 5%;
-  padding: 5px 5px 5px 10px;
+.room-details {
+  margin-top:20px;
 }
-.room-dim{
+
+.room-dim {
   color: #b56953;
   font-size: 16px;
   font-family: "sans-serif";
 }
 
-.room-desc{
+.room-desc {
   color: grey;
-  font-family: "Open Sans",sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   width: 480px;
 }
 
-.room-name{
-  font-family: "Open Sans",sans-serif;
+.room-name {
+  font-family: "Open Sans", sans-serif;
   font-weight: bold;
   font-size: 20px;
 }
-.data-room img{
+
+.data-room img {
   transition: width 1s;
 }
-.data-room img:hover{
-width: 520px;
+
+.data-room img:hover {
+  width: 520px;
 }
-.data-room:hover{
+
+.data-room:hover {
   cursor: pointer;
 }
 
-.confirmation{
+.confirmation {
   display: grid;
   grid-template-columns: 2fr 2fr;
 }
@@ -210,18 +102,21 @@ width: 520px;
   margin-left: 120px;
   margin-top: 30px;
 }
+
 .room-name-single {
   font-size: 23px;
   text-align: left;
   font-weight: bold;
 }
-.confirm-book{
+
+.confirm-book {
   margin-left: 50px;
 }
 
-.room-txt{
+.room-txt {
   margin-top: 10px;
 }
+
 .line {
   width: 620px;
   height: 1px;
@@ -230,34 +125,37 @@ width: 520px;
 
 
 .line-2 {
-width: 620px;
-height: 1px;
-background-color: rgb(173, 173, 173);
+  width: 620px;
+  height: 1px;
+  background-color: rgb(173, 173, 173);
 }
 
-.left{
+.left {
   width: 500px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows:auto ;
+  grid-template-rows: auto;
   gap: 1rem;
 }
-.left h6{
+
+.left h6 {
   font-weight: 100 !important;
 }
 
 
 .line-3 {
-width: 620px;
-height: 1px;
-top:1000px;
-position: inherit;
-background-color: rgb(173, 173, 173);
+  width: 620px;
+  height: 1px;
+  top: 1000px;
+  position: inherit;
+  background-color: rgb(173, 173, 173);
 }
-.offer{
+
+.offer {
   margin-top: 5%;
   margin-left: 5%;
 }
+
 .filter-wrapper {
   padding-left: 10%;
   display: flex; 
@@ -266,54 +164,63 @@ background-color: rgb(173, 173, 173);
   margin-left: 5%;
   height: 630px;
   background-color: #F0E6D7;
+  
 }
-.house-rules div{
+
+.house-rules div {
   font-size: 16px;
-  color:#4d4d4d;
+  color: #4d4d4d;
   font-weight: lighter;
 }
+
 .flter-grid-container {
-display: grid;
-grid-column-gap: 25px;
-grid-template-columns: auto;
-background-color: none;
-padding: 21px 34px;
+  display: grid;
+  grid-column-gap: 25px;
+  grid-template-columns: auto;
+  background-color: none;
+  padding: 21px 34px;
 }
-.res{
+
+.res {
   font-size: 18px;
   text-align: center;
-  font-family:  Verdana, sans-serif;
+  font-family: Verdana, sans-serif;
   margin-top: 15px;
   font-weight: 600 !important;
 }
 
 
-.cancel div{
+.cancel div {
   font-size: 16px;
   font-weight: lighter;
 }
 
-.filter-grid-1 label{
+.filter-grid-1 label {
   font-size: 14px;
 }
-.filter-grid-2 label{
+
+.filter-grid-2 label {
   font-size: 14px;
 }
-.filter-grid-4 label{
+
+.filter-grid-4 label {
   font-size: 14px;
 }
-.extra div{
+
+.extra div {
   font-size: 16px;
   text-align: center;
   font-family: Verdana, sans-serif;
   line-height: 1.2em;
   font-weight: 600 !important;
 }
+
 .extra ::selection {
   color: #fff;
   background: #b56953;
 }
-input[type="checkbox" i]{
+
+input[type="checkbox" i] {
   width: 1px;
   vertical-align: top;
   margin: 0 0 10px;
@@ -322,26 +229,23 @@ input[type="checkbox" i]{
   line-height: 29px;
   font-weight: inherit;
   color: #4d4d4d;
-  border: 1px solid rgba(0,0,0,.18);
+  border: 1px solid rgba(0, 0, 0, .18);
   border-radius: 0;
   outline: 0;
   cursor: pointer;
   -webkit-appearance: none;
 }
+
 .extra label {
   margin-left: 15px;
   font-size: 16px;
   font-weight: 300;
   color: #4d4d4d;
 }
-.room-wrapper{
-  margin-top: 5%;
-margin-left: 25%;
-  height: 560px;
-  width: 350px;
-background-color: #F0E6D7;
-}
-.filter-grid-5 button{
+
+
+
+.filter-grid-5 button {
   width: 280px;
   vertical-align: top;
   margin-top: 20px;
@@ -350,275 +254,328 @@ background-color: #F0E6D7;
   line-height: 29px;
   color: #000;
   background-color: transparent;
-  border: 1px solid rgba(0,0,0,.18);
+  border: 1px solid rgba(0, 0, 0, .18);
   border-radius: 0;
   outline: 0;
   cursor: pointer;
   -webkit-appearance: none;
-  font-family: "Josefin Sans",sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   line-height: 1.58824em;
   font-weight: 300;
 }
-.filter-grid-5 button:hover{
-    
+
+.filter-grid-5 button:hover {
+
   transition: 1s;
   box-shadow: inset 400px 0 0 0 #b56953;
 }
-.room-container{
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-}
 
-.room-container-filter{
+
+.room-container-filter {
   margin-left: 80px;
-  }
-  .room-container-rooms{
-    height: 580px;
-    margin-left: 180px;
-    overflow-y: scroll;
-  }
-  .room-container-rooms::-webkit-scrollbar{
-    display: none;
-  }
-  .scroll-rooms{
-    display: none;
+}
+
+.city{
+  margin-top: 10px;
+}
+/* .room-container-rooms {
+  height: 580px;
+  margin-left: 180px;
+  overflow-y: scroll;
+} */
+
+
+
+.scroll-rooms {
+  display: none;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 426px) {
+
+  .room-container {
+    display: flex;
+    flex-direction: column;
   }
 
-  @media only screen and (min-width: 320px) and (max-width: 426px){
-    
-    .room-container{
-      display: flex;
-      flex-direction: column;
-    }
-    .room-container-filter{
-      margin-left: 2px;
-    }
-    .lodge-data-room{
-     display: flex;
-     flex-direction: row;
-     flex-wrap: nowrap;
-     overflow-x: scroll;
-     overflow-y: hidden;
-    }
-    .room-container-rooms{
-      margin-left: 0%;
-      width: auto;
-    }
-    .room-wrapper{
-      margin-top: 5%;
-      margin-left: 0%;
-        height: 470px;
-        width: 310px;
-    }
-    .room-grid-container{
-      padding: 1px 15px;
-      grid-template-rows:88px 88px 88px 88px 88px ;
-    }
-    
-    .availability{
-      font-size: 15px;
-      padding: 10px 10px 10px 10px;
-    }
-    .room-grid-container label{
-      font-size: 10px;
-    }
-    .filter-grid-container label{
-      font-size: 14px;
-    }
-    .room-wrapper input[type="date" i]{
-        padding: 6.5px 17px;
-        font-size: 12px;
-      }
-      .room-grid-5 button{
-        width: 280px;
-        padding: 8.5px 16px;
-        font-size: 12px;
-      }
-  
-    #Guests{
-      padding: 6.5px 16px;
-      font-size: 12px;
-    }
-    .extra div{
-      font-size: 15px;
-    }
-      .room-wrapper #Cars{ 
-        margin: 0 0 10px;
-        padding: 5.5px 16px;
-        font-family: inherit;
-        font-size: 12px;
-      }
-      .data-room{
-        width: 100%;
-        margin-right: 10%;
-        margin-left: 4%;
-      }
-      .room-price{
-        width: 22%;
-        height: 30px;
-        transform: translate(-45%, -140%);
-      }
-      
-      .room-desc{
-        font-size: 12px;
-        width: 280px;
-      }
-      .room-name{
-        font-size: 19px;
-      }
-      .link-room  {
-        width: 120px;
-        height: 25px;
-        font-size: 12px;
-      }
-      .filter-grid-5 button{
-        margin-top: 15px;
-        font-size: 14px;
-      }
-      .con-img{
-        height: 250px;
-      }
-      .data-room img{
-        width: 100%;
-        height: 250px;
-      transition: none !important;
-    }
-      .confirmation{
-        display: flex;
-        flex-direction: column;
-      }
-      .first {
-        margin-left: 20px;
-      }
-      .confirm-book{
-        margin-left: 1px;
-      }
-      .offer{
-        margin-left: 3%;
-      }
-
-      .offer img{
-        width: 300px;
-        height: 250px;
-      }
-      .line {
-        width: 280px;
-      }
-      .line-3 {
-        width: 280px;
-        }
-      
-      .line-2 {
-      width: 280px;
-      }
-      .filter-wrapper {
-        padding-left: 3%;
-        width: 300px;
-        margin-top: 5%;
-        margin-left: 3%;
-        height: 600px;
-      }
-      .left{
-        width: 290px;
-      }
-      .room-name-single {
-        font-size: 19px;
-      }
-      .room-txt,.house-rules div,.cancel div{
-        font-size: 13px;
-      }
-      .first h4{
-        font-size: 17px;
-      }
-      .left h6{
-        font-size: 13px;
-      }
-      .scroll-rooms{
-        display: block;
-      }
-      #r-left-slide{
-        margin-left: 110px;
-      }
-      .scroll-rooms button{
-        height: 35px;
-        width: 35px;
-        margin-left: 2%;
-        margin-top: 15px;
-        background-color: #fff9e5;
-        border: none;
-        border-radius: 50%;
-        color: black;
-      }
-      .room-container-rooms{
-        margin-top: 25px;
-        overflow-y: hidden ;
-      }
+  .room-container-filter {
+    margin-left: 2px;
   }
 
-  @media only screen and (min-width: 375px) and (max-width: 426px){
-    .room-wrapper{
-      margin-left: 3%;
-      width: 350px;
-    }
-    .room-grid-5 button{
-      width: 320px;
-    }
-    .data-room{
-      margin-left: 6%;
-      margin-right: 6%;
-    }
-    .scroll-rooms button{
-      margin-left: 8%;
-    }
-    .line {
-      width: 350px;
-    }
-    .line-3 {
-      width: 350px;
-      }
-      .filter-wrapper{
-        width: 350px;
-        padding-left: 10%;
-      }
-    .line-2 {
+  .lodge-data-room {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .room-container-rooms {
+    margin-left: 0%;
+    width: auto;
+  }
+
+  .room-wrapper {
+    margin-top: 5%;
+    margin-left: 0%;
+    height: 470px;
+    width: 310px;
+  }
+
+  .room-grid-container {
+    padding: 1px 15px;
+    grid-template-rows: 88px 88px 88px 88px 88px;
+  }
+
+  .availability {
+    font-size: 15px;
+    padding: 10px 10px 10px 10px;
+  }
+
+  .room-grid-container label {
+    font-size: 10px;
+  }
+
+  .filter-grid-container label {
+    font-size: 14px;
+  }
+
+  .room-wrapper input[type="date" i] {
+    padding: 6.5px 17px;
+    font-size: 12px;
+  }
+
+  .room-grid-5 button {
+    width: 280px;
+    padding: 8.5px 16px;
+    font-size: 12px;
+  }
+
+  #Guests {
+    padding: 6.5px 16px;
+    font-size: 12px;
+  }
+
+  .extra div {
+    font-size: 15px;
+  }
+
+  .room-wrapper #Cars {
+    margin: 0 0 10px;
+    padding: 5.5px 16px;
+    font-family: inherit;
+    font-size: 12px;
+  }
+
+  .data-room {
+    width: 100%;
+    margin-right: 10%;
+    margin-left: 4%;
+  }
+
+  .room-price {
+    width: 22%;
+    height: 30px;
+    transform: translate(-45%, -140%);
+  }
+
+  .room-desc {
+    font-size: 12px;
+    width: 280px;
+  }
+
+  .room-name {
+    font-size: 19px;
+  }
+
+  .link-room {
+    width: 120px;
+    margin-top: 15px;
+    height: 30px;
+    font-size: 15px;
+  }
+
+  .filter-grid-5 button {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+
+  .con-img {
+    height: 250px;
+  }
+
+  .data-room img {
+    width: 100%;
+    height: 250px;
+    transition: none !important;
+  }
+
+  .confirmation {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .first {
+    margin-left: 20px;
+  }
+
+  .confirm-book {
+    margin-left: 1px;
+  }
+
+  .offer {
+    margin-left: 3%;
+  }
+
+  .offer img {
+    width: 300px;
+    height: 250px;
+  }
+
+  .line {
+    width: 280px;
+  }
+
+  .line-3 {
+    width: 280px;
+  }
+
+  .line-2 {
+    width: 280px;
+  }
+
+  .filter-wrapper {
+    padding-left: 3%;
+    width: 300px;
+    margin-top: 5%;
+    margin-left: 3%;
+    height: 600px;
+  }
+
+  .left {
+    width: 290px;
+  }
+
+  .room-name-single {
+    font-size: 19px;
+  }
+
+  .room-txt,
+  .house-rules div,
+  .cancel div {
+    font-size: 13px;
+  }
+
+  .first h4 {
+    font-size: 17px;
+  }
+
+  .left h6 {
+    font-size: 13px;
+  }
+
+  .scroll-rooms {
+    display: block;
+  }
+
+  #r-left-slide {
+    margin-left: 110px;
+  }
+
+  .scroll-rooms button {
+    height: 35px;
+    width: 35px;
+    margin-left: 2%;
+    margin-top: 15px;
+    background-color: #fff9e5;
+    border: none;
+    border-radius: 50%;
+    color: black;
+  }
+
+  .room-container-rooms {
+    margin-top: 25px;
+    overflow-y: hidden;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 426px) {
+  .room-wrapper {
+    margin-left: 3%;
     width: 350px;
-    }
-.offer img{
-  width: 350px;
-}
-.left{
-  width: 320px;
-}
   }
 
-  @media only screen and (min-width: 425px) and (max-width: 426px){
-    .room-wrapper{
-      width: 400px;
-    }
-    .room-grid-5 button{
-      width: 369px;
-    }
-    .line {
-      width: 400px;
-    }
-    .line-3 {
-      width: 400px;
-      }
-      #r-left-slide{
-        margin-left: 40%;
-      }
-      .filter-wrapper{
-        width: 400px;
-        padding-left: 10%;
-      }
-    .line-2 {
-    width: 400px;
-    }
-  .offer img{
-    width: 400px;
-  }
-  .left{
-    width: 400px;
-  }
+  .room-grid-5 button {
+    width: 320px;
   }
 
+  .data-room {
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+
+  .scroll-rooms button {
+    margin-left: 8%;
+  }
+
+  .line {
+    width: 350px;
+  }
+
+  .line-3 {
+    width: 350px;
+  }
+
+  .filter-wrapper {
+    width: 350px;
+    padding-left: 10%;
+  }
+
+  .line-2 {
+    width: 350px;
+  }
+
+  .offer img {
+    width: 350px;
+  }
+
+  .left {
+    width: 320px;
+  }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 426px) {
+  .room-wrapper {
+    width: 400px;
+  }
+
+  .room-grid-5 button {
+    width: 369px;
+  }
+
+  .line {
+    width: 400px;
+  }
+
+  .line-3 {
+    width: 400px;
+  }
+
+  #r-left-slide {
+    margin-left: 40%;
+  }
+
+  .filter-wrapper {
+    width: 400px;
+    padding-left: 10%;
+  }
+
+  .line-2 {
+    width: 400px;
+  }
+
+  .offer img {
+    width: 400px;
+  }
+
+  .left {
+    width: 400px;
+  }
+}

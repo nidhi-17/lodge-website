@@ -1,0 +1,261 @@
+.room-wrapper {
+    margin-top: 80px;
+    width: 95%;
+    height: 4.1cm;
+    padding-left: 2%;
+    background-color:  #F0E6D7;
+    
+}
+
+.room-grid-container {
+  display: grid;
+  grid-column-gap: 20px;
+  grid-template-columns: auto auto auto auto auto ;
+  background-color: none;
+  padding-top: 21px ;
+  padding-left: 20px;
+}
+.room-grid-1 label {
+margin-bottom: 5px;
+font-family: Raleway,sans-serif;
+font-size: 12px;
+font-weight: 500 !important;
+letter-spacing: .25em;
+text-transform: uppercase;
+line-height: 1.6em;
+color: #000;
+}
+.room-grid-2 label {
+margin-bottom: 5px;
+font-family: Raleway,sans-serif;
+font-size: 12px;
+font-weight: 500 !important;
+letter-spacing: .25em;
+text-transform: uppercase;
+line-height: 1.6em;
+color: #000;
+}
+.room-grid-3 label {
+margin-bottom: 5px;
+font-family: Raleway,sans-serif;
+font-size: 12px;
+font-weight: 500 !important;
+letter-spacing: .25em;
+text-transform: uppercase;
+line-height: 1.6em;
+color: #000;
+}
+.room-grid-4 label {
+margin-bottom: 5px;
+font-family: Raleway,sans-serif;
+font-size: 12px;
+font-weight: 500 !important;
+letter-spacing: .25em;
+text-transform: uppercase;
+line-height: 1.6em;
+color: #000;
+}
+
+
+
+input[type="date" i]{  
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  padding: 9.5px 17px;
+  font-family: inherit;
+  font-size: 17px;
+  line-height: 29px;
+  font-weight: inherit;
+  color: #4d4d4d;
+  background-color: transparent;
+  border: 1px solid rgba(0,0,0,.18);
+  border-radius: 0;
+  outline: 0;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+input[type="date" i]:hover {
+  border: 1px solid black;
+}
+#Cars{
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  margin: 0 0 30px;
+  padding: 9.5px 16px;
+  font-family: inherit;
+  font-size: 17px;
+  line-height: 29px;
+  font-weight: inherit;
+  color: #4d4d4d;
+  background-color: transparent;
+  border: 1px solid rgba(0,0,0,.18);
+  border-radius: 0;
+  outline: 0;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+#Guests{
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  margin: 0 0 30px;
+  padding: 9.5px 16px;
+  font-family: inherit;
+  font-size: 17px;
+  line-height: 29px;
+  font-weight: inherit;
+  color: #4d4d4d;
+  background-color: transparent;
+  border: 1px solid rgba(0,0,0,.18);
+  border-radius: 0;
+  outline: 0;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+#Cars:hover {
+  border: 1px solid black;
+}
+#Guests:hover {
+  border: 1px solid black;
+}
+.room-grid-5 button{
+  width: 230px;
+  vertical-align: top;
+  padding: 9.5px 16px;
+  font-size: 17px;
+  line-height: 29px;
+  color: #4d4d4d;
+  background-color:transparent; 
+  border: 1px solid rgba(0,0,0,.18);
+  border-radius: 0;
+  outline: 0;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: 29px;
+  font-family: "Josefin Sans",sans-serif;
+  font-size: 17px;
+  line-height: 1.58824em;
+  font-weight: 300;
+}
+
+.room-grid-5 button:hover{
+cursor: pointer;
+transition: 1s;
+box-shadow: inset 400px 0 0 0 #b56953;
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 426px){
+.wrapper{
+  height: 430px;
+  margin-top: 20px;
+  padding-left: 2%;
+}
+
+input[type="date" i]{
+
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  padding: 5.5px 16px;
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 29px;
+  font-weight: inherit;
+  color: #4d4d4d;
+  background-color: transparent;
+  border: 1px solid rgba(0,0,0,.18);
+  border-radius: 0;
+  outline: 0;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+.grid-2,.grid-3{
+  margin-top: 15px;
+}
+.grid-4{
+  margin-bottom: 5px;
+}
+input[type="date" i]:hover {
+  border: 1px solid black;
+}
+
+#cars{
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;  
+  padding: 5.5px 16px;
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 29px;
+  font-weight: inherit;
+  color: #4d4d4d;
+  background-color: transparent;
+  border: 1px solid rgba(0,0,0,.18);
+  border-radius: 0;
+  outline: 0;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+#guests{
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;  
+  padding: 5.5px 16px;
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 29px;
+  font-weight: inherit;
+  color: #4d4d4d;
+  background-color: transparent;
+  border: 1px solid rgba(0,0,0,.18);
+  border-radius: 0;
+  outline: 0;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+
+.grid-container{
+  grid-template-columns: none;
+  grid-template-rows: 60px 80px 90px 90px 90px ;
+  gap: 10px;
+  width: 300px;
+  padding: 0px 10px 0px 12px;
+  margin: 0px;
+  position: absolute;
+}
+.grid-container label{
+  font-size: 10px;
+}
+
+.grid-5 button{
+width: 100%;
+font-size: 12px;
+margin-top: 0px;
+} 
+}
+
+@media only screen and (min-width: 375px) and (max-width: 426px){
+.grid-container{
+  margin-left: 8%;
+}
+
+}
+
+@media only screen and (min-width: 425px) and (max-width: 426px){
+.grid-container{
+  margin-left: 12%;
+}
+
+}
+
+

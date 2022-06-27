@@ -6,8 +6,11 @@ export const lodgedata = [
         dimensions: 43,
         guests:'6',
         rooms:"2",
+        city:2.2,
+        rating:8.5,
+        review:"Excellent",
         no_of_people:'2-6',
-        description: "Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
+        description: "Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
         image: require('./Roomimages/room-featured-img-1.jpg')
     },
     {
@@ -16,9 +19,12 @@ export const lodgedata = [
         price: 5000,
         guests:'8',
         rooms:"2",
+        city:3.2,
+        rating:9.5,
+        review:"Excellent",
         dimensions: 100,
         no_of_people:'4-8',
-        description: "Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
+        description: "Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
         image: require('./Roomimages/room-featured-img-2.jpg')
     },
     {
@@ -27,9 +33,12 @@ export const lodgedata = [
         price: 1050,
         guests:'4',
         rooms:"3",
+        city:5.2,
+        rating:8.5,
+        review:"Good",
         dimensions: 43,
         no_of_people:'2-4',
-        description: "Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
+        description: "Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
         image: require('./Roomimages/room-featured-img-3.jpg')
     },
     {
@@ -38,9 +47,12 @@ export const lodgedata = [
         price: 9500,
         guests:'4',
         rooms:"4",
+        city:3.2,
+        rating:9.0,
+        review:"Excellent",
         dimensions: 50,
         no_of_people:'1-4',
-        description: "Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
+        description: "Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
         image: require('./Roomimages/room-featured-img-4.jpg')
     },
     {
@@ -49,9 +61,12 @@ export const lodgedata = [
         price: 1003,
         guests:'6',
         rooms:"4",
+        city:1.2,
+        rating:9.8,
+        review:"Excellent",
         dimensions: 60,
         no_of_people:'4-6',
-        description: "Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
+        description: "Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
         image: require('./Roomimages/room-featured-img-5.jpg')
     },
     {
@@ -60,9 +75,12 @@ export const lodgedata = [
         price: 6200,
         guests:'7',
         rooms:"3",
+        city:3,
+        rating:8.5,
+        review:"Average",
         dimensions: 70,
         no_of_people:'3-7',
-        description: "Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
+        description: "Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
         image: require('./Roomimages/room-featured-img-6.jpg')
     },
     {
@@ -71,9 +89,12 @@ export const lodgedata = [
         price: 1003,
         guests:'6',
         rooms:"3",
+        city:2.2,
+        rating:8.5,
+        review:"Very Good",
         dimensions: 60,
         no_of_people:'4-6',
-        description: "Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
+        description: "Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
         image: require('./Roomimages/room-featured-img-7.jpg')
     },
     {
@@ -82,9 +103,12 @@ export const lodgedata = [
         price: 1330,
         guests:'6',
         rooms:"3",
+        city:1.0,
+        rating:8.0,
+        review:"Good",
         dimensions: 60,
         no_of_people:'4-6',
-        description: "Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
+        description: "Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
         image: require('./Roomimages/room-featured-img-8.jpg')
     },
     {
@@ -93,9 +117,12 @@ export const lodgedata = [
         price: 4503,
         guests:'6',
         rooms:"1",
+        city:1.5,
+        rating:8.0,
+        review:"Good",
         dimensions: 60,
         no_of_people:'4-6',
-        description: "Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
+        description: "Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
         image: require('./Roomimages/room-featured-img-9.jpg')
     },
     {
@@ -104,9 +131,12 @@ export const lodgedata = [
         price: 6103,
         guests:'5',
         rooms:"2",
+        city:1.0,
+        rating:8.0,
+        review:"Good",
         dimensions: 60,
         no_of_people:'4-6',
-        description: "Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
+        description: "Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
         image: require('./Roomimages/room-featured-img-10.jpg')
     },
     
@@ -115,10 +145,13 @@ export const lodgedata = [
         name: "Casa Di Marco",
         price: 7022,
         dimensions: 70,
+        city:2.0,
+        rating:9.9,
+        review:"Excellent",
         no_of_people:'3-7',
         guests:'6',
         rooms:"2",
-        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, beatae. Nemo, odio similique. Officia ab voluptas voluptatem, necessitatibus tempore eum!",
+        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, beatae. Nemo, odio similique. Officia ab voluptas voluptatem, necessitatibus tempore eum! Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
         image: require('./Roomimages/room-single-img-05.jpg')
     },
     {
@@ -126,10 +159,13 @@ export const lodgedata = [
         name: "House Ciardi",
         price: 5192,
         dimensions: 70,
+        city:3.3,
+        rating:7.9,
+        review:"Very Good",
         no_of_people:'3-7',
         guests:'7',
         rooms:"2",
-        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, beatae. Nemo, odio similique. Officia ab voluptas voluptatem, necessitatibus tempore eum!",
+        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, beatae. Nemo, odio similique. Officia ab voluptas voluptatem, necessitatibus tempore eum! Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
         image: require('./Roomimages/room-single-img-01.jpg')
     },
     {
@@ -137,10 +173,13 @@ export const lodgedata = [
         name: "Mia’s Residence",
         price: 1689,
         dimensions: 70,
+        city:3.3,
+        rating:7.9,
+        review:"Very Good",
         no_of_people:'3-7',
         guests:'8',
         rooms:"2",
-        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, beatae. Nemo, odio similique. Officia ab voluptas voluptatem, necessitatibus tempore eum!",
+        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, beatae. Nemo, odio similique. Officia ab voluptas voluptatem, necessitatibus tempore eum! Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
         image: require('./Roomimages/room-single-img-09.jpg')
     },
     {
@@ -149,9 +188,12 @@ export const lodgedata = [
         price: 8469,
         dimensions: 70,
         no_of_people:'3-7',
+        city:2.0,
+        rating:8.9,
+        review:"Very Good",
         guests:'9',
         rooms:"2",
-        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, beatae. Nemo, odio similique. Officia ab voluptas voluptatem, necessitatibus tempore eum!",
+        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, beatae. Nemo, odio similique. Officia ab voluptas voluptatem, necessitatibus tempore eum! Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
         image: require('./Roomimages/room-single-img-12.jpg')
     },
     {
@@ -160,9 +202,12 @@ export const lodgedata = [
         price: 9567,
         dimensions: 70,
         no_of_people:'3-7',
+        city:3.3,
+        rating:7.9,
+        review:"Very Good",
         guests:'10',
         rooms:"2",
-        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, beatae. Nemo, odio similique. Officia ab voluptas voluptatem, necessitatibus tempore eum!",
+        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, beatae. Nemo, odio similique. Officia ab voluptas voluptatem, necessitatibus tempore eum! Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
         image: require('./Roomimages/room-single-img-03.jpg')
     },
     {
@@ -171,9 +216,12 @@ export const lodgedata = [
         price: 6458,
         dimensions: 70,
         no_of_people:'3-7',
+        city:3.3,
+        rating:7.9,
+        review:"Very Good",
         guests:'11',
         rooms:"2",
-        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, beatae. Nemo, odio similique. Officia ab voluptas voluptatem, necessitatibus tempore eum!",
+        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, beatae. Nemo, odio similique. Officia ab voluptas voluptatem, necessitatibus tempore eum! Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
         image: require('./Roomimages/room-single-img-04.jpg')
     },
     {
@@ -182,9 +230,12 @@ export const lodgedata = [
         price: 6499,
         dimensions: 70,
         no_of_people:'3-7',
+        city:3.3,
+        rating:7.9,
+        review:"Excellent",
         guests:'12',
         rooms:"2",
-        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, beatae. Nemo, odio similique. Officia ab voluptas voluptatem, necessitatibus tempore eum!",
+        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, beatae. Nemo, odio similique. Officia ab voluptas voluptatem, necessitatibus tempore eum! Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
         image: require('./Roomimages/room-single-img-05.jpg')
     },
 
@@ -194,9 +245,12 @@ export const lodgedata = [
         price: 1500,
         dimensions: 43,
         no_of_people:'2-6',
+        city:3.3,
+        rating:9.9,
+        review:"Good",
         guests:'6',
         rooms:"2",
-        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, beatae. Nemo, odio similique. Officia ab voluptas voluptatem, necessitatibus tempore eum!",
+        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, beatae. Nemo, odio similique. Officia ab voluptas voluptatem, necessitatibus tempore eum! Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
         image: 'https://cdn.pixabay.com/photo/2014/07/10/17/17/hotel-389256__340.jpg'
     },
     {
@@ -205,9 +259,12 @@ export const lodgedata = [
         price: 5000,
         dimensions: 100,
         no_of_people:'4-8',
+        city:3.3,
+        rating:7.9,
+        review:"Very Good",
         guests:'8',
         rooms:"1",
-        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, beatae. Nemo, odio similique. Officia ab voluptas voluptatem, necessitatibus tempore eum!",
+        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, beatae. Nemo, odio similique. Officia ab voluptas voluptatem, necessitatibus tempore eum! Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
         image: 'https://cdn.pixabay.com/photo/2018/02/24/17/17/window-3178666__340.jpg'
     },
     {
@@ -216,9 +273,12 @@ export const lodgedata = [
         price: 1005,
         dimensions: 43,
         no_of_people:'2-4',
+        city:3.3,
+        rating:7.9,
+        review:"Satisfactory",
         guests:'4',
         rooms:"1",
-        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, beatae. Nemo, odio similique. Officia ab voluptas voluptatem, necessitatibus tempore eum!",
+        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, beatae. Nemo, odio similique. Officia ab voluptas voluptatem, necessitatibus tempore eum! Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
         image: 'https://cdn.pixabay.com/photo/2020/02/01/06/12/living-room-4809587__480.jpg'
     },
     {
@@ -227,9 +287,12 @@ export const lodgedata = [
         price: 9050,
         dimensions: 50,
         no_of_people:'1-4',
+        city:3.3,
+        rating:7.9,
+        review:"Good",
         guests:'4',
         rooms:"1",
-        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, beatae. Nemo, odio similique. Officia ab voluptas voluptatem, necessitatibus tempore eum!",
+        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, beatae. Nemo, odio similique. Officia ab voluptas voluptatem, necessitatibus tempore eum! Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
         image: 'https://cdn.pixabay.com/photo/2021/11/08/00/30/living-room-6778197__480.jpg'
     },
     {
@@ -238,9 +301,12 @@ export const lodgedata = [
         price: 1030,
         dimensions: 60,
         no_of_people:'4-6',
+        city:3.3,
+        rating:7.9,
+        review:"Good",
         guests:'6',
         rooms:"2",
-        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, beatae. Nemo, odio similique. Officia ab voluptas voluptatem, necessitatibus tempore eum!",
+        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, beatae. Nemo, odio similique. Officia ab voluptas voluptatem, necessitatibus tempore eum! Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
         image: 'https://cdn.pixabay.com/photo/2019/06/13/17/08/round-window-4272049__480.jpg'
     },
     {
@@ -249,9 +315,12 @@ export const lodgedata = [
         price: 6022,
         dimensions: 70,
         no_of_people:'3-7',
+        city:3.3,
+        rating:7.9,
+        review:"Very Good",
         guests:'7',
         rooms:"2",
-        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, beatae. Nemo, odio similique. Officia ab voluptas voluptatem, necessitatibus tempore eum!",
+        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, beatae. Nemo, odio similique. Officia ab voluptas voluptatem, necessitatibus tempore eum! Ut et rhoncus odio. Quisque pellentesque nisl leo, eget ultricies nibh ullamcorper ut. Curabitur bibendum sed neque quis rhoncus maecenas",
         image: 'https://cdn.pixabay.com/photo/2016/04/15/11/45/hotel-1330841__480.jpg'
     },
 

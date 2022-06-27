@@ -1,8 +1,6 @@
-# Lodge website
-A website which facilitates booking of hotels. The user can select hotels according to their preferences and availability.
+# Getting Started with Create React App
 
-# Technology used:
-React js
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 

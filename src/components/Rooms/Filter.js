@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../styles/rooms.css';
+import '../../styles/filter.css';
 const Filter = ({filterGuest,filterRoom}) => {
     const selectRoom = ()=>{
         var strUser = document.getElementById("Cars").selectedOptions[0].value;

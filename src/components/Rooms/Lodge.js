@@ -1,6 +1,8 @@
 import React from 'react'
 import '../../styles/rooms.css';
 import { useNavigate } from 'react-router-dom';
+import {FaLocationArrow } from 'react-icons/fa';
+import {FaStar } from 'react-icons/fa';
 
 const Lodge = ({ lodgeRoomdata }) => {
     let navigate = useNavigate();
@@ -26,25 +28,30 @@ const Lodge = ({ lodgeRoomdata }) => {
                 window.clearInterval(slideTimer);
             }
         }, speed);
+        
     }
+    console.log(lodgeRoomdata )
     return (
         <>
             <div className='lodge-data-room' id='slide-rooms'>
                 {lodgeRoomdata.map((data) => (
                     <div className="data-room" key={data.id}>
-                        <img src={data.image} height={300} width={500} />
-                        <div className='room-price'>Rs. {data.price}</div>
+                        <div className='room-img'>
+                            <img src={data.image} height={300} width={500} />
+                            <div className='room-price'>Rs. {data.price}</div>
+                        </div>
                         <div className='room-details'>
-                            <h3 className='room-name'>{data.name}</h3>
+                            <h2 className='room-name'>{data.name}</h2>
                             <div className='room-dim'>{data.dimensions} msqs / {data.no_of_people} person</div>
                             <div className='room-desc'>{data.description}</div>
+                            <div className='city'><FaLocationArrow/>  {data.city} km from city centre</div>
+                            <div className='city'><FaStar />  {data.rating} {data.review}</div>
                             <button className='link-room' onClick={() => navigate(`/room-details/${data.id}`)} >
                                 <a href='#'>
                                     Book Now
                                 </a>
                             </button>
                         </div>
-                        <br />
                     </div>
                 ))}
             </div>

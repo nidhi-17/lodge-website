@@ -18,9 +18,6 @@ const Room = () => {
 
   return (
     <div >
-      <div className='heading-rooms'>
-        <h2>Rooms</h2>
-      </div>
       <div className='room-container'>
         <div className='room-container-filter'>
           <Filter filterGuest={filterGuest} filterRoom={filterRoom} />
